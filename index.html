@@ -5,203 +5,241 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="面向 Vision-Language-Action（VLA）与具身智能岗位的个人项目与经历展示。"
+      content="个人求职主页 · Vision-Language-Action / 具身智能方向项目与经历展示"
     />
-    <title>Your Name · VLA Portfolio</title>
+    <title>Your Name | VLA Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Syne:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="noise" aria-hidden="true"></div>
+    <header class="hero">
+      <div class="container">
+        <h1 class="title">Your Name</h1>
+        <p class="subtitle">
+          Seeking opportunities in
+          <strong>Vision-Language-Action (VLA)</strong> &amp; Embodied AI
+        </p>
+        <p class="affiliation">Your University / Lab · City</p>
 
-    <header class="site-header">
-      <a class="brand" href="#top">Your Name</a>
-      <nav class="nav" aria-label="主导航">
-        <a href="#focus">方向</a>
-        <a href="#projects">项目</a>
-        <a href="#stack">能力</a>
-        <a href="#contact">联系</a>
-      </nav>
+        <div class="link-row">
+          <a class="pill" href="resume.pdf">
+            <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+            <span>Resume</span>
+          </a>
+          <a class="pill" href="https://github.com/Echoxiaopeng" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <span>GitHub</span>
+          </a>
+          <a class="pill" href="mailto:you@example.com">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>Email</span>
+          </a>
+          <a class="pill" href="#" target="_blank" rel="noopener">
+            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+            <span>Scholar</span>
+          </a>
+        </div>
+      </div>
     </header>
 
-    <main id="top">
-      <section class="hero">
-        <div class="hero-frame" aria-hidden="true">
-          <span class="corner tl"></span>
-          <span class="corner tr"></span>
-          <span class="corner bl"></span>
-          <span class="corner br"></span>
+    <section class="band band-gray" id="overview">
+      <div class="container">
+        <h2>Overview Video</h2>
+        <p class="note">把总览视频换成 Bilibili / YouTube 嵌入，或本地 mp4。</p>
+        <div class="video-frame">
+          <div class="video-placeholder">
+            <i class="fa-solid fa-circle-play" aria-hidden="true"></i>
+            <p>Video placeholder</p>
+            <p class="hint">
+              示例：嵌入 iframe，或使用
+              <code>&lt;video src="demo.mp4" controls&gt;</code>
+            </p>
+          </div>
+          <!--
+          <div class="publication-video">
+            <iframe
+              src="https://www.youtube.com/embed/VIDEO_ID"
+              title="Overview video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          -->
         </div>
 
-        <p class="hero-meta mono">
-          <span class="dot"></span>
-          SEEKING · VLA / EMBODIED AI
-        </p>
-
-        <h1 class="hero-brand">Your Name</h1>
-
-        <p class="hero-lead">
-          用视觉理解指令，用策略输出动作。这里放我在
-          Vision-Language-Action 与具身智能方向上的项目、实验与经历。
-        </p>
-
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#projects">查看项目</a>
-          <a class="btn btn-ghost" href="resume.pdf">简历 PDF</a>
+        <div class="tldr">
+          <h3>About</h3>
+          <ul>
+            <li>
+              目标岗位：VLA / 具身智能相关研发（算法、系统或落地应用）。
+            </li>
+            <li>
+              关注从多模态感知、语言 grounding 到可执行动作策略的整条链路。
+            </li>
+            <li>
+              下方是可替换的项目骨架：视频、方法简述、技术栈与代码链接。
+            </li>
+          </ul>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="focus" class="section focus">
-        <div class="section-head">
-          <p class="eyebrow mono">01 · FOCUS</p>
-          <h2>求职方向</h2>
-        </div>
-        <p class="section-lead">
-          目标岗位：VLA / 具身智能相关研发（算法、系统或应用落地）。
-          关注从多模态感知到可执行动作的整条链路。
-        </p>
-        <ul class="focus-list">
-          <li>
-            <span class="mono">VISION</span>
-            场景理解、指令 grounding、多模态表征
-          </li>
-          <li>
-            <span class="mono">LANGUAGE</span>
-            指令解析、任务规划、与模型交互接口
-          </li>
-          <li>
-            <span class="mono">ACTION</span>
-            策略学习、轨迹生成、仿真 / 真机验证
-          </li>
+    <section class="band" id="toc">
+      <div class="container narrow">
+        <h2>Table of Contents</h2>
+        <ul class="toc">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#project-1">Project 1 · VLA Instruction Following</a></li>
+          <li><a href="#project-2">Project 2 · Multimodal Grounding</a></li>
+          <li><a href="#project-3">Project 3 · Sim-to-Real Policy</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <section id="projects" class="section projects">
-        <div class="section-head">
-          <p class="eyebrow mono">02 · PROJECTS</p>
-          <h2>项目经历</h2>
-        </div>
+    <section class="band band-gray" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
         <p class="section-lead">
-          以下为占位条目。替换标题、描述、技术栈与链接后即可用于简历跳转。
+          每个项目按「标题 → 简述 → 视频/图 → 技术栈/链接」组织，方便招聘方快速扫读。
         </p>
 
-        <div class="project-list">
-          <article class="project">
-            <div class="project-top">
-              <h3>项目一：VLA 指令跟随 Demo</h3>
-              <p class="mono project-tag">VLA · SIM</p>
+        <article class="project" id="project-1">
+          <h3>Project 1 · VLA Instruction Following</h3>
+          <p>
+            在仿真环境中，根据自然语言指令完成抓取 / 放置等短程任务。
+            补充你的角色、方法、对比基线与成功率等结果。
+          </p>
+          <div class="media-grid">
+            <div class="video-placeholder compact">
+              <i class="fa-solid fa-film" aria-hidden="true"></i>
+              <p>Rollout video</p>
             </div>
-            <p>
-              简述：在仿真环境中，根据自然语言指令完成抓取 / 放置等短程任务。
-              补充你的角色、方法与结果（成功率、对比基线等）。
-            </p>
-            <p class="project-stack mono">
-              PyTorch · Transformers · Isaac / MuJoCo · Python
-            </p>
-            <div class="project-links">
-              <a href="#">GitHub</a>
-              <a href="#">Demo / 视频</a>
-              <a href="#">报告</a>
+            <div class="video-placeholder compact">
+              <i class="fa-solid fa-image" aria-hidden="true"></i>
+              <p>Result figure</p>
             </div>
-          </article>
+          </div>
+          <p class="meta">
+            <strong>Stack:</strong> PyTorch · Transformers · Isaac / MuJoCo · Python
+          </p>
+          <p class="meta">
+            <strong>Links:</strong>
+            <a href="#">Code</a> ·
+            <a href="#">Demo</a> ·
+            <a href="#">Report</a>
+          </p>
+        </article>
 
-          <article class="project">
-            <div class="project-top">
-              <h3>项目二：多模态感知与 Grounding</h3>
-              <p class="mono project-tag">VISION · LANG</p>
+        <article class="project" id="project-2">
+          <h3>Project 2 · Multimodal Grounding</h3>
+          <p>
+            将语言指称对齐到图像 / 点云中的目标区域，服务下游动作模块。
+            写清数据、指标与你负责的模块边界。
+          </p>
+          <div class="media-grid">
+            <div class="video-placeholder compact">
+              <i class="fa-solid fa-film" aria-hidden="true"></i>
+              <p>Demo video</p>
             </div>
-            <p>
-              简述：将语言指称对齐到图像 / 点云中的目标区域，服务下游动作模块。
-              写清数据、指标与你负责的模块边界。
-            </p>
-            <p class="project-stack mono">
-              CLIP / SigLIP · OpenCV · Detectron / SAM · CUDA
-            </p>
-            <div class="project-links">
-              <a href="#">GitHub</a>
-              <a href="#">论文 / 笔记</a>
+            <div class="video-placeholder compact">
+              <i class="fa-solid fa-image" aria-hidden="true"></i>
+              <p>Qualitative results</p>
             </div>
-          </article>
+          </div>
+          <p class="meta">
+            <strong>Stack:</strong> CLIP / SigLIP · OpenCV · SAM · CUDA
+          </p>
+          <p class="meta">
+            <strong>Links:</strong>
+            <a href="#">Code</a> ·
+            <a href="#">Notes</a>
+          </p>
+        </article>
 
-          <article class="project">
-            <div class="project-top">
-              <h3>项目三：策略学习与真机迁移</h3>
-              <p class="mono project-tag">ACTION · REAL</p>
+        <article class="project" id="project-3">
+          <h3>Project 3 · Sim-to-Real Policy Transfer</h3>
+          <p>
+            从仿真策略到真机部署的关键环节（数据、域随机、安全约束等）。
+            突出可验证结果与失败案例分析。
+          </p>
+          <div class="media-grid single">
+            <div class="video-placeholder compact">
+              <i class="fa-solid fa-film" aria-hidden="true"></i>
+              <p>Real-robot rollout</p>
             </div>
-            <p>
-              简述：从仿真策略到真机部署的关键环节（数据、域随机、安全约束等）。
-              突出可验证结果与失败案例分析。
-            </p>
-            <p class="project-stack mono">
-              RL / Imitation · ROS 2 · RealSense · C++ / Python
-            </p>
-            <div class="project-links">
-              <a href="#">GitHub</a>
-              <a href="#">实验记录</a>
-            </div>
-          </article>
-        </div>
-      </section>
+          </div>
+          <p class="meta">
+            <strong>Stack:</strong> RL / Imitation · ROS 2 · RealSense · C++ / Python
+          </p>
+          <p class="meta">
+            <strong>Links:</strong>
+            <a href="#">Code</a> ·
+            <a href="#">Logs</a>
+          </p>
+        </article>
+      </div>
+    </section>
 
-      <section id="stack" class="section stack">
-        <div class="section-head">
-          <p class="eyebrow mono">03 · STACK</p>
-          <h2>能力清单</h2>
-        </div>
-        <div class="stack-grid">
+    <section class="band" id="skills">
+      <div class="container narrow">
+        <h2>Skills</h2>
+        <div class="skills">
           <div>
-            <h3 class="mono">Models</h3>
+            <h4>Models</h4>
             <p>VLM / VLA、多模态表征、模仿学习、强化学习</p>
           </div>
           <div>
-            <h3 class="mono">Systems</h3>
+            <h4>Systems</h4>
             <p>PyTorch、训练管线、仿真、ROS 2、数据采集</p>
           </div>
           <div>
-            <h3 class="mono">Engineering</h3>
-            <p>Python、C++、实验复现、日志与评测、基础 MLOps</p>
+            <h4>Engineering</h4>
+            <p>Python、C++、实验复现、评测与日志、基础 MLOps</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="contact" class="section contact">
-        <div class="section-head">
-          <p class="eyebrow mono">04 · CONTACT</p>
-          <h2>联系方式</h2>
-        </div>
-        <p class="section-lead">
-          欢迎就 VLA / 具身智能相关机会联系我。把下面的占位信息换成你的真实链接。
-        </p>
-        <ul class="contact-list">
+    <section class="band band-gray" id="contact">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p class="section-lead">欢迎就 VLA / 具身智能相关机会联系我。</p>
+        <ul class="contact">
           <li>
-            <span class="mono">EMAIL</span>
+            <span>Email</span>
             <a href="mailto:you@example.com">you@example.com</a>
           </li>
           <li>
-            <span class="mono">GITHUB</span>
+            <span>GitHub</span>
             <a href="https://github.com/Echoxiaopeng">github.com/Echoxiaopeng</a>
           </li>
           <li>
-            <span class="mono">SCHOLAR</span>
-            <a href="#">Google Scholar / 个人主页</a>
-          </li>
-          <li>
-            <span class="mono">RESUME</span>
-            <a href="resume.pdf">下载简历 PDF</a>
+            <span>Resume</span>
+            <a href="resume.pdf">Download PDF</a>
           </li>
         </ul>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <footer class="site-footer">
-      <p class="mono">Built for GitHub Pages · Replace placeholders before publishing</p>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Layout inspired by academic project pages such as
+          <a href="https://openvla-oft.github.io/" target="_blank" rel="noopener">OpenVLA-OFT</a>.
+        </p>
+      </div>
     </footer>
-
-    <script src="script.js"></script>
   </body>
 </html>
