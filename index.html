@@ -81,13 +81,14 @@
           <h3>About</h3>
           <ul>
             <li>
-              目标岗位：VLA / 具身智能相关研发（算法、系统或落地应用）。
+              目标岗位：VLA / 具身智能相关研发（算法、数据与真机落地）。
             </li>
             <li>
-              关注从多模态感知、语言 grounding 到可执行动作策略的整条链路。
+              实习期间独立完成元器件分拣全流程：数据采集、OpenPI（π₀）微调与
+              ARX5 真机部署。
             </li>
             <li>
-              下方是可替换的项目骨架：视频、方法简述、技术栈与代码链接。
+              关注从多模态观测与任务指令到可执行动作策略的端到端链路。
             </li>
           </ul>
         </div>
@@ -99,9 +100,7 @@
         <h2>Table of Contents</h2>
         <ul class="toc">
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#project-1">Project 1 · VLA Instruction Following</a></li>
-          <li><a href="#project-2">Project 2 · Multimodal Grounding</a></li>
-          <li><a href="#project-3">Project 3 · Sim-to-Real Policy</a></li>
+          <li><a href="#project-1">元器件分拣 · OpenPI on ARX5</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -112,81 +111,49 @@
       <div class="container">
         <h2>Projects</h2>
         <p class="section-lead">
-          每个项目按「标题 → 简述 → 视频/图 → 技术栈/链接」组织，方便招聘方快速扫读。
+          实习项目：基于 OpenPI 的工业元器件分拣（ARX5 真机，独立完成全流程）。
         </p>
 
         <article class="project" id="project-1">
-          <h3>Project 1 · VLA Instruction Following</h3>
+          <h3>元器件分拣 · OpenPI on ARX5</h3>
           <p>
-            在仿真环境中，根据自然语言指令完成抓取 / 放置等短程任务。
-            补充你的角色、方法、对比基线与成功率等结果。
+            面向工业元器件分拣场景，基于 Physical Intelligence 开源的
+            <strong>OpenPI（π₀ VLA）</strong> 在 <strong>ARX5</strong> 机械臂上完成策略微调与真机部署。
+            项目由本人独立完成全流程：示教/遥操作数据采集与整理、训练数据格式对齐、
+            OpenPI 微调、推理接入与真机 rollout 验证，实现由视觉观测与任务指令驱动的抓取—分拣闭环。
           </p>
+          <ul class="project-bullets">
+            <li>
+              <strong>数据：</strong>独立设计并采集分拣示教数据（多视角观测、动作轨迹、任务指令），完成清洗、划分与 OpenPI 训练格式转换。
+            </li>
+            <li>
+              <strong>算法：</strong>基于 OpenPI / π₀ 进行任务适配微调，打通「图像 + 语言指令 → 动作序列」的 VLA 控制链路。
+            </li>
+            <li>
+              <strong>系统：</strong>完成 ARX5 真机侧观测—策略—执行联调，支持元器件识别定位后的抓取与分类放置。
+            </li>
+            <li>
+              <strong>验证：</strong>在真机上进行分拣任务 rollout，迭代失败 case（抓取不稳、类别混淆、放置偏移等）。
+            </li>
+          </ul>
           <div class="media-grid">
             <div class="video-placeholder compact">
               <i class="fa-solid fa-film" aria-hidden="true"></i>
-              <p>Rollout video</p>
+              <p>ARX5 分拣 rollout 视频</p>
             </div>
             <div class="video-placeholder compact">
               <i class="fa-solid fa-image" aria-hidden="true"></i>
-              <p>Result figure</p>
+              <p>系统 / 数据示意（可选）</p>
             </div>
           </div>
           <p class="meta">
-            <strong>Stack:</strong> PyTorch · Transformers · Isaac / MuJoCo · Python
+            <strong>Stack:</strong> OpenPI (π₀) · ARX5 · PyTorch · 真机数据采集与部署 · Python
           </p>
           <p class="meta">
             <strong>Links:</strong>
-            <a href="#">Code</a> ·
-            <a href="#">Demo</a> ·
-            <a href="#">Report</a>
-          </p>
-        </article>
-
-        <article class="project" id="project-2">
-          <h3>Project 2 · Multimodal Grounding</h3>
-          <p>
-            将语言指称对齐到图像 / 点云中的目标区域，服务下游动作模块。
-            写清数据、指标与你负责的模块边界。
-          </p>
-          <div class="media-grid">
-            <div class="video-placeholder compact">
-              <i class="fa-solid fa-film" aria-hidden="true"></i>
-              <p>Demo video</p>
-            </div>
-            <div class="video-placeholder compact">
-              <i class="fa-solid fa-image" aria-hidden="true"></i>
-              <p>Qualitative results</p>
-            </div>
-          </div>
-          <p class="meta">
-            <strong>Stack:</strong> CLIP / SigLIP · OpenCV · SAM · CUDA
-          </p>
-          <p class="meta">
-            <strong>Links:</strong>
-            <a href="#">Code</a> ·
-            <a href="#">Notes</a>
-          </p>
-        </article>
-
-        <article class="project" id="project-3">
-          <h3>Project 3 · Sim-to-Real Policy Transfer</h3>
-          <p>
-            从仿真策略到真机部署的关键环节（数据、域随机、安全约束等）。
-            突出可验证结果与失败案例分析。
-          </p>
-          <div class="media-grid single">
-            <div class="video-placeholder compact">
-              <i class="fa-solid fa-film" aria-hidden="true"></i>
-              <p>Real-robot rollout</p>
-            </div>
-          </div>
-          <p class="meta">
-            <strong>Stack:</strong> RL / Imitation · ROS 2 · RealSense · C++ / Python
-          </p>
-          <p class="meta">
-            <strong>Links:</strong>
-            <a href="#">Code</a> ·
-            <a href="#">Logs</a>
+            <a href="https://github.com/Physical-Intelligence/openpi" target="_blank" rel="noopener">OpenPI</a> ·
+            <a href="#">Demo 视频</a> ·
+            <a href="#">更多说明</a>
           </p>
         </article>
       </div>
@@ -198,15 +165,15 @@
         <div class="skills">
           <div>
             <h4>Models</h4>
-            <p>VLM / VLA、多模态表征、模仿学习、强化学习</p>
+            <p>OpenPI / π₀、VLA 微调、多模态策略、模仿学习</p>
           </div>
           <div>
             <h4>Systems</h4>
-            <p>PyTorch、训练管线、仿真、ROS 2、数据采集</p>
+            <p>ARX5 真机、数据采集、训练管线、推理部署</p>
           </div>
           <div>
             <h4>Engineering</h4>
-            <p>Python、C++、实验复现、评测与日志、基础 MLOps</p>
+            <p>Python、PyTorch、实验复现、失败分析与迭代</p>
           </div>
         </div>
       </div>

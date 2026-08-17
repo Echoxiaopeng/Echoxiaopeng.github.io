@@ -256,6 +256,16 @@ a:hover {
   color: var(--muted);
 }
 
+.project-bullets {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.project-bullets li + li {
+  margin-top: 0.45rem;
+}
+
 .media-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
