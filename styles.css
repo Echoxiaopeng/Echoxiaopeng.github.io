@@ -222,14 +222,73 @@ a:hover {
   margin-top: 0.55rem;
 }
 
+.toc-rail {
+  display: none;
+}
+
+.toc-label {
+  margin: 0 0 0.65rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--soft);
+}
+
 .toc {
   margin: 0;
-  padding-left: 1.2rem;
-  color: var(--muted);
+  padding: 0;
+  list-style: none;
+  border-left: 1px solid var(--line);
 }
 
 .toc li + li {
-  margin-top: 0.45rem;
+  margin-top: 0.15rem;
+}
+
+.toc a {
+  display: block;
+  padding: 0.28rem 0 0.28rem 0.85rem;
+  margin-left: -1px;
+  border-left: 2px solid transparent;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.35;
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.toc a:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.toc a.is-active {
+  color: var(--ink);
+  border-left-color: var(--ink);
+  font-weight: 500;
+}
+
+.toc-sub a {
+  padding-left: 1.45rem;
+  font-size: 0.8rem;
+  color: var(--soft);
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --max-wide: 980px;
+    --max: 860px;
+  }
+
+  .toc-rail {
+    display: block;
+    position: fixed;
+    top: 28vh;
+    left: max(0.85rem, calc(50% - var(--max-wide) / 2 - 10rem));
+    width: 9rem;
+    z-index: 20;
+  }
 }
 
 .project {
@@ -342,6 +401,40 @@ a:hover {
 
 .footer p {
   margin: 0;
+}
+
+.pub-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 46rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pub-list li {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.pub-list li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.pub-tag {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  background: #eee;
+  color: var(--soft);
+  font-size: 0.82rem;
+}
+
+.pub-note {
+  margin-top: 1.25rem;
 }
 
 @media (max-width: 800px) {

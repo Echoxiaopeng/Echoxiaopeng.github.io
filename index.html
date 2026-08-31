@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="个人求职主页 · Vision-Language-Action / 具身智能方向项目与经历展示"
+      content="彭永岗 · VLA / 具身智能方向项目与经历展示"
     />
-    <title>Your Name | VLA Portfolio</title>
+    <title>彭永岗 | VLA Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,29 +23,36 @@
   <body>
     <header class="hero">
       <div class="container">
-        <h1 class="title">Your Name</h1>
-        <p class="subtitle">
+        <h1 class="title">彭永岗</h1>
+        <!-- <p class="subtitle">
           Seeking opportunities in
           <strong>Vision-Language-Action (VLA)</strong> &amp; Embodied AI
+        </p> -->
+        <p class="affiliation">
+          东莞理工学院 · 计算机科学与技术硕士（2027 届）· 深圳
         </p>
-        <p class="affiliation">Your University / Lab · City</p>
 
         <div class="link-row">
           <a class="pill" href="resume.pdf">
             <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
             <span>Resume</span>
           </a>
-          <a class="pill" href="https://github.com/Echoxiaopeng" target="_blank" rel="noopener">
+          <a
+            class="pill"
+            href="https://github.com/Echoxiaopeng"
+            target="_blank"
+            rel="noopener"
+          >
             <i class="fa-brands fa-github" aria-hidden="true"></i>
             <span>GitHub</span>
           </a>
-          <a class="pill" href="mailto:you@example.com">
+          <a class="pill" href="mailto:1779740717@qq.com">
             <i class="fa-solid fa-envelope" aria-hidden="true"></i>
             <span>Email</span>
           </a>
-          <a class="pill" href="#" target="_blank" rel="noopener">
-            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
-            <span>Scholar</span>
+          <a class="pill" href="tel:13434928549">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            <span>13434928549</span>
           </a>
         </div>
       </div>
@@ -53,24 +60,26 @@
 
     <section class="band band-gray" id="overview">
       <div class="container">
-        <h2>Overview Video</h2>
-        <p class="note">把总览视频换成 Bilibili / YouTube 嵌入，或本地 mp4。</p>
+        <!-- <h2>Overview Video</h2> -->
+        <!-- <p class="section-lead">
+          真机 VLA 全流程演示：遥操作采集 → OpenPi 推理 → Piper 抓取搬运
+        </p> -->
         <div class="video-frame">
-          <div class="video-placeholder">
+          <!-- 有 B 站 / YouTube 链接时，删掉 placeholder，取消下面 iframe 注释并填入 VIDEO_ID -->
+          <!-- <div class="video-placeholder">
             <i class="fa-solid fa-circle-play" aria-hidden="true"></i>
-            <p>Video placeholder</p>
+            <p>真机 rollout 演示视频</p>
             <p class="hint">
-              示例：嵌入 iframe，或使用
-              <code>&lt;video src="demo.mp4" controls&gt;</code>
+              将 Bilibili / YouTube 嵌入代码替换此区域，或放入
+              <code>assets/demo.mp4</code> 并用 &lt;video&gt; 标签引用
             </p>
-          </div>
+          </div> -->
           <!--
           <div class="publication-video">
             <iframe
-              src="https://www.youtube.com/embed/VIDEO_ID"
+              src="https://player.bilibili.com/player.html?bvid=BVxxxxxx&page=1&high_quality=1&autoplay=0"
               title="Overview video"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
@@ -81,120 +90,201 @@
           <h3>About</h3>
           <ul>
             <li>
-              目标岗位：VLA / 具身智能相关研发（算法、数据与真机落地）。
+              <strong>定位：</strong>研究方向为具身智能与深度强化学习，目标岗位 VLA
+              / 具身智能算法研发。
             </li>
             <li>
-              实习期间独立完成元器件分拣全流程：数据采集、OpenPI（π₀）微调与
-              ARX5 真机部署。
+              <strong>实习：</strong>雅可比机器人（2025.07 – 2025.10）算法实习生，负责多模态真机轨迹采集与清洗（LeRobot / RLDS）、基于 OpenPi / OpenVLA / Diffusion Policy 的微调与参数整定。
             </li>
             <li>
-              关注从多模态观测与任务指令到可执行动作策略的端到端链路。
+              <strong>亮点：</strong>独立完成 Piper 机械臂 OpenPi LoRA 微调与实机验证；充电枪装配 DRL 项目成功率 99%；在投 / 发表论文 3 篇，已授权专利 2 项。
             </li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section class="band" id="toc">
-      <div class="container narrow">
-        <h2>Table of Contents</h2>
-        <ul class="toc">
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#project-1">元器件分拣 · OpenPI on ARX5</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </section>
+    <aside class="toc-rail" aria-label="目录">
+      <p class="toc-label">Contents</p>
+      <ul class="toc">
+        <li><a href="#overview">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li class="toc-sub"><a href="#project-1">OpenPi LoRA · Piper</a></li>
+        <li class="toc-sub"><a href="#project-2">DRL 充电枪装配</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </aside>
 
     <section class="band band-gray" id="projects">
       <div class="container">
         <h2>Projects</h2>
         <p class="section-lead">
-          实习项目：基于 OpenPI 的工业元器件分拣（ARX5 真机，独立完成全流程）。
+          聚焦真机 VLA 落地与机器人强化学习装配两条主线。
         </p>
 
         <article class="project" id="project-1">
-          <h3>元器件分拣 · OpenPI on ARX5</h3>
+          <h3>OpenPi LoRA 微调 · Piper 抓取搬运</h3>
           <p>
-            面向工业元器件分拣场景，基于 Physical Intelligence 开源的
-            <strong>OpenPI（π₀ VLA）</strong> 在 <strong>ARX5</strong> 机械臂上完成策略微调与真机部署。
-            项目由本人独立完成全流程：示教/遥操作数据采集与整理、训练数据格式对齐、
-            OpenPI 微调、推理接入与真机 rollout 验证，实现由视觉观测与任务指令驱动的抓取—分拣闭环。
+            基于 Physical Intelligence 开源的
+            <strong>OpenPi（π₀.₅ VLA）</strong>，针对松灵
+            <strong>Piper</strong> 机械臂进行 LoRA 高效微调。通过示教 / 遥操作采集包含双视角图像、6
+            自由度位姿及夹爪角度的「抓取 — 平移 — 精准释放」全流程专家数据，实现从多维感知到连续动作的端到端映射，并完成实机验证。
           </p>
           <ul class="project-bullets">
             <li>
-              <strong>数据：</strong>独立设计并采集分拣示教数据（多视角观测、动作轨迹、任务指令），完成清洗、划分与 OpenPI 训练格式转换。
+              <strong>数据：</strong>搭建遥操作采集 pipeline，独立采集并清洗多模态真机轨迹，转化为标准化 LeRobot / RLDS 数据集格式。
             </li>
             <li>
-              <strong>算法：</strong>基于 OpenPI / π₀ 进行任务适配微调，打通「图像 + 语言指令 → 动作序列」的 VLA 控制链路。
+              <strong>算法：</strong>对官方 π₀.₅ 模型进行 LoRA 微调，打通「双视角图像 + 动作序列」的 VLA 控制链路；关注复杂背景下的目标定位与闭合回路控制。
             </li>
             <li>
-              <strong>系统：</strong>完成 ARX5 真机侧观测—策略—执行联调，支持元器件识别定位后的抓取与分类放置。
+              <strong>系统：</strong>完成观测 — 策略 — 执行联调，支持抓取、搬运、精准放置全流程真机 rollout。
             </li>
             <li>
-              <strong>验证：</strong>在真机上进行分拣任务 rollout，迭代失败 case（抓取不稳、类别混淆、放置偏移等）。
+              <strong>验证：</strong>在 Piper 真机上迭代失败 case（抓取不稳、放置偏移等），显著提升复杂场景下的任务成功率。
+              <!-- TODO: 补充具体数字，如「成功率由 X% 提升至 X%」「采集 X 条轨迹」 -->
             </li>
           </ul>
           <div class="media-grid">
             <div class="video-placeholder compact">
               <i class="fa-solid fa-film" aria-hidden="true"></i>
-              <p>ARX5 分拣 rollout 视频</p>
+              <p>Piper 真机 rollout 视频</p>
             </div>
             <div class="video-placeholder compact">
               <i class="fa-solid fa-image" aria-hidden="true"></i>
-              <p>系统 / 数据示意（可选）</p>
+              <p>双视角画面 / 数据 pipeline 示意图</p>
             </div>
           </div>
           <p class="meta">
-            <strong>Stack:</strong> OpenPI (π₀) · ARX5 · PyTorch · 真机数据采集与部署 · Python
+            <strong>Stack:</strong> OpenPi (π₀.₅) · LoRA · Piper · LeRobot · RLDS · PyTorch · Python
           </p>
           <p class="meta">
             <strong>Links:</strong>
-            <a href="https://github.com/Physical-Intelligence/openpi" target="_blank" rel="noopener">OpenPI</a> ·
-            <a href="#">Demo 视频</a> ·
-            <a href="#">更多说明</a>
+            <a
+              href="https://github.com/Physical-Intelligence/openpi"
+              target="_blank"
+              rel="noopener"
+              >OpenPI</a>
+            ·
+            <a href="#">Demo 视频（待补充链接）</a>
+            ·
+            <span>雅可比机器人实习（2025.07 – 2025.10）</span>
+          </p>
+        </article>
+
+        <article class="project" id="project-2">
+          <h3>深度强化学习充电枪装配</h3>
+          <p>
+            针对电动汽车充电枪装配中传统强化学习样本效率低、策略震荡及硬件利用率不足的问题，提出融合
+            HER（事后经验回放）、DPU（策略延迟更新）与双线程并行训练的 SAC 算法框架，在 Gazebo +
+            UR5 仿真环境中完成柔顺装配策略学习。
+          </p>
+          <ul class="project-bullets">
+            <li>
+              <strong>状态与奖励：</strong>设计 17 维状态空间与分阶段塑形奖励函数，引导策略逐步完成对准与插入。
+            </li>
+            <li>
+              <strong>算法：</strong>创新融合 HER、DPU 及双线程训练架构，相较基准 SAC 收敛时间缩短
+              <strong>10.2 小时</strong>，平均装配步数减少 <strong>17 步</strong>。
+            </li>
+            <li>
+              <strong>结果：</strong>最大接触力低于 <strong>3 N</strong>，装配成功率达
+              <strong>99%</strong>，兼顾样本效率、策略稳定性与柔顺性。
+            </li>
+          </ul>
+          <div class="media-grid single">
+            <div class="video-placeholder compact">
+              <i class="fa-solid fa-image" aria-hidden="true"></i>
+              <p>UR5 仿真装配截图 / 训练曲线（可选）</p>
+            </div>
+          </div>
+          <p class="meta">
+            <strong>Stack:</strong> SAC · HER · Gazebo · UR5 · Python · 深度强化学习
+          </p>
+          <p class="meta">
+            <strong>成果：</strong>相关论文已投稿期刊；中国研究生电子设计竞赛华南分赛区团队二等奖
           </p>
         </article>
       </div>
     </section>
 
-    <section class="band" id="skills">
+    <section class="band" id="publications">
+      <div class="container narrow">
+        <h2>Publications &amp; Patents</h2>
+        <ul class="pub-list">
+          <li>
+            基于事后经验回放和策略延迟更新的深度强化学习充电枪装配策略研究
+            <span class="pub-tag">期刊 · 投稿 / 审稿中</span>
+          </li>
+          <li>
+            Constrained Skill Learning for Optical Tweezer via Curvature-aware ProDMP with Neural Intent Extraction
+            <span class="pub-tag">期刊 · 投稿 / 审稿中</span>
+          </li>
+          <li>
+            A Hybrid Learning Framework for Efficient and Stable Robotic Peg-in-Hole Assembly via PPO-BC
+            <span class="pub-tag">会议</span>
+          </li>
+        </ul>
+        <p class="section-lead pub-note">
+          已授权专利 2 项 · 实审专利 1 项
+          <!-- TODO: 补充专利名称或申请号 -->
+        </p>
+      </div>
+    </section>
+
+    <section class="band band-gray" id="skills">
       <div class="container narrow">
         <h2>Skills</h2>
         <div class="skills">
           <div>
             <h4>Models</h4>
-            <p>OpenPI / π₀、VLA 微调、多模态策略、模仿学习</p>
+            <p>
+              OpenPi / π₀、VLA 微调、Diffusion Policy、OpenVLA、模仿学习（BC）、深度强化学习（SAC / PPO / DDPG）、示教学习（DMP / ProMP）
+            </p>
           </div>
           <div>
             <h4>Systems</h4>
-            <p>ARX5 真机、数据采集、训练管线、推理部署</p>
+            <p>
+              真机遥操作、LeRobot / RLDS 数据管线、ROS、MoveIt、Gazebo / MuJoCo / PyBullet、推理部署与 rollout 调试
+            </p>
           </div>
           <div>
             <h4>Engineering</h4>
-            <p>Python、PyTorch、实验复现、失败分析与迭代</p>
+            <p>
+              Python、PyTorch、Linux、Git、C/C++、Pinocchio / CasADi、实验复现与失败 case 分析
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="band band-gray" id="contact">
+    <section class="band" id="contact">
       <div class="container narrow">
         <h2>Contact</h2>
         <p class="section-lead">欢迎就 VLA / 具身智能相关机会联系我。</p>
         <ul class="contact">
           <li>
             <span>Email</span>
-            <a href="mailto:you@example.com">you@example.com</a>
+            <a href="mailto:1779740717@qq.com">1779740717@qq.com</a>
+          </li>
+          <li>
+            <span>Phone</span>
+            <a href="tel:13434928549">13434928549</a>
           </li>
           <li>
             <span>GitHub</span>
-            <a href="https://github.com/Echoxiaopeng">github.com/Echoxiaopeng</a>
+            <a href="https://github.com/Echoxiaopeng" target="_blank" rel="noopener"
+              >github.com/Echoxiaopeng</a>
           </li>
           <li>
             <span>Resume</span>
             <a href="resume.pdf">Download PDF</a>
+          </li>
+          <li>
+            <span>Education</span>
+            <span>东莞理工学院 CS 硕士（2027）· 五邑大学 本科</span>
           </li>
         </ul>
       </div>
@@ -204,9 +294,53 @@
       <div class="container">
         <p>
           Layout inspired by academic project pages such as
-          <a href="https://openvla-oft.github.io/" target="_blank" rel="noopener">OpenVLA-OFT</a>.
+          <a href="https://openvla-oft.github.io/" target="_blank" rel="noopener"
+            >OpenVLA-OFT</a>.
         </p>
       </div>
     </footer>
+
+    <script>
+      (function () {
+        var links = Array.prototype.slice.call(
+          document.querySelectorAll(".toc-rail a[href^='#']")
+        );
+        if (!links.length) return;
+
+        var sections = links
+          .map(function (link) {
+            return document.querySelector(link.getAttribute("href"));
+          })
+          .filter(Boolean);
+
+        function setActive(id) {
+          links.forEach(function (link) {
+            link.classList.toggle(
+              "is-active",
+              link.getAttribute("href") === "#" + id
+            );
+          });
+        }
+
+        if ("IntersectionObserver" in window) {
+          var visible = new Map();
+          var observer = new IntersectionObserver(
+            function (entries) {
+              entries.forEach(function (entry) {
+                visible.set(entry.target.id, entry.isIntersecting);
+              });
+              var active = sections.find(function (section) {
+                return visible.get(section.id);
+              });
+              if (active) setActive(active.id);
+            },
+            { rootMargin: "-20% 0px -65% 0px", threshold: 0 }
+          );
+          sections.forEach(function (section) {
+            observer.observe(section);
+          });
+        }
+      })();
+    </script>
   </body>
 </html>
