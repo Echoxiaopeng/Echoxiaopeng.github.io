@@ -97,7 +97,7 @@
               <strong>实习：</strong>雅可比机器人（2025.07 – 2025.10）算法实习生，负责多模态真机轨迹采集与清洗（LeRobot / RLDS）、基于 OpenPi / OpenVLA / Diffusion Policy 的微调与参数整定。
             </li>
             <li>
-              <strong>亮点：</strong>独立完成 Piper 机械臂 OpenPi LoRA 微调与实机验证；充电枪装配 DRL 项目成功率 99%；在投 / 发表论文 3 篇，已授权专利 2 项。
+              <strong>亮点：</strong>主导双臂 UMI 印花机上料 VLA（π₀.₅ + MEM 短时视觉记忆）真机微调与部署；独立完成 Piper OpenPi LoRA 微调与实机验证；充电枪装配 DRL 成功率 99%；在投 / 发表论文 3 篇，已授权专利 2 项。
             </li>
           </ul>
         </div>
@@ -109,8 +109,9 @@
       <ul class="toc">
         <li><a href="#overview">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li class="toc-sub"><a href="#project-1">OpenPi LoRA · Piper</a></li>
-        <li class="toc-sub"><a href="#project-2">DRL 充电枪装配</a></li>
+        <li class="toc-sub"><a href="#project-1">印花机上料 · π₀.₅ + MEM</a></li>
+        <li class="toc-sub"><a href="#project-2">OpenPi LoRA · Piper</a></li>
+        <li class="toc-sub"><a href="#project-3">DRL 充电枪装配</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -121,10 +122,51 @@
       <div class="container">
         <h2>Projects</h2>
         <p class="section-lead">
-          聚焦真机 VLA 落地与机器人强化学习装配两条主线。
+          聚焦真机 VLA 落地、短时视觉记忆与机器人强化学习装配。
         </p>
 
         <article class="project" id="project-1">
+          <h3>双臂印花机上料</h3>
+          <p>
+            主实验任务为工业<strong>印花机上料</strong>：夹起衣角→
+            送入印花机→ 对齐布面以便印花。基于
+            <code>pi05_base</code>微调；在腕视易丢目标、遮挡频繁的场景下，引入
+            <strong>MEM（Memory）短时视觉记忆</strong>，使当前帧视觉 token 融合近几帧运动与遮挡信息，再交给
+            VLA 决策。
+          </p>
+          <ul class="project-bullets">
+            <li>
+              <strong>任务与数据：</strong>4腕相机（左右臂上下腕，无头视）；后期 episode 797–956 采样加权 ×4，约
+              <strong>15 万步</strong>训练（本地 checkpoint 至 <code>149999</code>）。
+            </li>
+            <li>
+              <strong>MEM 视觉记忆（核心改动）：</strong>每路相机
+              <strong>6 帧</strong>短时序。在SigLIP ViT 内对同空间 patch 做因果时序注意力（每隔 4 层一次，复用空间
+              Q/K/V，几乎不加新参）；约第 18 层 drop past，只保留当前帧 token 送给
+              LLM——token 量接近4 路单帧，却带短时运动 / 遮挡信息。
+            </li>
+      
+            <li>
+              <strong>权重加载</strong>：能对齐的 SigLIP权重继承预训练，MEM 布局差异与等新模块随机初始化后微调。
+            </li>
+          </ul>
+          <div class="media-grid">
+            <div class="video-placeholder compact">
+              <i class="fa-solid fa-film" aria-hidden="true"></i>
+              <p>印花机上料真机 rollout（Pick → Load → Align）</p>
+            </div>
+            <div class="video-placeholder compact">
+              <i class="fa-solid fa-image" aria-hidden="true"></i>
+              <p>4 腕 × 6 帧 MEM / same-patch 时序注意力示意</p>
+            </div>
+          </div>
+          <p class="meta">
+            <strong>Stack:</strong> pi05 · MEM · SigLIP · 双臂 ·
+            相对位姿控制 · JAX / Flax
+          </p>
+        </article>
+
+        <article class="project" id="project-2">
           <h3>OpenPi LoRA 微调 · Piper 抓取搬运</h3>
           <p>
             基于 Physical Intelligence 开源的
@@ -174,7 +216,7 @@
           </p>
         </article>
 
-        <article class="project" id="project-2">
+        <article class="project" id="project-3">
           <h3>深度强化学习充电枪装配</h3>
           <p>
             针对电动汽车充电枪装配中传统强化学习样本效率低、策略震荡及硬件利用率不足的问题，提出融合
