@@ -24,12 +24,8 @@
     <header class="hero">
       <div class="container">
         <h1 class="title">彭永岗</h1>
-        <!-- <p class="subtitle">
-          Seeking opportunities in
-          <strong>Vision-Language-Action (VLA)</strong> &amp; Embodied AI
-        </p> -->
         <p class="affiliation">
-          东莞理工学院 · 计算机科学与技术硕士（2027 届）· 深圳
+          计算机科学与技术硕士（2027 届）· 深圳
         </p>
 
         <div class="link-row">
@@ -48,7 +44,7 @@
           </a>
           <a class="pill" href="mailto:1779740717@qq.com">
             <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-            <span>Email</span>
+            <span>1779740717@qq.com</span>
           </a>
           <a class="pill" href="tel:13434928549">
             <i class="fa-solid fa-phone" aria-hidden="true"></i>
@@ -60,47 +56,23 @@
 
     <section class="band band-gray" id="overview">
       <div class="container">
-        <!-- <h2>Overview Video</h2> -->
-        <!-- <p class="section-lead">
-          真机 VLA 全流程演示：遥操作采集 → OpenPi 推理 → Piper 抓取搬运
-        </p> -->
-        <div class="video-frame">
-          <!-- 有 B 站 / YouTube 链接时，删掉 placeholder，取消下面 iframe 注释并填入 VIDEO_ID -->
-          <!-- <div class="video-placeholder">
-            <i class="fa-solid fa-circle-play" aria-hidden="true"></i>
-            <p>真机 rollout 演示视频</p>
-            <p class="hint">
-              将 Bilibili / YouTube 嵌入代码替换此区域，或放入
-              <code>assets/demo.mp4</code> 并用 &lt;video&gt; 标签引用
-            </p>
-          </div> -->
-          <!--
-          <div class="publication-video">
-            <iframe
-              src="https://player.bilibili.com/player.html?bvid=BVxxxxxx&page=1&high_quality=1&autoplay=0"
-              title="Overview video"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
-          </div>
-          -->
-        </div>
-
-        <div class="tldr">
-          <h3>About</h3>
-          <ul>
-            <li>
-              <strong>定位：</strong>研究方向为具身智能与深度强化学习，目标岗位 VLA
-              / 具身智能算法研发。
-            </li>
-            <li>
-              <strong>实习：</strong>雅可比机器人（2025.07 – 2025.10）算法实习生，负责多模态真机轨迹采集与清洗（LeRobot / RLDS）、基于 OpenPi / OpenVLA / Diffusion Policy 的微调与参数整定。
-            </li>
-            <li>
-              <strong>亮点：</strong>主导双臂印花机上料 VLA（π₀.₅ + MEM）；完成元器件分拣 LingBot-VA 微调与异步推理（900ms→300ms）；充电枪装配 DRL 成功率 99%；搭建 MuJoCo + Pika 仿真遥操链路；在投 / 发表论文 3 篇，已授权专利 2 项。
-            </li>
-          </ul>
-        </div>
+        <h2>About</h2>
+        <p class="section-lead">
+          具身智能与 VLA 方向研究者，关注真机策略学习与产线部署。
+        </p>
+        <article class="project about-bio">
+          <p>
+            研究方向为具身智能与深度强化学习，希望从事VLA / 具身智能算法研发相关工作。
+          </p>
+          <p>
+            有过多段实习经历，参与多模态真机轨迹采集与清洗（LeRobot /
+            RLDS），以及基于 OpenPi、OpenVLA、Diffusion Policy 等模型的微调与实机部署。
+          </p>
+          <p>
+            近期工作涵盖双臂印花机上料 pi05 + MEM 微调、元器件分拣 LingBot-VA 推理加速、MuJoCo +
+            Pika 仿真遥操等；亦有充电枪柔顺装配 DRL 相关研究。目前在投 / 发表论文 3 篇，已授权专利 2 项。
+          </p>
+        </article>
       </div>
     </section>
 
@@ -112,7 +84,7 @@
         <li class="toc-sub"><a href="#project-1">印花机上料</a></li>
         <li class="toc-sub"><a href="#project-2">元器件分拣</a></li>
         <li class="toc-sub"><a href="#project-3">DRL 充电枪装配</a></li>
-        <li class="toc-sub"><a href="#project-4">MuJoCo · Pika 遥操</a></li>
+        <li class="toc-sub"><a href="#project-4">MuJoCo 仿真遥操</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -205,11 +177,21 @@
           </ul>
           <div class="media-grid">
             <figure class="media-item">
-              <div class="video-placeholder compact">
-                <i class="fa-solid fa-film" aria-hidden="true"></i>
+              <div class="publication-video">
+                <video
+                  controls
+                  muted
+                  playsinline
+                  disablePictureInPicture
+                  controlsList="nodownload noplaybackrate"
+                  preload="metadata"
+                  title="元器件分拣 · 推理延迟示意（优化后）"
+                >
+                  <source src="video/元器件分拣_快.mp4" type="video/mp4" />
+                </video>
               </div>
               <figcaption class="media-caption">
-                元器件分拣真机 rollout（待补充）
+                推理延迟示意（优化后，~300&nbsp;ms）
               </figcaption>
             </figure>
             <figure class="media-item">
@@ -333,11 +315,11 @@
         <ul class="pub-list">
           <li>
             基于事后经验回放和策略延迟更新的深度强化学习充电枪装配策略研究
-            <span class="pub-tag">期刊 · 投稿 / 审稿中</span>
+            <span class="pub-tag">期刊</span>
           </li>
           <li>
             Constrained Skill Learning for Optical Tweezer via Curvature-aware ProDMP with Neural Intent Extraction
-            <span class="pub-tag">期刊 · 投稿 / 审稿中</span>
+            <span class="pub-tag">期刊</span>
           </li>
           <li>
             A Hybrid Learning Framework for Efficient and Stable Robotic Peg-in-Hole Assembly via PPO-BC
@@ -406,7 +388,7 @@
         </ul>
       </div>
     </section>
-
+<!-- 
     <footer class="footer">
       <div class="container">
         <p>
@@ -415,7 +397,7 @@
             >OpenVLA-OFT</a>.
         </p>
       </div>
-    </footer>
+    </footer> -->
 
     <script>
       (function () {

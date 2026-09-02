@@ -9,6 +9,7 @@
   --line: #dbdbdb;
   --max: 960px;
   --max-wide: 1100px;
+  --card-max: 920px;
 }
 
 *,
@@ -210,29 +211,6 @@ a:hover {
   border-radius: 4px;
 }
 
-.tldr {
-  max-width: 820px;
-  margin: 0 auto;
-  padding: 1.25rem 1.35rem;
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-}
-
-.tldr h3 {
-  margin: 0 0 0.65rem;
-  font-size: 1.2rem;
-}
-
-.tldr ul {
-  margin: 0;
-  padding-left: 1.2rem;
-}
-
-.tldr li + li {
-  margin-top: 0.55rem;
-}
-
 .toc-rail {
   display: none;
 }
@@ -303,7 +281,7 @@ a:hover {
 }
 
 .project {
-  max-width: 920px;
+  max-width: var(--card-max);
   margin: 0 auto 2.5rem;
   padding: 1.5rem 1.35rem;
   background: #fff;
@@ -324,6 +302,10 @@ a:hover {
 .project > p {
   margin: 0 0 1rem;
   color: var(--muted);
+}
+
+.about-bio > p:last-child {
+  margin-bottom: 0;
 }
 
 .project-bullets {
