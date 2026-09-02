@@ -97,7 +97,7 @@
               <strong>实习：</strong>雅可比机器人（2025.07 – 2025.10）算法实习生，负责多模态真机轨迹采集与清洗（LeRobot / RLDS）、基于 OpenPi / OpenVLA / Diffusion Policy 的微调与参数整定。
             </li>
             <li>
-              <strong>亮点：</strong>主导双臂 UMI 印花机上料 VLA（π₀.₅ + MEM 短时视觉记忆）真机微调与部署；独立完成 Piper OpenPi LoRA 微调与实机验证；充电枪装配 DRL 成功率 99%；在投 / 发表论文 3 篇，已授权专利 2 项。
+              <strong>亮点：</strong>主导双臂印花机上料 VLA（π₀.₅ + MEM）；完成元器件分拣 LingBot-VA 微调与异步推理（900ms→300ms）；充电枪装配 DRL 成功率 99%；搭建 MuJoCo + Pika 仿真遥操链路；在投 / 发表论文 3 篇，已授权专利 2 项。
             </li>
           </ul>
         </div>
@@ -109,9 +109,10 @@
       <ul class="toc">
         <li><a href="#overview">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li class="toc-sub"><a href="#project-1">印花机上料 · π₀.₅ + MEM</a></li>
-        <li class="toc-sub"><a href="#project-2">OpenPi LoRA · Piper</a></li>
+        <li class="toc-sub"><a href="#project-1">印花机上料</a></li>
+        <li class="toc-sub"><a href="#project-2">元器件分拣</a></li>
         <li class="toc-sub"><a href="#project-3">DRL 充电枪装配</a></li>
+        <li class="toc-sub"><a href="#project-4">MuJoCo · Pika 遥操</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -122,7 +123,7 @@
       <div class="container">
         <h2>Projects</h2>
         <p class="section-lead">
-          聚焦真机 VLA 落地、短时视觉记忆与机器人强化学习装配。
+          聚焦真机 VLA 落地、推理加速、仿真遥操与机器人强化学习装配。
         </p>
 
         <article class="project" id="project-1">
@@ -151,14 +152,35 @@
             </li>
           </ul>
           <div class="media-grid">
-            <div class="video-placeholder compact">
-              <i class="fa-solid fa-film" aria-hidden="true"></i>
-              <p>印花机上料真机 rollout（Pick → Load → Align）</p>
-            </div>
-            <div class="video-placeholder compact">
-              <i class="fa-solid fa-image" aria-hidden="true"></i>
-              <p>4 腕 × 6 帧 MEM / same-patch 时序注意力示意</p>
-            </div>
+            <figure class="media-item">
+              <div class="publication-video">
+                <video
+                  controls
+                  muted
+                  playsinline
+                  disablePictureInPicture
+                  controlsList="nodownload noplaybackrate"
+                  preload="metadata"
+                  title="印花机上料真机 rollout"
+                >
+                  <source src="video/印花机.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <figcaption class="media-caption">
+                印花机上料真机 rollout（Pick → Load → Align）
+              </figcaption>
+            </figure>
+            <figure class="media-item">
+              <div class="publication-video">
+                <img
+                  src="MEM.png"
+                  alt="4 腕 × 6 帧 MEM / same-patch 时序注意力示意"
+                />
+              </div>
+              <figcaption class="media-caption">
+                4 腕 × 6 帧 MEM · same-patch 时序注意力示意
+              </figcaption>
+            </figure>
           </div>
           <p class="meta">
             <strong>Stack:</strong> pi05 · MEM · SigLIP · 双臂 ·
@@ -167,52 +189,50 @@
         </article>
 
         <article class="project" id="project-2">
-          <h3>OpenPi LoRA 微调 · Piper 抓取搬运</h3>
+          <h3>单臂元器件分拣</h3>
           <p>
-            基于 Physical Intelligence 开源的
-            <strong>OpenPi（π₀.₅ VLA）</strong>，针对松灵
-            <strong>Piper</strong> 机械臂进行 LoRA 高效微调。通过示教 / 遥操作采集包含双视角图像、6
-            自由度位姿及夹爪角度的「抓取 — 平移 — 精准释放」全流程专家数据，实现从多维感知到连续动作的端到端映射，并完成实机验证。
+            面向电子元器件分拣场景，基于
+            <strong>LingBot-VA（WAM）</strong>完成从数据采集、策略微调到真机部署的闭环，并针对产线实时性要求优化推理链路。
           </p>
           <ul class="project-bullets">
             <li>
-              <strong>数据：</strong>搭建遥操作采集 pipeline，独立采集并清洗多模态真机轨迹，转化为标准化 LeRobot / RLDS 数据集格式。
+              <strong>数据与微调：</strong>搭建示教采集流程，完成多品类零件轨迹采集、清洗与格式标准化；基于预训练权重开展任务微调，提升分拣成功率与跨布局泛化能力。
             </li>
             <li>
-              <strong>算法：</strong>对官方 π₀.₅ 模型进行 LoRA 微调，打通「双视角图像 + 动作序列」的 VLA 控制链路；关注复杂背景下的目标定位与闭合回路控制。
-            </li>
-            <li>
-              <strong>系统：</strong>完成观测 — 策略 — 执行联调，支持抓取、搬运、精准放置全流程真机 rollout。
-            </li>
-            <li>
-              <strong>验证：</strong>在 Piper 真机上迭代失败 case（抓取不稳、放置偏移等），显著提升复杂场景下的任务成功率。
-              <!-- TODO: 补充具体数字，如「成功率由 X% 提升至 X%」「采集 X 条轨迹」 -->
+              <strong>异步推理：</strong>分析端到端延迟瓶颈（视觉编码、去噪步数、控制下发），引入异步推理手段，将推理时间从
+              <strong>900&nbsp;ms</strong> 压缩到 <strong>300&nbsp;ms</strong>。
             </li>
           </ul>
           <div class="media-grid">
-            <div class="video-placeholder compact">
-              <i class="fa-solid fa-film" aria-hidden="true"></i>
-              <p>Piper 真机 rollout 视频</p>
-            </div>
-            <div class="video-placeholder compact">
-              <i class="fa-solid fa-image" aria-hidden="true"></i>
-              <p>双视角画面 / 数据 pipeline 示意图</p>
-            </div>
+            <figure class="media-item">
+              <div class="video-placeholder compact">
+                <i class="fa-solid fa-film" aria-hidden="true"></i>
+              </div>
+              <figcaption class="media-caption">
+                元器件分拣真机 rollout（待补充）
+              </figcaption>
+            </figure>
+            <figure class="media-item">
+              <div class="publication-video">
+                <video
+                  controls
+                  muted
+                  playsinline
+                  disablePictureInPicture
+                  controlsList="nodownload noplaybackrate"
+                  preload="metadata"
+                  title="元器件分拣 · 推理延迟示意（优化前）"
+                >
+                  <source src="video/元器件分拣_慢.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <figcaption class="media-caption">
+                推理延迟示意（优化前，~900&nbsp;ms）
+              </figcaption>
+            </figure>
           </div>
           <p class="meta">
-            <strong>Stack:</strong> OpenPi (π₀.₅) · LoRA · Piper · LeRobot · RLDS · PyTorch · Python
-          </p>
-          <p class="meta">
-            <strong>Links:</strong>
-            <a
-              href="https://github.com/Physical-Intelligence/openpi"
-              target="_blank"
-              rel="noopener"
-              >OpenPI</a>
-            ·
-            <a href="#">Demo 视频（待补充链接）</a>
-            ·
-            <span>雅可比机器人实习（2025.07 – 2025.10）</span>
+            <strong>Stack:</strong> LingBot-VA · WAM · 示教采集 · 策略微调 · 异步推理 · 真机部署
           </p>
         </article>
 
@@ -220,7 +240,7 @@
           <h3>深度强化学习充电枪装配</h3>
           <p>
             针对电动汽车充电枪装配中传统强化学习样本效率低、策略震荡及硬件利用率不足的问题，提出融合
-            HER（事后经验回放）、DPU（策略延迟更新）与双线程并行训练的 SAC 算法框架，在 Gazebo +
+            HER（事后经验回放）、DPU（策略延迟更新）与双线程并行训练的 SAC 算法框架，在 Coppeliasim +
             UR5 仿真环境中完成柔顺装配策略学习。
           </p>
           <ul class="project-bullets">
@@ -236,17 +256,72 @@
               <strong>99%</strong>，兼顾样本效率、策略稳定性与柔顺性。
             </li>
           </ul>
-          <div class="media-grid single">
-            <div class="video-placeholder compact">
-              <i class="fa-solid fa-image" aria-hidden="true"></i>
-              <p>UR5 仿真装配截图 / 训练曲线（可选）</p>
-            </div>
+          <div class="media-grid">
+            <figure class="media-item">
+              <div class="publication-video">
+                <img
+                  src="机器人装配操作.png"
+                  alt="UR5 充电枪装配仿真示意图"
+                />
+              </div>
+              <figcaption class="media-caption">
+                UR5 充电枪装配仿真示意图
+              </figcaption>
+            </figure>
+            <figure class="media-item">
+              <div class="publication-video">
+                <img src="装配分析图.png" alt="充电枪装配分析图" />
+              </div>
+              <figcaption class="media-caption">充电枪装配分析图</figcaption>
+            </figure>
           </div>
           <p class="meta">
             <strong>Stack:</strong> SAC · HER · Gazebo · UR5 · Python · 深度强化学习
           </p>
           <p class="meta">
-            <strong>成果：</strong>相关论文已投稿期刊；中国研究生电子设计竞赛华南分赛区团队二等奖
+            <strong>成果：</strong>相关论文已投稿期刊
+          </p>
+        </article>
+
+        <article class="project" id="project-4">
+          <h3>MuJoCo 仿真遥操 </h3>
+          <p>
+            基于 <strong>MuJoCo</strong> 搭建仿真环境，对接松灵
+            <strong>Pika</strong> 遥操作主手，实现仿真侧遥操闭环，用于示教采集与操作链路验证。
+          </p>
+          <ul class="project-bullets">
+            <li>
+              <strong>仿真环境：</strong>在 MuJoCo 中搭建机械臂 / 场景模型，完成物理仿真与可视化渲染。
+            </li>
+            <li>
+              <strong>遥操对接：</strong>接入 Pika 主手，完成主从映射与控制下发，在仿真中实时驱动末端运动。
+            </li>
+            <li>
+              <strong>用途：</strong>支撑示教轨迹采集、遥操手感调试及真机部署前的链路验证。
+            </li>
+          </ul>
+          <div class="media-grid single">
+            <figure class="media-item">
+              <div class="publication-video">
+                <video
+                  controls
+                  muted
+                  playsinline
+                  disablePictureInPicture
+                  controlsList="nodownload noplaybackrate"
+                  preload="metadata"
+                  title="MuJoCo Pika 仿真遥操"
+                >
+                  <source src="video/pika.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <figcaption class="media-caption">
+                MuJoCo + 松灵 Pika 仿真遥操演示
+              </figcaption>
+            </figure>
+          </div>
+          <p class="meta">
+            <strong>Stack:</strong> MuJoCo · 松灵 Pika · 仿真遥操 · Python
           </p>
         </article>
       </div>
@@ -343,6 +418,18 @@
     </footer>
 
     <script>
+      (function () {
+        document.querySelectorAll("video").forEach(function (video) {
+          video.defaultMuted = true;
+          video.muted = true;
+          video.volume = 0;
+          video.addEventListener("volumechange", function () {
+            video.muted = true;
+            video.volume = 0;
+          });
+        });
+      })();
+
       (function () {
         var links = Array.prototype.slice.call(
           document.querySelectorAll(".toc-rail a[href^='#']")
