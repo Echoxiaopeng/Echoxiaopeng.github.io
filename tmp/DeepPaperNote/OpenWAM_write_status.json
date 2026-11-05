@@ -1,0 +1,84 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "doi:10.48550/arxiv.2609.07398",
+  "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+  "note_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining.md",
+  "subdir": "机器学习",
+  "images_dir": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images",
+  "materialized_figures": [
+    {
+      "source_id": "Figure 1",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_001_fig_figure_1_review_repair1.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_001_fig_figure_1_review_repair1.png",
+      "relative_markdown_path": "images/page_001_fig_figure_1_review_repair1.png",
+      "reviewed_asset_sha256": "10ed2a4f927f44ff3925ea70a4d845f4eb0622a41785be6abbb8acb158ee2268"
+    },
+    {
+      "source_id": "Figure 5",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_010_fig_figure_5_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_010_fig_figure_5_review.png",
+      "relative_markdown_path": "images/page_010_fig_figure_5_review.png",
+      "reviewed_asset_sha256": "a3139f9077c27b0d5135b0de0a0aebb0fe00a95cbc309e70a3d2fc4cd300f046"
+    },
+    {
+      "source_id": "Figure 12",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_017_fig_figure_12_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_017_fig_figure_12_review.png",
+      "relative_markdown_path": "images/page_017_fig_figure_12_review.png",
+      "reviewed_asset_sha256": "351d09ef062facd36f27f0bc386fd5723ceaf7ce69d9c706a66d3e3c8a77d4e5"
+    },
+    {
+      "source_id": "Figure 13",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_021_fig_figure_13_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_021_fig_figure_13_review.png",
+      "relative_markdown_path": "images/page_021_fig_figure_13_review.png",
+      "reviewed_asset_sha256": "573bcfaf9f35e289121e678b404e30b279e2c3f5a246ca75c6dc7a251f69bc80"
+    },
+    {
+      "source_id": "Figure 16",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_024_fig_figure_16_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_024_fig_figure_16_review.png",
+      "relative_markdown_path": "images/page_024_fig_figure_16_review.png",
+      "reviewed_asset_sha256": "dc686d53fd17450bd903bdb4472050f74a50ca40e2ef71590f361b9c900bc87c"
+    },
+    {
+      "source_id": "Table 3",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_016_fig_table_3_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_016_fig_table_3_review.png",
+      "relative_markdown_path": "images/page_016_fig_table_3_review.png",
+      "reviewed_asset_sha256": "8549402eae5e2c6c9e217b61f131499048fcfe2ad30ba7b3dca99896a136eb99"
+    },
+    {
+      "source_id": "Table 5",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_022_fig_table_5_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_022_fig_table_5_review.png",
+      "relative_markdown_path": "images/page_022_fig_table_5_review.png",
+      "reviewed_asset_sha256": "3c0eb81e50bcf8b0a1332fef40126d6465a7f2e45103e13cc94f301f1606489f"
+    },
+    {
+      "source_id": "Table 6",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_025_fig_table_6_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_025_fig_table_6_review.png",
+      "relative_markdown_path": "images/page_025_fig_table_6_review.png",
+      "reviewed_asset_sha256": "91e4471da75863e398d73094b1802ff98fdf5838f1a777f82fff33d7d11a3311"
+    },
+    {
+      "source_id": "Table 7",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_026_fig_table_7_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_026_fig_table_7_review.png",
+      "relative_markdown_path": "images/page_026_fig_table_7_review.png",
+      "reviewed_asset_sha256": "ed0c6453bd227440b0b05353ead5f22a4019da71d7df8f18f2d8f982982c1f46"
+    },
+    {
+      "source_id": "Table 8",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_026_fig_table_8_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_026_fig_table_8_review.png",
+      "relative_markdown_path": "images/page_026_fig_table_8_review.png",
+      "reviewed_asset_sha256": "b0c578b0589f8a05343a28d2cd7a0c6dea60fb8de04839995a289ff3a22249e4"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "C:\\Users\\kian123\\Desktop\\Obsidian_note",
+  "vault": "C:\\Users\\kian123\\Desktop\\Obsidian_note"
+}

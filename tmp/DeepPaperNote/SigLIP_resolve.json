@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+  "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+  "title": "Sigmoid Loss for Language Image Pre-Training",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "first_page_title_used",
+  "local_pdf_artifact_title": true,
+  "paper_id": "title:c7388bfcd370",
+  "identity_confidence": "low",
+  "identity_confidence_reasons": [
+    "first_page_title_used",
+    "local_pdf_artifact_title"
+  ],
+  "script": "resolve_paper.py"
+}

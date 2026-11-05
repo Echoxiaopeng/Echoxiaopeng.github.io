@@ -1,0 +1,1327 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.48550/arxiv.2609.07398",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "Overview of OpenWAM. OpenWAM-Infra (left) factorizes world–action modeling into composable",
+      "pages": [
+        1
+      ],
+      "section_id": "sec:preamble",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；优先放到拥有该执行链的方法组件下，帮助快速建立输入-操作-输出理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "方法主线",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_001_fig_figure_1_review_repair1.png",
+      "relative_markdown_embed": "![Figure 1](images/page_001_fig_figure_1_review_repair1.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_001_fig_figure_1_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "10ed2a4f927f44ff3925ea70a4d845f4eb0622a41785be6abbb8acb158ee2268",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_001_fig_figure_1_review_repair1.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_001.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 1,
+        "caption": "Overview of OpenWAM. OpenWAM-Infra (left) factorizes world–action modeling into composable",
+        "bbox_pt": [
+          24.48,
+          162.36,
+          587.52,
+          360.36
+        ],
+        "normalized_bbox": [
+          0.04,
+          0.205,
+          0.96,
+          0.455
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "10ed2a4f927f44ff3925ea70a4d845f4eb0622a41785be6abbb8acb158ee2268",
+        "preserved_scientific_elements": [
+          "Infra/Study/Alpha panels",
+          "Q1-Q6 recipe checks",
+          "radar chart"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Repair crop isolates overview figure body. Omitted from crop: title, authors, abstract, external caption.",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.04,
+          0.205,
+          0.96,
+          0.455
+        ]
+      }
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "OpenWAM Model Infra. Top: the three classes of interchangeable modules: the visual encoder E (left); the",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:related-work-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "Inference modes and denoising schedules of the deployment runtime. (a) Illustration of the synchronous and",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:framework",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Serving latency across architectures. Inference latency with",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:framework",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_009_fig_figure_4.png",
+      "relative_markdown_embed": "![Figure 4](images/page_009_fig_figure_4.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_009_fig_figure_4.png"
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "Evaluation protocol of OpenWAM-Infra. Benchmarks connect to the policy server as thin clients over WebSocket.",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:framework",
+      "decision": "insert",
+      "reason": "这张图解释任务或数据集如何被构造；如果候选图质量足够，适合放在数据与任务定义部分帮助读者理解数据来源。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task_overview",
+      "source_image_filename": "page_010_fig_figure_5_review.png",
+      "relative_markdown_embed": "![Figure 5](images/page_010_fig_figure_5_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_010_fig_figure_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "a3139f9077c27b0d5135b0de0a0aebb0fe00a95cbc309e70a3d2fc4cd300f046",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_010_fig_figure_5_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_010.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 10,
+        "caption": "Evaluation protocol of OpenWAM-Infra. Benchmarks connect to the policy server as thin clients over WebSocket.",
+        "bbox_pt": [
+          66.86599731445312,
+          59.77821350097656,
+          545.14453125,
+          196.48602294921875
+        ],
+        "normalized_bbox": [
+          0.109258,
+          0.075478,
+          0.890759,
+          0.248088
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "a3139f9077c27b0d5135b0de0a0aebb0fe00a95cbc309e70a3d2fc4cd300f046",
+        "preserved_scientific_elements": [
+          "benchmark clients",
+          "policy server action buffer",
+          "canonical image pipeline",
+          "80D unified action space"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Clean evaluation protocol diagram; no surrounding prose. Omitted from crop: external caption.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "source_id": "Figure 6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "WAM Performance with Different Video",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:model-4",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_after_review",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_011_fig_figure_6_review_repair1.png",
+      "relative_markdown_embed": "![Figure 6](images/page_011_fig_figure_6_review_repair1.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_011_fig_figure_6_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "5aa12857ba19bddaa2ba0ca37cf77566d24ef6448f77d252031df4c14233df13",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_011_fig_figure_6_review_repair1.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_011.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 11,
+        "caption": "WAM Performance with Different Video",
+        "bbox_pt": [
+          318.24,
+          435.6,
+          593.64,
+          617.76
+        ],
+        "normalized_bbox": [
+          0.52,
+          0.55,
+          0.97,
+          0.78
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "5aa12857ba19bddaa2ba0ca37cf77566d24ef6448f77d252031df4c14233df13",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "Repair exhausted; left-column prose remains.",
+        "failure_reason": "repair_limit_exhausted",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.52,
+          0.55,
+          0.97,
+          0.78
+        ]
+      }
+    },
+    {
+      "item_id": "figure:Figure 7",
+      "source_id": "Figure 7",
+      "kind": "figure",
+      "label": "Figure 7",
+      "caption": "Visual representation priors. We consider building WAMs with both reconstructive and representation encoders,",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:model-4",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 8",
+      "source_id": "Figure 8",
+      "kind": "figure",
+      "label": "Figure 8",
+      "caption": "Attention Masking Strategies. We control cross-modality information",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:model-4",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 9",
+      "source_id": "Figure 9",
+      "kind": "figure",
+      "label": "Figure 9",
+      "caption": "Inference-time Information Flow via Denoising Schedule. Each curve",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:model-4",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 10",
+      "source_id": "Figure 10",
+      "kind": "figure",
+      "label": "Figure 10",
+      "caption": "Embodied Pretraining Primarily Improves OOD Generalization. Success",
+      "pages": [
+        15
+      ],
+      "section_id": "sec:model-4",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 11",
+      "source_id": "Figure 11",
+      "kind": "figure",
+      "label": "Figure 11",
+      "caption": "Pretraining Changes the Preferred Information Flow. Central markers give the absolute success rate of Action",
+      "pages": [
+        16
+      ],
+      "section_id": "sec:model-4",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 12",
+      "source_id": "Figure 12",
+      "kind": "figure",
+      "label": "Figure 12",
+      "caption": "Overview of OpenWAM-α. (a) The dual-system architecture: a video-generation DiT and an ActionDiT",
+      "pages": [
+        17
+      ],
+      "section_id": "sec:findings",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；优先放到拥有该执行链的方法组件下，帮助快速建立输入-操作-输出理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "方法主线",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_017_fig_figure_12_review.png",
+      "relative_markdown_embed": "![Figure 12](images/page_017_fig_figure_12_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_017_fig_figure_12_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "351d09ef062facd36f27f0bc386fd5723ceaf7ce69d9c706a66d3e3c8a77d4e5",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_017_fig_figure_12_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_017.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 17,
+        "caption": "Overview of OpenWAM-α. (a) The dual-system architecture: a video-generation DiT and an ActionDiT",
+        "bbox_pt": [
+          58.53745651245117,
+          253.294921875,
+          546.0679321289062,
+          630.6439819335938
+        ],
+        "normalized_bbox": [
+          0.095649,
+          0.319817,
+          0.892268,
+          0.796268
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "351d09ef062facd36f27f0bc386fd5723ceaf7ce69d9c706a66d3e3c8a77d4e5",
+        "preserved_scientific_elements": [
+          "dual-system DiT blocks",
+          "shared attention",
+          "cotrain data mix",
+          "sync scheduler",
+          "80D action space"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Clean OpenWAM-alpha architecture multi-panel figure. Omitted from crop: external caption.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 13",
+      "source_id": "Figure 13",
+      "kind": "figure",
+      "label": "Figure 13",
+      "caption": "Score comparison of OpenWAM-α against representative VLA and WAM baselines across the simulation benchmarks.",
+      "pages": [
+        21
+      ],
+      "section_id": "sec:findings",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_021_fig_figure_13_review.png",
+      "relative_markdown_embed": "![Figure 13](images/page_021_fig_figure_13_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_021_fig_figure_13_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "573bcfaf9f35e289121e678b404e30b279e2c3f5a246ca75c6dc7a251f69bc80",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_021_fig_figure_13_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_021.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 21,
+        "caption": "Score comparison of OpenWAM-α against representative VLA and WAM baselines across the simulation benchmarks.",
+        "bbox_pt": [
+          66.86599731445312,
+          59.77752685546875,
+          545.127197265625,
+          337.0719909667969
+        ],
+        "normalized_bbox": [
+          0.109258,
+          0.075477,
+          0.890731,
+          0.425596
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "573bcfaf9f35e289121e678b404e30b279e2c3f5a246ca75c6dc7a251f69bc80",
+        "preserved_scientific_elements": [
+          "nine benchmark bar panels",
+          "model legend",
+          "numeric scores"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Clean main simulation score comparison. Omitted from crop: external caption.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 14",
+      "source_id": "Figure 14",
+      "kind": "figure",
+      "label": "Figure 14",
+      "caption": "complements this view by pitting OpenWAM-α against the strongest VLAs and WAMs on every",
+      "pages": [
+        20
+      ],
+      "section_id": "sec:findings",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 15",
+      "source_id": "Figure 15",
+      "kind": "figure",
+      "label": "Figure 15",
+      "caption": "Single-arm pretraining data of ABot-M0.5,",
+      "pages": [
+        22
+      ],
+      "section_id": "sec:findings",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 16",
+      "source_id": "Figure 16",
+      "kind": "figure",
+      "label": "Figure 16",
+      "caption": "ID and OOD comparisons between the two paradigms. (a) Fast-WAM versus StarVLA, two models without",
+      "pages": [
+        24
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_024_fig_figure_16_review.png",
+      "relative_markdown_embed": "![Figure 16](images/page_024_fig_figure_16_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_024_fig_figure_16_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "dc686d53fd17450bd903bdb4472050f74a50ca40e2ef71590f361b9c900bc87c",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_024_fig_figure_16_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_024.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 24,
+        "caption": "ID and OOD comparisons between the two paradigms. (a) Fast-WAM versus StarVLA, two models without",
+        "bbox_pt": [
+          43.06135559082031,
+          0.0,
+          574.763427734375,
+          340.5719909667969
+        ],
+        "normalized_bbox": [
+          0.070362,
+          0.0,
+          0.939156,
+          0.430015
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "dc686d53fd17450bd903bdb4472050f74a50ca40e2ef71590f361b9c900bc87c",
+        "preserved_scientific_elements": [
+          "panels a/b/c",
+          "ID vs OOD bars",
+          "axis labels"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Clean ID/OOD paradigm comparison. Omitted from crop: external caption.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 17",
+      "source_id": "Figure 17",
+      "kind": "figure",
+      "label": "Figure 17",
+      "caption": "Real-robotexperimentalsetupsacrossthreeembodiments. Top: the six single-arm tasks on the Franka-Research-3",
+      "pages": [
+        25
+      ],
+      "section_id": "sec:background",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 18",
+      "source_id": "Figure 18",
+      "kind": "figure",
+      "label": "Figure 18",
+      "caption": "Single-arm real-robot setup on the Franka-Research-3 platform. The workspace contains the drawer, stacking",
+      "pages": [
+        35
+      ],
+      "section_id": "sec:appendix-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 19",
+      "source_id": "Figure 19",
+      "kind": "figure",
+      "label": "Figure 19",
+      "caption": "Single-arm task execution sequences on the Franka-Research-3 platform. Each row shows one task, with six",
+      "pages": [
+        36
+      ],
+      "section_id": "sec:appendix-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 20",
+      "source_id": "Figure 20",
+      "kind": "figure",
+      "label": "Figure 20",
+      "caption": "Real-world experimental setup. The figure shows the physical dexterous-hand platform, the workspace, the",
+      "pages": [
+        37
+      ],
+      "section_id": "sec:appendix-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 21",
+      "source_id": "Figure 21",
+      "kind": "figure",
+      "label": "Figure 21",
+      "caption": "Task execution sequences and evaluation conditions. Each row illustrates the main manipulation stages of",
+      "pages": [
+        38
+      ],
+      "section_id": "sec:appendix-2",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；优先放到拥有该执行链的方法组件下，帮助快速建立输入-操作-输出理解。",
+      "skip_reason": "visual_quality_gate_rejected_after_review",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "方法主线",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_038_fig_figure_21_review.png",
+      "relative_markdown_embed": "![Figure 21](images/page_038_fig_figure_21_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_038_fig_figure_21_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "1698b30d41dae150e0eeba3e62aeaec0545fc4da287fd6b188c6a28206ea6821",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_038_fig_figure_21_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_038.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 38,
+        "caption": "Task execution sequences and evaluation conditions. Each row illustrates the main manipulation stages of",
+        "bbox_pt": [
+          0.0,
+          33.2156982421875,
+          603.41845703125,
+          336.64691162109375
+        ],
+        "normalized_bbox": [
+          0.0,
+          0.041939,
+          0.985978,
+          0.425059
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "1698b30d41dae150e0eeba3e62aeaec0545fc4da287fd6b188c6a28206ea6821",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "Appendix montage; not needed as insert for core note.",
+        "failure_reason": "ambiguous_visual_body",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Architecture Ablation. Averaged success rates (%) on RoboTwin2.0-",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:model-4",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_013_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_013_fig_table_1.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_013_fig_table_1.png"
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Action learning requires access to",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:model-4",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_014_fig_table_2.png",
+      "relative_markdown_embed": "![Table 2](images/page_014_fig_table_2.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_014_fig_table_2.png"
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "The recipe accumulated by OpenWAM-Study. Each evidence-backed choice becomes the default for OpenWAM-α.",
+      "pages": [
+        16
+      ],
+      "section_id": "sec:model-4",
+      "decision": "insert",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_016_fig_table_3_review.png",
+      "relative_markdown_embed": "![Table 3](images/page_016_fig_table_3_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_016_fig_table_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "8549402eae5e2c6c9e217b61f131499048fcfe2ad30ba7b3dca99896a136eb99",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_016_fig_table_3_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_016.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 16,
+        "caption": "The recipe accumulated by OpenWAM-Study. Each evidence-backed choice becomes the default for OpenWAM-α.",
+        "bbox_pt": [
+          69.14099884033203,
+          629.8609008789062,
+          542.8590087890625,
+          729.35302734375
+        ],
+        "normalized_bbox": [
+          0.112975,
+          0.795279,
+          0.887025,
+          0.9209
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "8549402eae5e2c6c9e217b61f131499048fcfe2ad30ba7b3dca99896a136eb99",
+        "preserved_scientific_elements": [
+          "Inherit/Interact/Consolidate rows",
+          "carried-forward defaults"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Clean recipe summary table. Omitted from crop: external caption.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 4",
+      "source_id": "Table 4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "The OpenWAM-α pretraining data. #Emb. counts each source’s distinct embodiments. Task Coverage marks",
+      "pages": [
+        19
+      ],
+      "section_id": "sec:findings",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 5",
+      "source_id": "Table 5",
+      "kind": "table",
+      "label": "Table 5",
+      "caption": "Evaluation Results on LIBERO-Plus. Bold denotes best values, underline second best.",
+      "pages": [
+        22
+      ],
+      "section_id": "sec:findings",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_022_fig_table_5_review.png",
+      "relative_markdown_embed": "![Table 5](images/page_022_fig_table_5_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_022_fig_table_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "3c0eb81e50bcf8b0a1332fef40126d6465a7f2e45103e13cc94f301f1606489f",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_022_fig_table_5_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_022.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 22,
+        "caption": "Evaluation Results on LIBERO-Plus. Bold denotes best values, underline second best.",
+        "bbox_pt": [
+          64.86599731445312,
+          83.10680389404297,
+          547.1331787109375,
+          296.3922119140625
+        ],
+        "normalized_bbox": [
+          0.10599,
+          0.104933,
+          0.894008,
+          0.374233
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "3c0eb81e50bcf8b0a1332fef40126d6465a7f2e45103e13cc94f301f1606489f",
+        "preserved_scientific_elements": [
+          "LIBERO-Plus perturbation columns",
+          "VLA/WAM rows",
+          "OpenWAM-alpha Avg 69.2"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Clean LIBERO-Plus table; shows Camera/Noise weakness. Omitted from crop: external caption.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 6",
+      "source_id": "Table 6",
+      "kind": "table",
+      "label": "Table 6",
+      "caption": "Table 7, and Table 8 report the detailed scores of the single-arm, RoboDojo bimanual, and dexterous-",
+      "pages": [
+        25
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_025_fig_table_6_review.png",
+      "relative_markdown_embed": "![Table 6](images/page_025_fig_table_6_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_025_fig_table_6_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "91e4471da75863e398d73094b1802ff98fdf5838f1a777f82fff33d7d11a3311",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_025_fig_table_6_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_025.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 25,
+        "caption": "Table 7, and Table 8 report the detailed scores of the single-arm, RoboDojo bimanual, and dexterous-",
+        "bbox_pt": [
+          67.62596893310547,
+          523.9200439453125,
+          544.3714599609375,
+          587.4724731445312
+        ],
+        "normalized_bbox": [
+          0.1105,
+          0.661515,
+          0.889496,
+          0.741758
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "91e4471da75863e398d73094b1802ff98fdf5838f1a777f82fff33d7d11a3311",
+        "preserved_scientific_elements": [
+          "single-arm real tasks",
+          "success counts",
+          "Avg 82.5%"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Clean single-arm real-robot results. Omitted from crop: external caption.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 7",
+      "source_id": "Table 7",
+      "kind": "table",
+      "label": "Table 7",
+      "caption": "Evaluation Results on the Bimanual RoboDojo Real-World Track. Each cell reports Score / SR (%). Bold denotes",
+      "pages": [
+        26
+      ],
+      "section_id": "sec:evaluation-2",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_026_fig_table_7_review.png",
+      "relative_markdown_embed": "![Table 7](images/page_026_fig_table_7_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_026_fig_table_7_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "ed0c6453bd227440b0b05353ead5f22a4019da71d7df8f18f2d8f982982c1f46",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_026_fig_table_7_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_026.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 26,
+        "caption": "Evaluation Results on the Bimanual RoboDojo Real-World Track. Each cell reports Score / SR (%). Bold denotes",
+        "bbox_pt": [
+          68.197998046875,
+          74.54986572265625,
+          543.80322265625,
+          290.0420837402344
+        ],
+        "normalized_bbox": [
+          0.111435,
+          0.094129,
+          0.888567,
+          0.366215
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "ed0c6453bd227440b0b05353ead5f22a4019da71d7df8f18f2d8f982982c1f46",
+        "preserved_scientific_elements": [
+          "bimanual RoboDojo embodiments",
+          "Score/SR cells",
+          "overall avg"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Clean bimanual real-world track table. Omitted from crop: external caption.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 8",
+      "source_id": "Table 8",
+      "kind": "table",
+      "label": "Table 8",
+      "caption": "Evaluation Results on Dexterous-Hand Real-Robot Tasks. Each cell reports Score / SR (%); the OOD column",
+      "pages": [
+        26
+      ],
+      "section_id": "sec:evaluation-2",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_026_fig_table_8_review.png",
+      "relative_markdown_embed": "![Table 8](images/page_026_fig_table_8_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_026_fig_table_8_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "b0c578b0589f8a05343a28d2cd7a0c6dea60fb8de04839995a289ff3a22249e4",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_026_fig_table_8_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_026.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 26,
+        "caption": "Evaluation Results on Dexterous-Hand Real-Robot Tasks. Each cell reports Score / SR (%); the OOD column",
+        "bbox_pt": [
+          69.0035400390625,
+          325.34185791015625,
+          542.8311767578125,
+          464.0464172363281
+        ],
+        "normalized_bbox": [
+          0.112751,
+          0.410785,
+          0.886979,
+          0.585917
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "b0c578b0589f8a05343a28d2cd7a0c6dea60fb8de04839995a289ff3a22249e4",
+        "preserved_scientific_elements": [
+          "dexterous-hand ID/OOD columns",
+          "task rows"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Clean dexterous-hand real-robot table. Omitted from crop: external caption.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 9",
+      "source_id": "Table 9",
+      "kind": "table",
+      "label": "Table 9",
+      "caption": "Pretraining configuration for OpenWAM-α.",
+      "pages": [
+        34
+      ],
+      "section_id": "sec:appendix-2",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_034_fig_table_9.png",
+      "relative_markdown_embed": "![Table 9](images/page_034_fig_table_9.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_034_fig_table_9.png"
+    },
+    {
+      "item_id": "table:Table 10",
+      "source_id": "Table 10",
+      "kind": "table",
+      "label": "Table 10",
+      "caption": "Dataset-specific SFT configuration for OpenWAM-α. Settings not listed are identical to pretraining (Table 9); “–”",
+      "pages": [
+        34
+      ],
+      "section_id": "sec:appendix-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 11",
+      "source_id": "Table 11",
+      "kind": "table",
+      "label": "Table 11",
+      "caption": "Task instructions used in the single-arm real-robot evaluation.",
+      "pages": [
+        35
+      ],
+      "section_id": "sec:appendix-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 12",
+      "source_id": "Table 12",
+      "kind": "table",
+      "label": "Table 12",
+      "caption": "Task instructions used in the real-world evaluation.",
+      "pages": [
+        37
+      ],
+      "section_id": "sec:appendix-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 13",
+      "source_id": "Table 13",
+      "kind": "table",
+      "label": "Table 13",
+      "caption": "Evaluation Results on LIBERO. Bold denotes best values, underline second best.",
+      "pages": [
+        39
+      ],
+      "section_id": "sec:background-2",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_after_review",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_039_fig_table_13_review.png",
+      "relative_markdown_embed": "![Table 13](images/page_039_fig_table_13_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_039_fig_table_13_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "5e2ab152218b2b3f2e998f78690213c8b6cde7a33c9980f7a925223833057cf6",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_039_fig_table_13_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_039.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 39,
+        "caption": "Evaluation Results on LIBERO. Bold denotes best values, underline second best.",
+        "bbox_pt": [
+          126.70199584960938,
+          359.6609191894531,
+          485.2980041503906,
+          658.8878784179688
+        ],
+        "normalized_bbox": [
+          0.207029,
+          0.454117,
+          0.792971,
+          0.831929
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "5e2ab152218b2b3f2e998f78690213c8b6cde7a33c9980f7a925223833057cf6",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "Appendix detail table; core comparison covered elsewhere.",
+        "failure_reason": "ambiguous_visual_body",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 14",
+      "source_id": "Table 14",
+      "kind": "table",
+      "label": "Table 14",
+      "caption": "Evaluation Results on VLABench. Bold denotes best values, underline second best.",
+      "pages": [
+        40
+      ],
+      "section_id": "sec:background-2",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_after_review",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_040_fig_table_14_review.png",
+      "relative_markdown_embed": "![Table 14](images/page_040_fig_table_14_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_040_fig_table_14_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "3f701cdbef6e20286f1ef9293e37881aae3426f8c16d0eef242ded0513c04e46",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_040_fig_table_14_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_040.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 40,
+        "caption": "Evaluation Results on VLABench. Bold denotes best values, underline second best.",
+        "bbox_pt": [
+          67.35420227050781,
+          82.28258514404297,
+          544.6642456054688,
+          227.37742614746094
+        ],
+        "normalized_bbox": [
+          0.110056,
+          0.103892,
+          0.889974,
+          0.287093
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "3f701cdbef6e20286f1ef9293e37881aae3426f8c16d0eef242ded0513c04e46",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "Appendix detail table; core comparison covered elsewhere.",
+        "failure_reason": "ambiguous_visual_body",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 15",
+      "source_id": "Table 15",
+      "kind": "table",
+      "label": "Table 15",
+      "caption": "Evaluation Results on RoboTwin2.0-Clean2Random. Bold denotes best values, underline second best.",
+      "pages": [
+        40
+      ],
+      "section_id": "sec:background-2",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_after_review",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_040_fig_table_15_review.png",
+      "relative_markdown_embed": "![Table 15](images/page_040_fig_table_15_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_040_fig_table_15_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "d9e472254f9c01485992baa6a67bc262a8fc5cdb37532e7773f2abb3fc47d98a",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\images\\page_040_fig_table_15_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\OpenWAM_An_Open_Modular_Exploration_Towards_Systematic_World_Action_Model_Pretraining\\page_previews\\page_040.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "source_page": 40,
+        "caption": "Evaluation Results on RoboTwin2.0-Clean2Random. Bold denotes best values, underline second best.",
+        "bbox_pt": [
+          143.0800018310547,
+          269.034912109375,
+          468.9200134277344,
+          505.24786376953125
+        ],
+        "normalized_bbox": [
+          0.233791,
+          0.339691,
+          0.766209,
+          0.637939
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "d9e472254f9c01485992baa6a67bc262a8fc5cdb37532e7773f2abb3fc47d98a",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "Appendix detail table; core comparison covered elsewhere.",
+        "failure_reason": "ambiguous_visual_body",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 16",
+      "source_id": "Table 16",
+      "kind": "table",
+      "label": "Table 16",
+      "caption": "Evaluation Results on RoboTwin2.0-Full. Bold denotes best values, underline second best.",
+      "pages": [
+        41
+      ],
+      "section_id": "sec:background-2",
+      "decision": "placeholder",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result"
+    },
+    {
+      "item_id": "table:Table 17",
+      "source_id": "Table 17",
+      "kind": "table",
+      "label": "Table 17",
+      "caption": "Evaluation Results on RoboDojo. Bold denotes best values, underline second best.",
+      "pages": [
+        41
+      ],
+      "section_id": "sec:background-2",
+      "decision": "placeholder",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result"
+    },
+    {
+      "item_id": "table:Table 18",
+      "source_id": "Table 18",
+      "kind": "table",
+      "label": "Table 18",
+      "caption": "Evaluation Results on EBench. Bold denotes best values, underline second best.",
+      "pages": [
+        42
+      ],
+      "section_id": "sec:background-2",
+      "decision": "placeholder",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result"
+    },
+    {
+      "item_id": "table:Table 19",
+      "source_id": "Table 19",
+      "kind": "table",
+      "label": "Table 19",
+      "caption": "Evaluation Results on RoboCasa365. Bold denotes best values, underline second best.",
+      "pages": [
+        42
+      ],
+      "section_id": "sec:background-2",
+      "decision": "placeholder",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result"
+    },
+    {
+      "item_id": "table:Table 20",
+      "source_id": "Table 20",
+      "kind": "table",
+      "label": "Table 20",
+      "caption": "Evaluation Results on RoboCasa-GR1. Bold denotes best values, underline second best.",
+      "pages": [
+        43
+      ],
+      "section_id": "sec:background-2",
+      "decision": "placeholder",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result"
+    }
+  ],
+  "summary": {
+    "total_items": 41,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 17,
+      "placeholder": 5,
+      "review_pending": 15,
+      "skip": 0,
+      "visual_defect": 4
+    }
+  }
+}

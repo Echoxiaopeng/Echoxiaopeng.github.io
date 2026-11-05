@@ -1,0 +1,356 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "producer": "build_identity_contract.py",
+  "artifact_type": "canonical_identity",
+  "schema_version": 2,
+  "paper_id": "doi:10.1109/iccv51070.2023.01100",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "failure_summary": "",
+  "work_level_identity": {
+    "title": "Sigmoid Loss for Language Image Pre-Training",
+    "translated_title": "",
+    "authors": [
+      "Xiaohua Zhai",
+      "Basil Mustafa",
+      "А. И. Колесников",
+      "Lucas Beyer"
+    ],
+    "year": "2023",
+    "venue": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "doi": "10.1109/iccv51070.2023.01100",
+    "arxiv_id": "2303.15343",
+    "zotero_key": ""
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Sigmoid Loss for Language Image Pre-Training",
+    "year": "",
+    "venue": "",
+    "source_url": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.15343v4",
+    "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+    "doi": "",
+    "arxiv_id": "",
+    "zotero_key": ""
+  },
+  "accepted_metadata": {
+    "status": "ok",
+    "source_type": "local_pdf",
+    "source_url": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+    "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+    "title": "Sigmoid Loss for Language Image Pre-Training",
+    "metadata_sources": [
+      "local_pdf",
+      "openalex",
+      "crossref",
+      "arxiv"
+    ],
+    "local_pdf_title_source": "first_page_title_used",
+    "local_pdf_artifact_title": true,
+    "paper_id": "doi:10.1109/iccv51070.2023.01100",
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "first_page_title_used",
+      "local_pdf_artifact_title",
+      "doi_present",
+      "arxiv_id_present"
+    ],
+    "script": "resolve_paper.py",
+    "authors": [
+      "Xiaohua Zhai",
+      "Basil Mustafa",
+      "А. И. Колесников",
+      "Lucas Beyer"
+    ],
+    "affiliations": [
+      "Google (Switzerland)"
+    ],
+    "year": "2023",
+    "doi": "10.1109/iccv51070.2023.01100",
+    "source": "openalex",
+    "venue": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "published": "2023",
+    "url": "http://arxiv.org/abs/2303.15343v4",
+    "arxiv_id": "2303.15343",
+    "abstract": "We propose a simple pairwise Sigmoid loss for Language-Image Pre-training (SigLIP). Unlike standard contrastive learning with softmax normalization, the sigmoid loss operates solely on image-text pairs and does not require a global view of the pairwise similarities for normalization. The sigmoid loss simultaneously allows further scaling up the batch size, while also performing better at smaller batch sizes. Combined with Locked-image Tuning, with only four TPUv4 chips, we train a SigLiT model that achieves 84.5% ImageNet zero-shot accuracy in two days. The disentanglement of the batch size from the loss further allows us to study the impact of examples vs pairs and negative to positive ratio. Finally, we push the batch size to the extreme, up to one million, and find that the benefits of growing batch size quickly diminish, with a more reasonable batch size of 32k being sufficient. We release our models at https://github.com/google-research/big_vision and hope our research motivates further explorations in improving the quality and efficiency of language-image pre-training.",
+    "pdf_url": "https://arxiv.org/pdf/2303.15343v4"
+  },
+  "bound_sources": [
+    {
+      "kind": "local_pdf",
+      "value": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2303.15343v4",
+      "provider": "arxiv",
+      "binding_reason": "title_author_year"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2303.15343.pdf",
+      "provider": "arxiv",
+      "binding_reason": "accepted_identifier_derived"
+    }
+  ],
+  "accepted_observations": [
+    {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      },
+      "status": "accepted",
+      "reason": "title_author_year",
+      "record": {
+        "title": "Sigmoid Loss for Language Image Pre-Training",
+        "authors": [
+          "Xiaohua Zhai",
+          "Basil Mustafa",
+          "А. И. Колесников",
+          "Lucas Beyer"
+        ],
+        "affiliations": [
+          "Google (Switzerland)"
+        ],
+        "venue": "",
+        "year": "2023",
+        "doi": "10.1109/iccv51070.2023.01100",
+        "source": "openalex",
+        "source_type": "openalex",
+        "source_url": "https://doi.org/10.1109/iccv51070.2023.01100",
+        "pdf_url": "",
+        "abstract": "",
+        "metadata_sources": [
+          "openalex"
+        ]
+      }
+    },
+    {
+      "provider": "crossref",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      },
+      "status": "accepted",
+      "reason": "shared_identifier",
+      "record": {
+        "title": "Sigmoid Loss for Language Image Pre-Training",
+        "authors": [
+          "Xiaohua Zhai",
+          "Basil Mustafa",
+          "Alexander Kolesnikov",
+          "Lucas Beyer"
+        ],
+        "affiliations": [
+          "Google DeepMind,Z&#x00FC;rich,Switzerland"
+        ],
+        "venue": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+        "doi": "10.1109/iccv51070.2023.01100",
+        "source": "crossref",
+        "source_type": "crossref",
+        "source_url": "https://doi.org/10.1109/iccv51070.2023.01100",
+        "year": "2023",
+        "published": "2023",
+        "abstract": "",
+        "metadata_sources": [
+          "crossref"
+        ]
+      }
+    },
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      },
+      "status": "accepted",
+      "reason": "title_author_year",
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2303.15343v4",
+        "url": "http://arxiv.org/abs/2303.15343v4",
+        "arxiv_id": "2303.15343",
+        "title": "Sigmoid Loss for Language Image Pre-Training",
+        "abstract": "We propose a simple pairwise Sigmoid loss for Language-Image Pre-training (SigLIP). Unlike standard contrastive learning with softmax normalization, the sigmoid loss operates solely on image-text pairs and does not require a global view of the pairwise similarities for normalization. The sigmoid loss simultaneously allows further scaling up the batch size, while also performing better at smaller batch sizes. Combined with Locked-image Tuning, with only four TPUv4 chips, we train a SigLiT model that achieves 84.5% ImageNet zero-shot accuracy in two days. The disentanglement of the batch size from the loss further allows us to study the impact of examples vs pairs and negative to positive ratio. Finally, we push the batch size to the extreme, up to one million, and find that the benefits of growing batch size quickly diminish, with a more reasonable batch size of 32k being sufficient. We release our models at https://github.com/google-research/big_vision and hope our research motivates further explorations in improving the quality and efficiency of language-image pre-training.",
+        "authors": [
+          "Xiaohua Zhai",
+          "Basil Mustafa",
+          "Alexander Kolesnikov",
+          "Lucas Beyer"
+        ],
+        "published": "2023-03-27T15:53:01Z",
+        "year": "2023",
+        "pdf_url": "https://arxiv.org/pdf/2303.15343v4"
+      }
+    }
+  ],
+  "rejected_observations": [],
+  "field_provenance": {
+    "title": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "title:c7388bfcd370"
+      }
+    },
+    "source_url": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "title:c7388bfcd370"
+      }
+    },
+    "local_pdf_path": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "title:c7388bfcd370"
+      }
+    },
+    "authors": {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      }
+    },
+    "affiliations": {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      }
+    },
+    "year": {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      }
+    },
+    "doi": {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      }
+    },
+    "venue": {
+      "provider": "crossref",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      }
+    },
+    "arxiv_id": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      }
+    },
+    "abstract": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      }
+    },
+    "pdf_url": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training"
+      }
+    }
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "doi",
+      "value": "10.1109/iccv51070.2023.01100",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "arxiv_id",
+      "value": "2303.15343",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "Sigmoid Loss for Language Image Pre-Training",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "trusted_source_path",
+      "value": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+      "trust": "strong",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2303.15343v4",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "minor_title_variation_only",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "title_similarity",
+        "status": "match",
+        "score": 1.0,
+        "source_value": "Sigmoid Loss for Language Image Pre-Training",
+        "work_value": "Sigmoid Loss for Language Image Pre-Training"
+      }
+    ]
+  },
+  "warnings": [],
+  "repair_trace_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\SigLIP_identity_repair_trace.json",
+  "provenance": {
+    "resolve_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\SigLIP_resolve.json",
+    "metadata_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\SigLIP_metadata.json"
+  },
+  "diagnostics": {
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "first_page_title_used",
+      "local_pdf_artifact_title",
+      "doi_present",
+      "arxiv_id_present"
+    ]
+  }
+}

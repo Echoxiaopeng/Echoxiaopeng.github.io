@@ -1,0 +1,2489 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.1109/iccv51070.2023.01100",
+  "figure_plan": {
+    "paper_id": "doi:10.1109/iccv51070.2023.01100",
+    "figures": [
+      {
+        "id": "Algorithm 1",
+        "caption": "Sigmoid loss pseudo-implementation.",
+        "kind": "method_detail",
+        "section": "方法主线",
+        "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+        "priority": 2,
+        "anchor_text": "方法主线",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_algorithm_1.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_fig_algorithm_1.png",
+          "width": 816,
+          "height": 97,
+          "size_bytes": 558,
+          "label": "Algorithm 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "low_visual_body_ratio"
+            ],
+            "page_coverage_ratio": 0.092181,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 47,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "algorithm 1",
+              "sigmoid",
+              "loss",
+              "pseudo-implementation"
+            ],
+            "snippet": "mVLM [50], and LEMON [21] suc- cessfully pre-train models using a generative text decoder Algorithm 1 Sigmoid loss pseudo-implementation. 1 # img_emb : image model embedding [n, dim] 2 # txt_",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_algorithm_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_fig_algorithm_1.png",
+                "width": 816,
+                "height": 97,
+                "size_bytes": 558,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092181,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 7,
+            "matched_terms": [
+              "algorithm 1",
+              "sigmoid",
+              "loss"
+            ],
+            "snippet": "training starts roughly close to the prior and does not require massive over-correction. Algorithm 1 presents a pseudocode implementation of the proposed sigmoid loss for language image pre-",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_003_fig_figure_1.png",
+                "width": 667,
+                "height": 245,
+                "size_bytes": 42415,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.190009,
+                  "visual_rect_count": 72,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 747,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 236,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "sigmoid",
+              "loss"
+            ],
+            "snippet": "Sigmoid Loss for Language Image Pre-Training Xiaohua Zhai⋆ Basil Mustafa Alexander Kolesnikov Luc",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_02.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_table_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1.png",
+                "width": 331,
+                "height": 144,
+                "size_bytes": 10799,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055605,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.007793,
+                  "paragraph_text_chars": 86,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 674,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 1",
+        "caption": "Efficient loss implementation demonstrated via a mock setup with 3 devices and a global batch size of 12. There",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_figure_1.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_003_fig_figure_1.png",
+          "width": 667,
+          "height": 245,
+          "size_bytes": 42415,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.190009,
+            "visual_rect_count": 72,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 747,
+            "table_body_rows": 0,
+            "caption_text_chars": 236,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "figure 1",
+              "loss",
+              "implementation",
+              "demonstrated",
+              "mock"
+            ],
+            "snippet": "ice 1 has the loss of I1:4 and T1:12. A ﬁnal cross-device sum brings everything together. Figure 1: Efﬁcient loss implementation demonstrated via a mock setup with 3 devices and a global b",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_003_fig_figure_1.png",
+                "width": 667,
+                "height": 245,
+                "size_bytes": 42415,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.190009,
+                  "visual_rect_count": 72,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 747,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 236,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "loss",
+              "implementation"
+            ],
+            "snippet": "Sigmoid Loss for Language Image Pre-Training Xiaohua Zhai⋆ Basil Mustafa Alexander Kolesnikov Lucas Be",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_02.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_table_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1.png",
+                "width": 331,
+                "height": 144,
+                "size_bytes": 10799,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055605,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.007793,
+                  "paragraph_text_chars": 86,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 674,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 2,
+            "matched_terms": [
+              "loss",
+              "implementation"
+            ],
+            "snippet": "ge pre- training (SigLIP) and sigmoid LiT (SigLiT), respectively. We ﬁnd that the sigmoid loss performs signiﬁcantly better than the softmax loss when the batch size is smaller than 16",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_algorithm_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_fig_algorithm_1.png",
+                "width": 816,
+                "height": 97,
+                "size_bytes": 558,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092181,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "The effect of pre-training batch size. Left: SigLiT results, trained for 18B seen examples. Sigmoid loss outper-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_figure_2.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_004_fig_figure_2.png",
+          "width": 651,
+          "height": 215,
+          "size_bytes": 30213,
+          "label": "Figure 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.162901,
+            "visual_rect_count": 9,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 900,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "figure 2",
+              "effect",
+              "pre-training",
+              "batch",
+              "size",
+              "left"
+            ],
+            "snippet": "Softmax 16 32 65 131 245 Batch Size (k) 30 31 32 33 34 35 36 XM T→I 36 lang. avg. mSigLIP Figure 2: The effect of pre-training batch size. Left: SigLiT results, trained for 18B seen exampl",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_004_fig_figure_2.png",
+                "width": 651,
+                "height": 215,
+                "size_bytes": 30213,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.162901,
+                  "visual_rect_count": 9,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 900,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "figure 2",
+              "pre-training",
+              "batch",
+              "size"
+            ],
+            "snippet": "er [27] trained on the English C4 dataset [37], and a maximum of 16 text tokens are kept. Figure 2 middle plot shows SigLIP results, With less than 32 k batch size, SigLIP outperforms CLIP",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_005_fig_table_2.png",
+                "width": 319,
+                "height": 167,
+                "size_bytes": 10170,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.062202,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 149,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 325,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "figure 2",
+              "effect",
+              "pre-training",
+              "batch",
+              "size"
+            ],
+            "snippet": "IP models for various batch sizes, for a total of 30 billion ex- amples seen. Table 2 and Figure 2 (right plot) show the results. We were expecting a large batch size to improve multilingu",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_006_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_006_fig_figure_5.png",
+                "width": 657,
+                "height": 301,
+                "size_bytes": 54319,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.23012,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 411,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "SigLiT ImageNet 0-shot transfer results with",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "figure 3",
+              "siglit",
+              "imagenet",
+              "shot",
+              "transfer"
+            ],
+            "snippet": "18'000 Examples Seen [M] 78 79 80 81 82 83 84 85 ImageNet 0-shot 8k 262k Sigmoid Softmax Figure 3: SigLiT ImageNet 0-shot transfer results with different training durations. Large batch s",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_005_fig_table_2.png",
+                "width": 319,
+                "height": 167,
+                "size_bytes": 10170,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.062202,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 149,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 325,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "siglit",
+              "imagenet",
+              "shot"
+            ],
+            "snippet": "er batch sizes. Combined with Locked-image Tuning, with only four TPUv4 chips, we train a SigLiT model that achieves 84.5% ImageNet zero-shot accuracy in two days. The disentanglement of",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_02.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_table_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1.png",
+                "width": 331,
+                "height": 144,
+                "size_bytes": 10799,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055605,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.007793,
+                  "paragraph_text_chars": 86,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 674,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "siglit",
+              "imagenet",
+              "shot",
+              "transfer"
+            ],
+            "snippet": "nd LiT [59], which we call sigmoid language image pre- training (SigLIP) and sigmoid LiT (SigLiT), respectively. We ﬁnd that the sigmoid loss performs signiﬁcantly better than the softma",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_algorithm_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_fig_algorithm_1.png",
+                "width": 816,
+                "height": 97,
+                "size_bytes": 558,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092181,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Image-to-text and text-to-image zero-shot retrieval recall@1 results on all 36 languages of Crossmodal-3600.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_015_fig_figure_8.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_figure_8.png",
+          "width": 662,
+          "height": 356,
+          "size_bytes": 36978,
+          "label": "Figure 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.274352,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.840385,
+            "paragraph_text_chars": 234,
+            "table_body_rows": 0,
+            "caption_text_chars": 253,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "figure 8",
+              "image-to-text",
+              "zero-shot",
+              "retrieval",
+              "recall"
+            ],
+            "snippet": "ng 42.96% image retrieval recall@1. Detailed results are provided in Appendix Table 9 and Figure 8, denoted as *32 k. 4.7. Stabilizing large-batch training As we move to large batch sizes,",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_fig_figure_6.png",
+                "width": 659,
+                "height": 232,
+                "size_bytes": 37119,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.178216,
+                  "visual_rect_count": 15,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 660,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_table_3.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_fig_table_3.png",
+                "width": 670,
+                "height": 145,
+                "size_bytes": 36248,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected",
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.112873,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.002559,
+                  "paragraph_text_chars": 1128,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 223,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 15,
+            "score": 8,
+            "matched_terms": [
+              "figure 8",
+              "image-to-text",
+              "text-to-image",
+              "zero-shot",
+              "retrieval",
+              "recall"
+            ],
+            "snippet": "sv sw te th tr uk vi zh avg 0.0 0.1 0.2 0.3 0.4 0.5 0.6 16 k 32 k 64 k 128 k 240 k *32 k Figure 8: Image-to-text and text-to-image zero-shot retrieval recall@1 results on all 36 languages",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_015_fig_table_8.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_table_8.png",
+                "width": 549,
+                "height": 233,
+                "size_bytes": 20619,
+                "label": "Table 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.149071,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 460,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 267,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_015_fig_figure_8.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_figure_8.png",
+                "width": 662,
+                "height": 356,
+                "size_bytes": 36978,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.274352,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.840385,
+                  "paragraph_text_chars": 234,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 253,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 14,
+            "score": 7,
+            "matched_terms": [
+              "figure 8",
+              "zero-shot",
+              "retrieval"
+            ],
+            "snippet": "odal retrieval re- sults on the Crossmodal-3600 dataset, across all the 36 lan- gauges in Figure 8 and Table 9. Loss Optimizer Results (%) Softmax ViT-Adafactor 69.9 ± 0.1 Sigmoid ViT-Adaf",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_table_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6.png",
+                "width": 331,
+                "height": 86,
+                "size_bytes": 5623,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.033328,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 84,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 232,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_014_fig_table_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5.png",
+                "width": 314,
+                "height": 201,
+                "size_bytes": 12899,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.07371,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 190,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 533,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "SigLiT and SigLIP results. Sigmoid loss is mem-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_001_fig_table_1.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1.png",
+          "width": 331,
+          "height": 144,
+          "size_bytes": 10799,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.055605,
+            "visual_rect_count": 3,
+            "visual_body_ratio": 0.007793,
+            "paragraph_text_chars": 86,
+            "table_body_rows": 6,
+            "caption_text_chars": 674,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "siglit",
+              "siglip",
+              "sigmoid",
+              "loss",
+              "mem-"
+            ],
+            "snippet": "verages the image-text contrastive objective. It aligns the image and ⋆equal contribution Table 1: SigLiT and SigLIP results. Sigmoid loss is mem- ory efﬁcient, allows larger batch sizes",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_02.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_table_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1.png",
+                "width": 331,
+                "height": 144,
+                "size_bytes": 10799,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055605,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.007793,
+                  "paragraph_text_chars": 86,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 674,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "siglit",
+              "siglip",
+              "sigmoid",
+              "loss"
+            ],
+            "snippet": "ng. This conclusion also holds for multilingual SigLIP training on over 100 languages. In Table 1, we present setups for image-text pre-training that require a moderate amount of TPUv4 ch",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_algorithm_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_fig_algorithm_1.png",
+                "width": 816,
+                "height": 97,
+                "size_bytes": 558,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092181,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "siglit",
+              "siglip",
+              "sigmoid",
+              "loss"
+            ],
+            "snippet": "f 65 000 steps with a batch size of 32k – this leads to just under one day of train- ing. Table 1 shows the results when training a model on four chips for one day, achieving 79.7% 0-shot",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_006_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_006_fig_figure_5.png",
+                "width": 657,
+                "height": 301,
+                "size_bytes": 54319,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.23012,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 411,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Multilingual SigLIP results with various batch",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_table_2.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_005_fig_table_2.png",
+          "width": 319,
+          "height": 167,
+          "size_bytes": 10170,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.062202,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 149,
+            "table_body_rows": 8,
+            "caption_text_chars": 325,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "multilingual",
+              "siglip",
+              "various",
+              "batch"
+            ],
+            "snippet": "6 XM hi 9.1 8.5 7.9 8.1 7.3 XM ru 50.1 49.9 49.7 48.6 49.3 XM zh 30.7 32.5 32.0 30.6 23.7 Table 2: Multilingual SigLIP results with various batch sizes, pre-trained for 30 billion seen ex",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_005_fig_table_2.png",
+                "width": 319,
+                "height": 167,
+                "size_bytes": 10170,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.062202,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 149,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 325,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "multilingual",
+              "siglip",
+              "various",
+              "batch"
+            ],
+            "snippet": "train mSigLIP models for various batch sizes, for a total of 30 billion ex- amples seen. Table 2 and Figure 2 (right plot) show the results. We were expecting a large batch size to impro",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_006_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_006_fig_figure_5.png",
+                "width": 657,
+                "height": 301,
+                "size_bytes": 54319,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.23012,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 411,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "multilingual",
+              "siglip",
+              "various",
+              "batch"
+            ],
+            "snippet": "ize, i.e. 32 k, is sufﬁcient for image-text pre- training. This conclusion also holds for multilingual SigLIP training on over 100 languages. In Table 1, we present setups for image-text pre-t",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_algorithm_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_fig_algorithm_1.png",
+                "width": 816,
+                "height": 97,
+                "size_bytes": 558,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092181,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Comparison with other publicly released models. Our SigLIP models outperform all prior models, e.g. Open-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_table_3.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_fig_table_3.png",
+          "width": 670,
+          "height": 145,
+          "size_bytes": 36248,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_body_missing",
+              "caption_only_suspected",
+              "table_text_contamination_suspected"
+            ],
+            "page_coverage_ratio": 0.112873,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.002559,
+            "paragraph_text_chars": 1128,
+            "table_body_rows": 0,
+            "caption_text_chars": 223,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "comparison",
+              "other",
+              "publicly",
+              "released",
+              "models"
+            ],
+            "snippet": "E (5B) 256 82.0 75.7 - 79.6 68.8 51.1 SigLIP SO (400M) 729 83.2 77.2 87.5 82.9 70.2 52.0 Table 3: Comparison with other publicly released models. Our SigLIP models outperform all prior m",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_3.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_008_fig_table_3.png",
+                "width": 659,
+                "height": 424,
+                "size_bytes": 63410,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.325189,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 856,
+                  "table_body_rows": 22,
+                  "caption_text_chars": 583,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 6,
+            "matched_terms": [
+              "table 3",
+              "models"
+            ],
+            "snippet": "is section, we scale up SigLIP by “overtraining” the model [45, 1]. We present results in Table 3 using ViT-B, ViT-L or So-400m [1] as the vision encoder, with a text en- coder of the sam",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_fig_figure_6.png",
+                "width": 659,
+                "height": 232,
+                "size_bytes": 37119,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.178216,
+                  "visual_rect_count": 15,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 660,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_table_3.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_fig_table_3.png",
+                "width": 670,
+                "height": 145,
+                "size_bytes": 36248,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected",
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.112873,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.002559,
+                  "paragraph_text_chars": 1128,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 223,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "other",
+              "publicly",
+              "models"
+            ],
+            "snippet": "by subtracting the maximum input value before applying the softmax [18], which requires another pass over the full batch. In this paper, we propose a simpler alternative: the sig- moid",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_02.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_table_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1.png",
+                "width": 331,
+                "height": 144,
+                "size_bytes": 10799,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055605,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.007793,
+                  "paragraph_text_chars": 86,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 674,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Bias (b) and temperature (t′) initialization. Re-",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_table_4.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_009_fig_table_4.png",
+          "width": 299,
+          "height": 122,
+          "size_bytes": 7689,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.042713,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 123,
+            "table_body_rows": 6,
+            "caption_text_chars": 225,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "bias",
+              "temperature",
+              "initialization"
+            ],
+            "snippet": "transfer results are reported on ImageNet [14], Oxford-iiit pet [34] and Ci- far100 [26]. Table 4 presents results with and without a bias term in the sigmoid loss. Table 4: Bias (b) and",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_figure_7.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_009_fig_figure_7.png",
+                "width": 664,
+                "height": 163,
+                "size_bytes": 24313,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.125896,
+                  "visual_rect_count": 16,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 326,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_009_fig_table_4.png",
+                "width": 299,
+                "height": 122,
+                "size_bytes": 7689,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.042713,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 123,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 225,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 2,
+            "matched_terms": [
+              "bias",
+              "temperature"
+            ],
+            "snippet": "m] 2 # txt_emb : text model embedding [n, dim] 3 # t_prime, b : learnable temperature and bias 4 # n : mini-batch size 5 6 t = exp(t_prime) 7 zimg = l2_normalize(img_emb) 8 ztxt = l2_n",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_algorithm_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_fig_algorithm_1.png",
+                "width": 816,
+                "height": 97,
+                "size_bytes": 558,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092181,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "bias",
+              "temperature"
+            ],
+            "snippet": "ominates the loss, leading to large initial optimization steps attempting to correct this bias. To alleviate this, we introduce an additional learnable bias term b similar to the tempe",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_003_fig_figure_1.png",
+                "width": 667,
+                "height": 245,
+                "size_bytes": 42415,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.190009,
+                  "visual_rect_count": 72,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 747,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 236,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 5",
+        "caption": "SigLIP zeor-shot accuracy (%) on the ImageNet",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_014_fig_table_5.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5.png",
+          "width": 314,
+          "height": 201,
+          "size_bytes": 12899,
+          "label": "Table 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.07371,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 190,
+            "table_body_rows": 11,
+            "caption_text_chars": 533,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "table 5",
+              "siglip",
+              "zeor-shot",
+              "accuracy",
+              "imagenet"
+            ],
+            "snippet": "then cosine decayed to zero for the remaining 58.5 k steps. B. More results for SigLIP In Table 5, we present more results for SigLIP Base with multiple train examples seen: 3 billion exa",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_table_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6.png",
+                "width": 331,
+                "height": 86,
+                "size_bytes": 5623,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.033328,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 84,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 232,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_014_fig_table_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5.png",
+                "width": 314,
+                "height": 201,
+                "size_bytes": 12899,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.07371,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 190,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 533,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "siglip",
+              "accuracy",
+              "imagenet"
+            ],
+            "snippet": "e.com Abstract We propose a simple pairwise Sigmoid loss for Language-Image Pre-training (SigLIP). Unlike standard contrastive learning with softmax normalization, the sig- moid loss ope",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_02.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_table_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1.png",
+                "width": 331,
+                "height": 144,
+                "size_bytes": 10799,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055605,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.007793,
+                  "paragraph_text_chars": 86,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 674,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "siglip",
+              "accuracy",
+              "imagenet"
+            ],
+            "snippet": "ext learning: CLIP [36] and LiT [59], which we call sigmoid language image pre- training (SigLIP) and sigmoid LiT (SigLiT), respectively. We ﬁnd that the sigmoid loss performs signiﬁcant",
+            "images": [
+              {
+                "filename": "page_002_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_algorithm_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_fig_algorithm_1.png",
+                "width": 816,
+                "height": 97,
+                "size_bytes": 558,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092181,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 6",
+        "caption": "Default hyperparameters across different batch",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_014_fig_table_6.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6.png",
+          "width": 331,
+          "height": 86,
+          "size_bytes": 5623,
+          "label": "Table 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.033328,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 84,
+            "table_body_rows": 4,
+            "caption_text_chars": 232,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "table 6",
+              "default",
+              "hyperparameters",
+              "across",
+              "different",
+              "batch"
+            ],
+            "snippet": "t WD 8 k 70.1 70.1 0.001 0.0001 16 k 70.0 70.0 0.001 0.0001 32 k 68.2 69.0 0.0003 0.00003 Table 6: Default hyperparameters across different batch sizes, perform either the best or close t",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_table_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6.png",
+                "width": 331,
+                "height": 86,
+                "size_bytes": 5623,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.033328,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 84,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 232,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_014_fig_table_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5.png",
+                "width": 314,
+                "height": 201,
+                "size_bytes": 12899,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.07371,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 190,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 533,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "default",
+              "across",
+              "batch"
+            ],
+            "snippet": "6 languages on the XM3600 dataset [44]. We use the ScalingViT-Adafactor optimizer [58] by default for all our experiments. 4.1. SigLiT: Scaling batch size to the limit Following [59], we",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_004_fig_figure_2.png",
+                "width": 651,
+                "height": 215,
+                "size_bytes": 30213,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.162901,
+                  "visual_rect_count": 9,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 900,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "across",
+              "different",
+              "batch"
+            ],
+            "snippet": "shot transfer results on ImageNet (INet-0) and aver- aged text to image retrieval results across 36 languages on the crossmodal 3600 dataset (XM). The full table on 36 lan- guages can be",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_005_fig_table_2.png",
+                "width": 319,
+                "height": 167,
+                "size_bytes": 10170,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.062202,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 149,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 325,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 7",
+        "caption": "Mean and standard deviation of five repeated ex-",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "table 7",
+              "mean",
+              "standard",
+              "deviation",
+              "repeated"
+            ],
+            "snippet": "ing the recommended 32k batch size and 3B seen examples. We report the average and std in Table 7. The std of the ﬁve runs is very small for both sigmoid and softmax. Alternative optimize",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_table_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6.png",
+                "width": 331,
+                "height": 86,
+                "size_bytes": 5623,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.033328,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 84,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 232,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_014_fig_table_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5.png",
+                "width": 314,
+                "height": 201,
+                "size_bytes": 12899,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.07371,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 190,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 533,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "standard"
+            ],
+            "snippet": "e propose a simple pairwise Sigmoid loss for Language-Image Pre-training (SigLIP). Unlike standard contrastive learning with softmax normalization, the sig- moid loss operates solely on im",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_02.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_table_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1.png",
+                "width": 331,
+                "height": 144,
+                "size_bytes": 10799,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055605,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.007793,
+                  "paragraph_text_chars": 86,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 674,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 1,
+            "matched_terms": [
+              "standard"
+            ],
+            "snippet": "every image-text pair independently, effectively turn- ing the learning problem into the standard binary classiﬁca- tion on the dataset of all pair combinations, with a positive labels fo",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_003_fig_figure_1.png",
+                "width": 667,
+                "height": 245,
+                "size_bytes": 42415,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.190009,
+                  "visual_rect_count": 72,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 747,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 236,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Table 8",
+        "caption": "SigLiT zero-shot accuracy (%) on the ImageNet benchmark. Both the sigmoid loss and the softmax loss",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_015_fig_table_8.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_table_8.png",
+          "width": 549,
+          "height": 233,
+          "size_bytes": 20619,
+          "label": "Table 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.149071,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 460,
+            "table_body_rows": 13,
+            "caption_text_chars": 267,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "table 8",
+              "siglit",
+              "zero-shot",
+              "accuracy",
+              "imagenet",
+              "benchmark"
+            ],
+            "snippet": "er [27] trained on the English C4 dataset [37], and a maximum of 16 text tokens are kept. Table 8 shows results with multiple train examples seen and batch sizes, for both the sigmoid los",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_table_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6.png",
+                "width": 331,
+                "height": 86,
+                "size_bytes": 5623,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.033328,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 84,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 232,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_014_fig_table_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5.png",
+                "width": 314,
+                "height": 201,
+                "size_bytes": 12899,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.07371,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 190,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 533,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 15,
+            "score": 8,
+            "matched_terms": [
+              "table 8",
+              "siglit",
+              "zero-shot",
+              "accuracy",
+              "imagenet",
+              "benchmark"
+            ],
+            "snippet": ".2 84.4 84.7 84.6 256 k 72.8 72.2 82.1 81.7 84.3 84.2 84.7 84.6 1024 k - - - - - - 84.7 - Table 8: SigLiT zero-shot accuracy (%) on the ImageNet benchmark. Both the sigmoid loss and the s",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_015_fig_table_8.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_table_8.png",
+                "width": 549,
+                "height": 233,
+                "size_bytes": 20619,
+                "label": "Table 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.149071,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 460,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 267,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_015_fig_figure_8.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_figure_8.png",
+                "width": 662,
+                "height": 356,
+                "size_bytes": 36978,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.274352,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.840385,
+                  "paragraph_text_chars": 234,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 253,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "siglit",
+              "zero-shot",
+              "accuracy",
+              "imagenet"
+            ],
+            "snippet": "er batch sizes. Combined with Locked-image Tuning, with only four TPUv4 chips, we train a SigLiT model that achieves 84.5% ImageNet zero-shot accuracy in two days. The disentanglement of",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5423
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_img_02.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_table_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1.png",
+                "width": 331,
+                "height": 144,
+                "size_bytes": 10799,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055605,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.007793,
+                  "paragraph_text_chars": 86,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 674,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 9",
+        "caption": "Image-to-text (text retrieval) and text-to-image (image retrieval) zero-shot recall@1 results on all 36 languages",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_016_fig_table_9.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_016_fig_table_9.png",
+          "width": 574,
+          "height": 654,
+          "size_bytes": 81630,
+          "label": "Table 9",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.436748,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 2217,
+            "table_body_rows": 38,
+            "caption_text_chars": 293,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "table 9",
+              "image-to-text",
+              "text",
+              "retrieval",
+              "image"
+            ],
+            "snippet": "n [48] getting 42.96% image retrieval recall@1. Detailed results are provided in Appendix Table 9 and Figure 8, denoted as *32 k. 4.7. Stabilizing large-batch training As we move to large",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_img_01.png",
+                "width": 256,
+                "height": 256,
+                "size_bytes": 5318
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_fig_figure_6.png",
+                "width": 659,
+                "height": 232,
+                "size_bytes": 37119,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.178216,
+                  "visual_rect_count": 15,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 660,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_table_3.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_fig_table_3.png",
+                "width": 670,
+                "height": 145,
+                "size_bytes": 36248,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected",
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.112873,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.002559,
+                  "paragraph_text_chars": 1128,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 223,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "table 9",
+              "text",
+              "retrieval",
+              "image"
+            ],
+            "snippet": "l re- sults on the Crossmodal-3600 dataset, across all the 36 lan- gauges in Figure 8 and Table 9. Loss Optimizer Results (%) Softmax ViT-Adafactor 69.9 ± 0.1 Sigmoid ViT-Adafactor 70.1 ±",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_table_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6.png",
+                "width": 331,
+                "height": 86,
+                "size_bytes": 5623,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.033328,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 84,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 232,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_014_fig_table_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5.png",
+                "width": 314,
+                "height": 201,
+                "size_bytes": 12899,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.07371,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 190,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 533,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 16,
+            "score": 8,
+            "matched_terms": [
+              "table 9",
+              "image-to-text",
+              "text",
+              "retrieval",
+              "text-to-image",
+              "image"
+            ],
+            "snippet": "32.5 32.0 30.6 23.7 46.8 avg 47.2 47.4 47.1 46.3 45.0 54.1 34.8 34.9 34.4 33.6 32.7 42.6 Table 9: Image-to-text (text retrieval) and text-to-image (image retrieval) zero-shot recall@1 re",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_016_fig_table_9.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_016_fig_table_9.png",
+                "width": 574,
+                "height": 654,
+                "size_bytes": 81630,
+                "label": "Table 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.436748,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 2217,
+                  "table_body_rows": 38,
+                  "caption_text_chars": 293,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

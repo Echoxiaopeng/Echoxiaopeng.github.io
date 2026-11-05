@@ -1,0 +1,383 @@
+{
+  "paper_type": "AI_method",
+  "paper_type_rationale": "论文主体是把 World-Action Model 的设计空间模块化，并用受控消融蒸馏出可复现的预训练配方，再实例化为 OpenWAM-α；基础设施与评测是支撑方法的基板，而非独立 benchmark 论文。",
+  "dominant_domain": "robotics_embodied_ai",
+  "must_cover": [
+    "OpenWAM-Infra 的 E/S/M 组合与三类架构族",
+    "联合 flow matching 目标与 (tv, ta) 噪声平面",
+    "OpenWAM-Study 的三条原则：Inherit / Interact / Consolidate",
+    "OpenWAM-α 双系统联合自注意力、mutual mask、同步去噪、80D 统一动作空间",
+    "约 6400 小时 ego+robot 共训数据配方",
+    "八仿真基准与三类真机结果，以及 LIBERO-Plus / OOD 弱项机制解释",
+    "VLA 与 WAM 在 ID/OOD 上的互补优劣"
+  ],
+  "key_numbers": [
+    "预训练 518.5M frames / 6369 hours；ego 30.1%，真实机器人约 40%，仿真 InternData-A1 30%",
+    "骨干对比 RoboTwin2.0-Full：1.3B 90.14 → 5B 92.39 → 14B 93.79；默认选 Wan2.2-TI2V-5B",
+    "架构消融 Dual Joint Self-Attn Avg 92.36；Tri 92.60；Single Vanilla 85.50",
+    "信息流：Isolated 87.41 vs Action Sees Video 92.39 / Mutual 92.15",
+    "预训 OOD：scratch 14.50 → ego+robot cotrain 26.62（+12.12）",
+    "仿真：LIBERO 99.3；RoboTwin Full 93.60；EBench 49.4 SOTA；LIBERO-Plus 69.2（Camera 33.8 / Noise 39.8）",
+    "真机单臂 Avg 82.5%；RoboDojo 实机 Overall 37.6/24.4；同步推理约 170ms/chunk on RTX 5090"
+  ],
+  "real_comparisons": [
+    "与 π0.5、Qwen-RobotManip、StarVLA、Fast-WAM、LingBot-VA、Being-H0.7、X-VLA 等在八仿真基准对比",
+    "Study 内单变量消融：骨干规模、视觉表征、架构容量、mask、去噪日程、预训数据混合",
+    "真机对比 π0.5 与 LingBot-VA（单臂）及多政策 RoboDojo 实机榜"
+  ],
+  "central_claims": [
+    {
+      "claim": "上游世界知识主要通过足够强的视频生成骨干与紧凑、信息丰富的视觉潜空间继承。",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:model-4"
+        },
+        {
+          "pages": [
+            11,
+            12
+          ]
+        }
+      ],
+      "what_it_actually_proves": "在 Dual-System + RoboTwin2.0-Full 固定协议下，更大/更匹配的生成骨干与紧凑潜空间提升平均成功率；表征编码器加 S-VAE 可接近 Wan-VAE。",
+      "what_it_does_not_prove": "参数量是唯一因果因素；也不证明任何骨干在所有 embodiment 上最优。"
+    },
+    {
+      "claim": "世界-动作协同需要专用动作容量、训练期显式 world→action 信息流，以及推理期同步联合去噪。",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:model-4"
+        },
+        {
+          "pages": [
+            13,
+            14
+          ]
+        }
+      ],
+      "what_it_actually_proves": "Dual/Tri joint self-attn 显著优于 Single；无 world→action 的 mask 掉约 5 点；异步日程均不优于 Sync。",
+      "what_it_does_not_prove": "Tri-System 一定值得部署复杂度；异步日程在所有任务上都无用。"
+    },
+    {
+      "claim": "具身预训主要提升 OOD 泛化；ego+robot 单阶段共训是实用默认，预训后 mutual visibility 更优。",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:model-4"
+        },
+        {
+          "section_id": "sec:findings"
+        },
+        {
+          "pages": [
+            15,
+            16
+          ]
+        }
+      ],
+      "what_it_actually_proves": "600h 预算下预训对 Clean2Random OOD 增益远大于 ID；共训略优于或持平两阶段，且预训后 Mutual 反超单向。",
+      "what_it_does_not_prove": "任意规模数据混合比例都最优；也不证明预训总能弥补单臂数据缺口。"
+    },
+    {
+      "claim": "按上述配方缩放的 OpenWAM-α 在多数仿真与真机设定上进入第一梯队，但在强视觉扰动 OOD（尤其 Camera/Noise）上仍弱于顶级 VLA。",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:findings"
+        },
+        {
+          "section_id": "sec:evaluation-2"
+        },
+        {
+          "pages": [
+            21,
+            26
+          ]
+        }
+      ],
+      "what_it_actually_proves": "跨 embodiment 的一致竞争力与真机可迁移性；ID 拟合常优于可比 VLA，OOD 视觉扰动常弱于强 VLA。",
+      "what_it_does_not_prove": "WAM 范式整体优于 VLA，或 OpenWAM-α 在所有扰动类型上 SOTA。"
+    }
+  ],
+  "claim_boundaries": [
+    "Study 主评测集中在 RoboTwin2.0，跨域结论外推需谨慎",
+    "骨干对比混杂架构/数据/目标差异，不能纯归因参数量",
+    "真机结果依赖各自 SFT 配置与任务协议，不能直接等同零样本部署",
+    "论文明确不宣称 VLA 与 WAM 谁整体更强"
+  ],
+  "negative_or_limiting_results": [
+    "LIBERO-Plus Avg 69.2，Camera 33.8 / Noise 39.8，显著落后 Qwen-RobotManip 89.0 等",
+    "RoboTwin Clean2Random 与 RoboDojo 仿真仍落后顶级 VLA",
+    "像素级未来帧预测对相机与噪声扰动敏感；单臂预训数据量远小于部分 WAM 基线",
+    "异步 video/action leading 日程相对 Sync 无增益"
+  ],
+  "mechanism_result_map": [
+    {
+      "mechanism": "Wan2.2-VAE 像素潜空间 + 长时域未来预测",
+      "result_pattern": "ID 拟合强；Camera/Noise OOD 脆弱"
+    },
+    {
+      "mechanism": "Dual ActionDiT + mutual joint self-attn + Sync denoising",
+      "result_pattern": "世界-动作协同与同步推理稳定增益"
+    },
+    {
+      "mechanism": "ego 扩视觉覆盖 + robot 动作 grounding 的共训",
+      "result_pattern": "OOD 增益为主；双臂/灵巧手表现更强"
+    },
+    {
+      "mechanism": "单臂预训覆盖窄（主要 DROID + InternData-A1 单臂部分）",
+      "result_pattern": "LIBERO-Plus 等单臂强扰动榜掉队"
+    }
+  ],
+  "comparative_positioning": [
+    "相对单体 WAM（Cosmos Policy / Fast-WAM / LingBot-VA）：OpenWAM 把设计选择解耦为可消融模块并给出统一服务与评测",
+    "相对 VLA（π0.5 / Qwen-RobotManip / StarVLA）：WAM 多视频潜监督，ID 常更贴合；VLA 在强分布外视觉扰动上往往更稳",
+    "相对表征型 WAM（Being-H0.7 用 V-JEPA）：语义潜空间对相机/噪声更鲁棒，提示下一阶段表征方向"
+  ],
+  "reuse_takeaways": [
+    "复现优先：Dual joint self-attn + mutual + Sync + Wan2.2-TI2V-5B + compact latent + ego/robot cotrain",
+    "跨 embodiment 训练必须统一动作槽位与 validity mask，而不是硬拼 native dim",
+    "评测服务端做观测规范化与动作反归一化，基准只做薄客户端",
+    "若目标含强相机/噪声 OOD，仅扩像素预测 WAM 不够，需补场景多样单臂数据或更鲁棒表征"
+  ],
+  "followup_questions": [
+    "若把表征编码器原生时序压缩接到同一骨干，能否在保持 ID 的同时抬高 Camera/Noise？",
+    "把 VLA 语义主干与 WAM 像素未来预测端到端联合，是否能同时保留 ID 与 OOD 优势？",
+    "在固定计算预算下，继续扩大单臂真实数据与扩大视频骨干，哪个对 LIBERO-Plus 更划算？",
+    "异步推理模式在真机控制延迟约束下相对同步模式的成功率-延迟帕累托如何？"
+  ],
+  "section_plan": [
+    {
+      "section": "研究问题",
+      "focus": "视频先验丰富但可执行动作稀缺；单体 WAM 无法回答继承、协同与跨域三问",
+      "reading_goal": "锁定 OpenWAM 要回答的三个问题与 Infra、Study、Alpha 三分法",
+      "purpose": "为后续方法与结果设定问题框架",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction-2"
+        },
+        {
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "section": "数据与任务定义",
+      "focus": "八仿真基准与真机协议、80 维统一动作空间，以及 Alpha 的多源共训与清洗",
+      "reading_goal": "弄清训练样本合同、评测客户端与数据占比",
+      "purpose": "支撑可复现实验设置",
+      "evidence_sources": [
+        {
+          "section_id": "sec:framework"
+        },
+        {
+          "section_id": "sec:findings"
+        },
+        {
+          "pages": [
+            10,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "section": "方法主线",
+      "focus": "Infra 模块组合、联合流匹配目标、Study 消融与 Alpha 最终双系统实例",
+      "reading_goal": "按组件写清问题、方法、实现与机制流程",
+      "purpose": "给出可复现的方法骨架与关键公式",
+      "evidence_sources": [
+        {
+          "section_id": "sec:framework"
+        },
+        {
+          "section_id": "sec:model-4"
+        },
+        {
+          "section_id": "sec:findings"
+        },
+        {
+          "pages": [
+            5,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "section": "关键结果",
+      "focus": "Study 关键数字、Alpha 仿真分榜、真机三表以及 LIBERO-Plus 失败机制",
+      "reading_goal": "用表格呈现主对比并解释机制对应",
+      "purpose": "证据链闭环",
+      "evidence_sources": [
+        {
+          "section_id": "sec:findings"
+        },
+        {
+          "section_id": "sec:evaluation-2"
+        },
+        {
+          "section_id": "sec:background"
+        },
+        {
+          "pages": [
+            16,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "section": "深度分析",
+      "focus": "为何有效、边界、VLA 与 WAM 互补，以及像素潜空间脆弱性",
+      "reading_goal": "把机制映射到结果模式并划清未证边界",
+      "purpose": "工程与研究可复用判断",
+      "evidence_sources": [
+        {
+          "section_id": "sec:findings"
+        },
+        {
+          "section_id": "sec:background"
+        },
+        {
+          "section_id": "sec:conclusions-2"
+        }
+      ]
+    },
+    {
+      "section": "局限",
+      "focus": "Study 主评测偏 RoboTwin、单臂预训覆盖窄、像素未来预测对相机噪声敏感、不宣称范式整体优劣",
+      "reading_goal": "分离已证与未证主张",
+      "purpose": "防止过度外推",
+      "evidence_sources": [
+        {
+          "section_id": "sec:conclusions-2"
+        },
+        {
+          "section_id": "sec:findings"
+        },
+        {
+          "pages": [
+            22,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "section": "引用",
+      "focus": "论文与项目链接",
+      "reading_goal": "可追溯源",
+      "purpose": "引用卫生",
+      "evidence_sources": [
+        {
+          "section_id": "sec:abstract"
+        },
+        {
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "figure_table_plan": [
+    {
+      "item_id": "figure:Figure 1",
+      "decision": "insert",
+      "target_section": "方法主线"
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "decision": "insert",
+      "target_section": "数据与任务定义"
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "decision": "placeholder",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "figure:Figure 12",
+      "decision": "insert",
+      "target_section": "方法主线"
+    },
+    {
+      "item_id": "figure:Figure 13",
+      "decision": "insert",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "figure:Figure 16",
+      "decision": "insert",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 3",
+      "decision": "insert",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 5",
+      "decision": "insert",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 6",
+      "decision": "insert",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 7",
+      "decision": "insert",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 8",
+      "decision": "insert",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 1",
+      "decision": "placeholder",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 2",
+      "decision": "placeholder",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "decision": "visual_defect",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 16",
+      "decision": "placeholder",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 17",
+      "decision": "placeholder",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 18",
+      "decision": "placeholder",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 19",
+      "decision": "placeholder",
+      "target_section": "关键结果"
+    },
+    {
+      "item_id": "table:Table 20",
+      "decision": "placeholder",
+      "target_section": "关键结果"
+    }
+  ]
+}

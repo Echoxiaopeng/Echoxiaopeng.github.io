@@ -1,0 +1,235 @@
+{
+  "status": "ok",
+  "script": "fetch_pdf.py",
+  "paper_id": "arxiv:2609.18207",
+  "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+  "pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+  "pdf_source": "local_pdf",
+  "source_url": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+  "pdf_url": "",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:2609.18207",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+      "translated_title": "",
+      "authors": [
+        "Perry Dong",
+        "Kuo-Han Hung",
+        "Dorsa Sadigh",
+        "Chelsea Finn"
+      ],
+      "year": "2026",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "2609.18207",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+      "year": "",
+      "venue": "",
+      "source_url": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2609.18207v1",
+      "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+      "doi": "",
+      "arxiv_id": "2609.18207",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+      "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+      "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+      "metadata_sources": [
+        "local_pdf",
+        "arxiv"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "local_pdf_artifact_title": true,
+      "arxiv_id": "2609.18207",
+      "paper_id": "arxiv:2609.18207",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used",
+        "local_pdf_artifact_title"
+      ],
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2609.18207v1",
+      "abstract": "Reinforcement learning fine-tuning on top of large, pretrained Vision-Language-Action (VLA) models offers promise for highly reliable robot deployment. However, because of their scale, modern VLA models suffer from high inference latency, so the observation used to select an action is often stale by execution time, creating a distribution shift that can substantially degrade reliability and performance. Prior work has explored asynchronous policy execution to reduce the effect of latency, but these methods are mostly built on imitation learning and offer no mechanism for moving beyond the training distribution toward higher reliability. We close this gap by enabling RL fine-tuning that meets the real-time control requirements of dynamic real-world manipulation. Our approach builds on EXPO-FT, a framework for sample-efficient, reliable VLA fine-tuning with reinforcement learning, and decouples slow, expressive action generation from fast, reactive action edits: a large pretrained VLA proposes action chunks using its strong behavior prior, while a lightweight edit policy performs fast, reactive decision-making by editing actions in response to changes in state, conditioned on the latest observation. We instantiate this as Real-Time EXPO-FT, an RL framework for finetuning real-time VLA policies. On the Kinetix benchmark, Real-Time EXPO-FT enables a delayed policy to achieve the best performance among delayed and non-delayed methods in 10 out of 10 environments. On four dynamic real-world tasks, robot object passing, ball balancing, table soccer kicking, and dynamic object picking, with online robot data capped at 10 minutes, Real-Time EXPO-FT improves average policy performance from 42% to 97%, all without human intervention, demonstrating rapid, sample-efficient adaptation to challenging real-world dynamics. Website: https://pd-perry.github.io/real-time-expo-ft",
+      "authors": [
+        "Perry Dong",
+        "Kuo-Han Hung",
+        "Dorsa Sadigh",
+        "Chelsea Finn"
+      ],
+      "published": "2026-09-16T06:38:36Z",
+      "year": "2026",
+      "pdf_url": "https://arxiv.org/pdf/2609.18207v1"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2609.18207.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2609.18207v1",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.18207"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.18207"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.18207"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.18207"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.18207"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.18207"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.18207"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.18207"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "2609.18207",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2609.18207v1",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2609.18207"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+          "work_value": "Reinforcement Learning for Real-Time Vision-Language-Action Policies"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\RTVLA_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\RTVLA_resolve.json",
+      "metadata_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\RTVLA_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+    "year": "",
+    "venue": "",
+    "source_url": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.18207v1",
+    "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+    "doi": "",
+    "arxiv_id": "2609.18207",
+    "zotero_key": ""
+  }
+}

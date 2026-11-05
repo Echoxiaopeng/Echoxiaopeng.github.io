@@ -1,0 +1,585 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "arxiv:2609.18207",
+  "decisions": [
+    {
+      "item_id": "figure:Fig 1",
+      "source_id": "Fig 1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Overview of Real-Time EXPO-FT. Real-Time EXPO-FT addresses the latency of large VLA models by combining",
+      "pages": [
+        1
+      ],
+      "section_id": "sec:preamble",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_001_fig_fig_1_review_repair1.png",
+      "relative_markdown_embed": "![Fig 1](images/page_001_fig_fig_1_review_repair1.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "2420ac1d8461a3a930dd94192ba3e052aad51682a9b43b58de67f354b437a334",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1_review_repair1.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\page_previews\\page_001.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "source_page": 1,
+        "caption": "Overview of Real-Time EXPO-FT. Real-Time EXPO-FT addresses the latency of large VLA models by combining",
+        "bbox_pt": [
+          48.0,
+          168.0,
+          564.0,
+          532.0
+        ],
+        "normalized_bbox": [
+          0.0784313725490196,
+          0.21212121212121213,
+          0.9215686274509803,
+          0.6717171717171717
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "2420ac1d8461a3a930dd94192ba3e052aad51682a9b43b58de67f354b437a334",
+        "preserved_scientific_elements": [
+          "system overview timeline",
+          "before and after strips",
+          "averaged training curve",
+          "internal labels and legend"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Inspected the candidate crop against the page preview. The scientific visual body is complete, internal labels remain readable, and the external caption and surrounding prose are outside the crop.",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 2",
+      "source_id": "Fig 2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Left: Real-time policy inference of Real-Time EXPO-FT. Real-Time EXPO-FT decouples slow VLA action",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_004_fig_figure_2_repair1.png",
+      "relative_markdown_embed": "![Fig 2](images/page_004_fig_figure_2_repair1.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_figure_2_repair1.png",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_figure_2_repair1.png",
+        "page_preview_path": "c:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\page_previews\\page_004.png",
+        "source_pdf_path": "c:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "source_page": 4,
+        "caption": "Left: Real-time policy inference of Real-Time EXPO-FT. Real-Time EXPO-FT decouples slow VLA action",
+        "bbox_pt": [
+          30.0,
+          22.0,
+          582.0,
+          260.0
+        ],
+        "normalized_bbox": [
+          0.049019607843137254,
+          0.027777777777777776,
+          0.9509803921568627,
+          0.3282828282828283
+        ],
+        "render_dpi": 300
+      },
+      "source_image_sha256": "92e8f3736adf8ee14bcab89da7e0a2c51de427598fc242a0f20b44abd71fdfd3",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "92e8f3736adf8ee14bcab89da7e0a2c51de427598fc242a0f20b44abd71fdfd3",
+        "preserved_scientific_elements": [
+          "async VLA inference panel",
+          "sync edit and Q selection panel",
+          "noise-space backup panel",
+          "internal axis and formula labels"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Inspected the candidate crop against the page preview. The scientific visual body is complete, internal labels remain readable, and the external caption and surrounding prose are outside the crop.",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Fig 3",
+      "source_id": "Fig 3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Training success across all 10 Kinetix [26] simulation tasks. The vertical dashed lines indicate the evaluation",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_006_fig_fig_3_review.png",
+      "relative_markdown_embed": "![Fig 3](images/page_006_fig_fig_3_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_006_fig_fig_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "2c7a2627a627fb8629005b1b6cd8ceab8c027b2e88d99445c179b937e339dcca",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_006_fig_fig_3_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\page_previews\\page_006.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "source_page": 6,
+        "caption": "Training success across all 10 Kinetix [26] simulation tasks. The vertical dashed lines indicate the evaluation",
+        "bbox_pt": [
+          50.0,
+          46.07951354980469,
+          561.9970703125,
+          241.9329833984375
+        ],
+        "normalized_bbox": [
+          0.081699,
+          0.058181,
+          0.918296,
+          0.305471
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "2c7a2627a627fb8629005b1b6cd8ceab8c027b2e88d99445c179b937e339dcca",
+        "preserved_scientific_elements": [
+          "ten Kinetix training curves",
+          "legend for delayed and zero-delay baselines",
+          "axis labels and seed bands"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Inspected the candidate crop against the page preview. The scientific visual body is complete, internal labels remain readable, and the external caption and surrounding prose are outside the crop.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 4",
+      "source_id": "Fig 4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Four real-world manipulation tasks in our evaluation suite: Dynamic Picking, Ball Balancing, Object Passing,",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:experiments",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_008_fig_fig_4_review.png",
+      "relative_markdown_embed": "![Fig 4](images/page_008_fig_fig_4_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "134a55fd91b70ce0f92c641de2cdcaeddb9ed9ceffa398567440b39f0bfa23dd",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\page_previews\\page_008.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "source_page": 8,
+        "caption": "Four real-world manipulation tasks in our evaluation suite: Dynamic Picking, Ball Balancing, Object Passing,",
+        "bbox_pt": [
+          50.0,
+          46.082313537597656,
+          561.9888916015625,
+          167.4739990234375
+        ],
+        "normalized_bbox": [
+          0.081699,
+          0.058185,
+          0.918283,
+          0.211457
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "134a55fd91b70ce0f92c641de2cdcaeddb9ed9ceffa398567440b39f0bfa23dd",
+        "preserved_scientific_elements": [
+          "four real-world task photos",
+          "task name headers"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Inspected the candidate crop against the page preview. The scientific visual body is complete, internal labels remain readable, and the external caption and surrounding prose are outside the crop.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 5",
+      "source_id": "Fig 5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Training success across four real-world dynamic tasks. We train each policy with at most 10 minutes of online",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:experiments",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_008_fig_fig_5_review.png",
+      "relative_markdown_embed": "![Fig 5](images/page_008_fig_fig_5_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "5cae2024b0f0a11b4efd53d87253345f7826bc87b45bb702ad508255e5cdb438",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\page_previews\\page_008.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "source_page": 8,
+        "caption": "Training success across four real-world dynamic tasks. We train each policy with at most 10 minutes of online",
+        "bbox_pt": [
+          50.0,
+          201.3155975341797,
+          562.00146484375,
+          346.5159912109375
+        ],
+        "normalized_bbox": [
+          0.081699,
+          0.254186,
+          0.918303,
+          0.43752
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "5cae2024b0f0a11b4efd53d87253345f7826bc87b45bb702ad508255e5cdb438",
+        "preserved_scientific_elements": [
+          "four real-world training curves",
+          "legend",
+          "per-task time axes"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Inspected the candidate crop against the page preview. The scientific visual body is complete, internal labels remain readable, and the external caption and surrounding prose are outside the crop.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 6",
+      "source_id": "Fig 6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Success rates under varying delays and environment",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:experiments",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_008_fig_fig_6_review_repair1.png",
+      "relative_markdown_embed": "![Fig 6](images/page_008_fig_fig_6_review_repair1.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "bc3c92a0757e8f4e4181a8a14bb9569fe99e0621cad06c8ddab299cc0104f591",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6_review_repair1.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\page_previews\\page_008.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "source_page": 8,
+        "caption": "Success rates under varying delays and environment",
+        "bbox_pt": [
+          300.0,
+          500.0,
+          580.0,
+          626.0
+        ],
+        "normalized_bbox": [
+          0.49019607843137253,
+          0.6313131313131313,
+          0.9477124183006536,
+          0.7904040404040404
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "bc3c92a0757e8f4e4181a8a14bb9569fe99e0621cad06c8ddab299cc0104f591",
+        "preserved_scientific_elements": [
+          "H17 delay curve",
+          "object-passing speed curve",
+          "legends and axis labels"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Inspected the candidate crop against the page preview. The scientific visual body is complete, internal labels remain readable, and the external caption and surrounding prose are outside the crop.",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 7",
+      "source_id": "Fig 7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Comparison of noise-level filtering. We compare Real-Time EXPO-FT with and without noise-level filtering, where",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:appendix",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_013_fig_fig_7_review.png",
+      "relative_markdown_embed": "![Fig 7](images/page_013_fig_fig_7_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_7_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "2bd9a7b32573059ba707ed6a3b608e58506d34e163125b77083dfeb5fdb444d6",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_7_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\page_previews\\page_013.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "source_page": 13,
+        "caption": "Comparison of noise-level filtering. We compare Real-Time EXPO-FT with and without noise-level filtering, where",
+        "bbox_pt": [
+          50.0,
+          46.08061218261719,
+          562.00146484375,
+          191.281005859375
+        ],
+        "normalized_bbox": [
+          0.081699,
+          0.058183,
+          0.918303,
+          0.241516
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "2bd9a7b32573059ba707ed6a3b608e58506d34e163125b77083dfeb5fdb444d6",
+        "preserved_scientific_elements": [
+          "noise-filter ablation curves on four tasks",
+          "legend",
+          "compute axis"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Inspected the candidate crop against the page preview. The scientific visual body is complete, internal labels remain readable, and the external caption and surrounding prose are outside the crop.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 8",
+      "source_id": "Fig 8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "10 Kinetix simulation tasks [26] evaluated in our experiments.",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:appendix",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_013_fig_fig_8_review.png",
+      "relative_markdown_embed": "![Fig 8](images/page_013_fig_fig_8_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_8_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "90bb22cd6fd3d93e5ff22df81ad5031199d8204184f4eb9f326adf7bb24fdd38",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_8_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\page_previews\\page_013.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "source_page": 13,
+        "caption": "10 Kinetix simulation tasks [26] evaluated in our experiments.",
+        "bbox_pt": [
+          50.0,
+          237.07858276367188,
+          561.9985961914062,
+          444.7939453125
+        ],
+        "normalized_bbox": [
+          0.081699,
+          0.299342,
+          0.918298,
+          0.561609
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "90bb22cd6fd3d93e5ff22df81ad5031199d8204184f4eb9f326adf7bb24fdd38",
+        "preserved_scientific_elements": [
+          "ten Kinetix task snapshots with names"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Inspected the candidate crop against the page preview. The scientific visual body is complete, internal labels remain readable, and the external caption and surrounding prose are outside the crop.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 9",
+      "source_id": "Fig 9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "Full execution strips for the evaluated tasks. Each strip shows the temporal progression of a complete task execution,",
+      "pages": [
+        15
+      ],
+      "section_id": "sec:appendix",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_015_fig_fig_9_review.png",
+      "relative_markdown_embed": "![Fig 9](images/page_015_fig_fig_9_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_9_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "c3f1555f6b2ff195789af3c08eda36f006c0888141873d4c95f483642624a82e",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_9_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\page_previews\\page_015.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "source_page": 15,
+        "caption": "Full execution strips for the evaluated tasks. Each strip shows the temporal progression of a complete task execution,",
+        "bbox_pt": [
+          50.0,
+          46.08418273925781,
+          561.9925537109375,
+          260.00799560546875
+        ],
+        "normalized_bbox": [
+          0.081699,
+          0.058187,
+          0.918288,
+          0.328293
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "c3f1555f6b2ff195789af3c08eda36f006c0888141873d4c95f483642624a82e",
+        "preserved_scientific_elements": [
+          "full execution strips for four real tasks",
+          "row labels"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Inspected the candidate crop against the page preview. The scientific visual body is complete, internal labels remain readable, and the external caption and surrounding prose are outside the crop.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 10",
+      "source_id": "Fig 10",
+      "kind": "figure",
+      "label": "Fig 10",
+      "caption": "Initial-state randomization spaces for the real-world tasks. The orange boxes indicate the regions within which object",
+      "pages": [
+        15
+      ],
+      "section_id": "sec:appendix",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_015_fig_fig_10_review.png",
+      "relative_markdown_embed": "![Fig 10](images/page_015_fig_fig_10_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_10_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "e36af267deda53609f35441a14a87bfa7ff4fcee5e62b19934f7e91ced21c8c1",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_10_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\page_previews\\page_015.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "source_page": 15,
+        "caption": "Initial-state randomization spaces for the real-world tasks. The orange boxes indicate the regions within which object",
+        "bbox_pt": [
+          50.0,
+          293.85113525390625,
+          562.0053100585938,
+          417.7340087890625
+        ],
+        "normalized_bbox": [
+          0.081699,
+          0.371024,
+          0.918309,
+          0.527442
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "e36af267deda53609f35441a14a87bfa7ff4fcee5e62b19934f7e91ced21c8c1",
+        "preserved_scientific_elements": [
+          "initial-state randomization photos",
+          "orange randomization boxes"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Inspected the candidate crop against the page preview. The scientific visual body is complete, internal labels remain readable, and the external caption and surrounding prose are outside the crop.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 10,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 0,
+      "placeholder": 0,
+      "review_pending": 9,
+      "skip": 0,
+      "visual_defect": 1
+    }
+  }
+}

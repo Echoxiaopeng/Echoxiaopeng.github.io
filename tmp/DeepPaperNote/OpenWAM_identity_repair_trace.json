@@ -1,0 +1,424 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "artifact_type": "identity_repair_trace",
+  "schema_version": 2,
+  "paper_id": "doi:10.48550/arxiv.2609.07398",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "repair_attempts": [
+    {
+      "attempt": 1,
+      "action": "accept_identity_promotion",
+      "status": "accepted",
+      "evidence_used": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2609.07398"
+        }
+      ],
+      "rejected_candidate_identity": {
+        "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+        "translated_title": "",
+        "authors": [
+          "Yuran Wang",
+          "Siqiao Huang",
+          "Mingleyang Li",
+          "Chenhao Zhang",
+          "Jiaqi Liang",
+          "Weiyang Jin",
+          "Yue Chen",
+          "Xuemin Chi",
+          "Donghao Zhou",
+          "Qize Yu",
+          "Yu-Kai Wang",
+          "Yuhan Rui",
+          "Shenzhe Yao",
+          "Zhen Yuan",
+          "Zhenhao Shen",
+          "Kefei Zhu",
+          "Zijie Zhu",
+          "Ning Gao",
+          "Xiaowei Chi",
+          "Guanqi He",
+          "Shanghang Zhang",
+          "Hao Dong",
+          "Lin Shao",
+          "Hang Zhao"
+        ],
+        "year": "2026",
+        "venue": "",
+        "doi": "",
+        "arxiv_id": "2609.07398",
+        "zotero_key": ""
+      },
+      "accepted_correction": {
+        "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+        "translated_title": "",
+        "authors": [
+          "Yuran Wang",
+          "Siqiao Huang",
+          "Mingleyang Li",
+          "Chenhao Zhang",
+          "Jiaqi Liang",
+          "Weiyang Jin",
+          "Yue Chen",
+          "Xuemin Chi",
+          "Donghao Zhou",
+          "Qize Yu",
+          "Yu-Kai Wang",
+          "Yuhan Rui",
+          "Shenzhe Yao",
+          "Zhen Yuan",
+          "Zhenhao Shen",
+          "Kefei Zhu",
+          "Zijie Zhu",
+          "Ning Gao",
+          "Xiaowei Chi",
+          "Guanqi He",
+          "Shanghang Zhang",
+          "Hao Dong",
+          "Lin Shao",
+          "Hang Zhao"
+        ],
+        "year": "2026",
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2609.07398",
+        "arxiv_id": "2609.07398",
+        "zotero_key": ""
+      },
+      "promoted_identifiers": {
+        "doi": "10.48550/arxiv.2609.07398"
+      },
+      "previous_paper_id": "arxiv:2609.07398",
+      "accepted_paper_id": "doi:10.48550/arxiv.2609.07398"
+    }
+  ],
+  "accepted_observations": [
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2609.07398"
+      },
+      "status": "accepted",
+      "reason": "shared_identifier",
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2609.07398v1",
+        "url": "http://arxiv.org/abs/2609.07398v1",
+        "arxiv_id": "2609.07398",
+        "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+        "abstract": "World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience. Existing systems, however, are monolithic: the generative backbone, visual representation, architecture, information flow, inference procedure, and training data are tightly coupled, obscuring which design choices matter and why. We introduce OpenWAM, an open research stack that turns world-action pretraining into a controlled experimental program. OpenWAM-Infra factorizes the WAM design space into composable modules with unified training, inference, deployment, and evaluation. On this substrate, OpenWAM-Study examines three questions through controlled experiments: what to inherit, how world and action learning interact, and how their synergy scales; and distills three principles: upstream knowledge transfers through a sufficiently capable generative backbone and a compact, information-rich latent space; world-action synergy requires dedicated action capacity, explicit world-to-action information flow, and synchronized joint denoising; and embodied pretraining principally improves out-of-domain generalization, with one-stage co-training over egocentric and robot data integrating world coverage and action grounding. Composing these principles, we build OpenWAM-α, an open WAM pretrained on roughly 6,400 hours of egocentric human and robot data and evaluated across simulation and real-world benchmarks. Across the eight simulation benchmarks and the real-robot experiments, which together span embodiments from single-arm and bimanual manipulation to dexterous hands, OpenWAM-α delivers consistently excellent performance, sustaining its top-tier standing from simulation to the physical world. We release the full stack, including infrastructure, evaluation protocols, pretrained models, and data recipes, to facilitate future research.",
+        "authors": [
+          "Yuran Wang",
+          "Siqiao Huang",
+          "Mingleyang Li",
+          "Chenhao Zhang",
+          "Jiaqi Liang",
+          "Weiyang Jin",
+          "Yue Chen",
+          "Xuemin Chi",
+          "Donghao Zhou",
+          "Qize Yu",
+          "Yu-Kai Wang",
+          "Yuhan Rui",
+          "Shenzhe Yao",
+          "Zhen Yuan",
+          "Zhenhao Shen",
+          "Kefei Zhu",
+          "Zijie Zhu",
+          "Ning Gao",
+          "Xiaowei Chi",
+          "Guanqi He",
+          "Shanghang Zhang",
+          "Hao Dong",
+          "Lin Shao",
+          "Hang Zhao"
+        ],
+        "published": "2026-09-07T12:12:32Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2609.07398v1"
+      }
+    },
+    {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
+      },
+      "status": "accepted",
+      "reason": "shared_identifier",
+      "record": {
+        "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+        "authors": [
+          "Yuran Wang",
+          "Siqiao Huang",
+          "Mingleyang Li",
+          "Chenhao Zhang",
+          "Jiaqi Liang",
+          "Weiyang Jin",
+          "Yue Chen",
+          "Xuemin Chi",
+          "Donghao Zhou",
+          "Qize Yu",
+          "Yu-Kai Wang",
+          "Yuhan Rui",
+          "Shenzhe Yao",
+          "Zhen Yuan",
+          "Zhenhao Shen",
+          "Kefei Zhu",
+          "Zijie Zhu",
+          "Ning Gao",
+          "Xiaowei Chi",
+          "Guanqi He",
+          "Shanghang Zhang",
+          "Hao Dong",
+          "Lin Shao",
+          "Hang Zhao"
+        ],
+        "affiliations": [],
+        "venue": "arXiv (Cornell University)",
+        "year": "2026",
+        "doi": "10.48550/arxiv.2609.07398",
+        "source": "openalex",
+        "source_type": "openalex",
+        "source_url": "https://arxiv.org/abs/2609.07398",
+        "pdf_url": "https://arxiv.org/pdf/2609.07398",
+        "abstract": "",
+        "metadata_sources": [
+          "openalex"
+        ]
+      }
+    },
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
+      },
+      "status": "accepted",
+      "reason": "shared_identifier",
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2609.07398v1",
+        "url": "http://arxiv.org/abs/2609.07398v1",
+        "arxiv_id": "2609.07398",
+        "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+        "abstract": "World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience. Existing systems, however, are monolithic: the generative backbone, visual representation, architecture, information flow, inference procedure, and training data are tightly coupled, obscuring which design choices matter and why. We introduce OpenWAM, an open research stack that turns world-action pretraining into a controlled experimental program. OpenWAM-Infra factorizes the WAM design space into composable modules with unified training, inference, deployment, and evaluation. On this substrate, OpenWAM-Study examines three questions through controlled experiments: what to inherit, how world and action learning interact, and how their synergy scales; and distills three principles: upstream knowledge transfers through a sufficiently capable generative backbone and a compact, information-rich latent space; world-action synergy requires dedicated action capacity, explicit world-to-action information flow, and synchronized joint denoising; and embodied pretraining principally improves out-of-domain generalization, with one-stage co-training over egocentric and robot data integrating world coverage and action grounding. Composing these principles, we build OpenWAM-α, an open WAM pretrained on roughly 6,400 hours of egocentric human and robot data and evaluated across simulation and real-world benchmarks. Across the eight simulation benchmarks and the real-robot experiments, which together span embodiments from single-arm and bimanual manipulation to dexterous hands, OpenWAM-α delivers consistently excellent performance, sustaining its top-tier standing from simulation to the physical world. We release the full stack, including infrastructure, evaluation protocols, pretrained models, and data recipes, to facilitate future research.",
+        "authors": [
+          "Yuran Wang",
+          "Siqiao Huang",
+          "Mingleyang Li",
+          "Chenhao Zhang",
+          "Jiaqi Liang",
+          "Weiyang Jin",
+          "Yue Chen",
+          "Xuemin Chi",
+          "Donghao Zhou",
+          "Qize Yu",
+          "Yu-Kai Wang",
+          "Yuhan Rui",
+          "Shenzhe Yao",
+          "Zhen Yuan",
+          "Zhenhao Shen",
+          "Kefei Zhu",
+          "Zijie Zhu",
+          "Ning Gao",
+          "Xiaowei Chi",
+          "Guanqi He",
+          "Shanghang Zhang",
+          "Hao Dong",
+          "Lin Shao",
+          "Hang Zhao"
+        ],
+        "published": "2026-09-07T12:12:32Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2609.07398v1"
+      }
+    }
+  ],
+  "rejected_observations": [],
+  "bound_sources": [
+    {
+      "kind": "local_pdf",
+      "value": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2609.07398.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "accepted_identifier_derived"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2609.07398v1",
+      "provider": "arxiv",
+      "binding_reason": "shared_identifier"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2609.07398",
+      "provider": "openalex",
+      "binding_reason": "shared_identifier"
+    }
+  ],
+  "field_provenance": {
+    "title": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2609.07398"
+      }
+    },
+    "arxiv_id": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2609.07398"
+      }
+    },
+    "source_url": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2609.07398"
+      }
+    },
+    "local_pdf_path": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2609.07398"
+      }
+    },
+    "authors": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2609.07398"
+      }
+    },
+    "year": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2609.07398"
+      }
+    },
+    "abstract": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2609.07398"
+      }
+    },
+    "pdf_url": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2609.07398"
+      }
+    },
+    "venue": {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
+      }
+    },
+    "doi": {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
+      }
+    }
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "doi",
+      "value": "10.48550/arxiv.2609.07398",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "arxiv_id",
+      "value": "2609.07398",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "trusted_source_path",
+      "value": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+      "trust": "strong",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2609.07398v1",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "shared_work_identifier",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "shared_identifier",
+        "value": "arxiv_id:2609.07398"
+      },
+      {
+        "kind": "title_similarity",
+        "status": "match",
+        "score": 1.0,
+        "source_value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+        "work_value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
+      }
+    ]
+  },
+  "warnings": [],
+  "unresolved_risks": [],
+  "failure_summary": "",
+  "provenance": {
+    "resolve_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\OpenWAM_resolve.json",
+    "metadata_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\OpenWAM_metadata.json"
+  }
+}

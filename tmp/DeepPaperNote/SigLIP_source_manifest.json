@@ -1,0 +1,945 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.1109/iccv51070.2023.01100",
+  "title": "Sigmoid Loss for Language Image Pre-Training",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\SigLIP_raw_sections.jsonl",
+  "full_text_md_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\SigLIP_full_text.md",
+  "pdf": {
+    "path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+    "total_pages": 17,
+    "text_pages_extracted": 17,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 17,
+    "text_max_pages": null,
+    "text_pages_extracted": 17,
+    "text_pages_scanned": 17,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 11
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 192,
+      "text_hash_sha256": "2f70965852d5abbc9b90dd18f1fbfda5ef1852cb1868ac805cd8feabea37ed65"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1107,
+      "text_hash_sha256": "0bd7cfe1c1598818ac4c0223e0631073454c3e446ec4385c19cd7926985fa592"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "1. Introduction",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 224,
+      "text_hash_sha256": "462d7920043319e33795e6b9b531e5359b0eaee0a037bd0cfe63c7d5a7cf7127"
+    },
+    {
+      "section_id": "sec:datasets",
+      "kind": "data",
+      "title": "datasets.",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 4006,
+      "text_hash_sha256": "be3dc98b010d63b6ea5a8b65512ecabffe640d654184998b4831037f20ca16a3"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "2. Related Work",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 2626,
+      "text_hash_sha256": "f63333ca3d12f766cd2d017f6bb4035e8ab106cf8b3dcc131e28b20cafbbfc9b"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "3. Method",
+      "page_start": 2,
+      "page_end": 4,
+      "char_count": 7066,
+      "text_hash_sha256": "703e10b30c06e80f11b356dcdfe35a5447e1039a4bb9b065d76b7607a69a5a96"
+    },
+    {
+      "section_id": "sec:results",
+      "kind": "experiment",
+      "title": "4. Results",
+      "page_start": 4,
+      "page_end": 7,
+      "char_count": 14386,
+      "text_hash_sha256": "d528d5560c689d4a74132a3119e1e44f1e847f1be34e6dcebcb76165c83686ae"
+    },
+    {
+      "section_id": "sec:method-2",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 8,
+      "page_end": 9,
+      "char_count": 7264,
+      "text_hash_sha256": "b261ede15036fb15d94fa631237a04fcde791a1f6481d83d63483b476f035b1f"
+    },
+    {
+      "section_id": "sec:conclusion",
+      "kind": "conclusion",
+      "title": "5. Conclusion",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 860,
+      "text_hash_sha256": "f88b3455b0b3be80287b7466192662abfb936a9b9a6d0ff7a2de8ef5afb2d05d"
+    },
+    {
+      "section_id": "sec:acknowledgements",
+      "kind": "acknowledgments",
+      "title": "Acknowledgements.",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 750,
+      "text_hash_sha256": "85cfd7c3d86ba4de16a41320581f2a22e1e4c46bc031a5d871c8b353913d6aa6"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 11,
+      "page_end": 14,
+      "char_count": 18639,
+      "text_hash_sha256": "c00f06fd5d6528669ce04ca0162dcdfc993f634e4519db1f2c7a86fbdc4d51ce"
+    },
+    {
+      "section_id": "sec:results-2",
+      "kind": "experiment",
+      "title": "Results (%)",
+      "page_start": 14,
+      "page_end": 17,
+      "char_count": 5998,
+      "text_hash_sha256": "d758e673ec6bc1eaf8e7cfe11e3263c5a376cdf8582024b004cfde76310b3e1b"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 3942,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract",
+        "sec:introduction",
+        "sec:datasets"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 5069,
+      "section_ids": [
+        "sec:datasets",
+        "sec:related-work",
+        "sec:method"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 4843,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 4277,
+      "section_ids": [
+        "sec:method",
+        "sec:results"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4380,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 3814,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 4216,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 3548,
+      "section_ids": [
+        "sec:method-2"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3864,
+      "section_ids": [
+        "sec:method-2"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 1643,
+      "section_ids": [
+        "sec:conclusion",
+        "sec:acknowledgements"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 5781,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 6109,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 3049,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 3970,
+      "section_ids": [
+        "sec:references",
+        "sec:results-2"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 1746,
+      "section_ids": [
+        "sec:results-2"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 2676,
+      "section_ids": [
+        "sec:results-2"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 1686,
+      "section_ids": [
+        "sec:results-2"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Algorithm 1",
+        "caption": "Sigmoid loss pseudo-implementation.",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:datasets"
+      },
+      {
+        "id": "Figure 1",
+        "caption": "Efficient loss implementation demonstrated via a mock setup with 3 devices and a global batch size of 12. There",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Algorithm 1",
+        "caption": "presents a pseudocode implementation of the",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "The effect of pre-training batch size. Left: SigLiT results, trained for 18B seen examples. Sigmoid loss outper-",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "SigLiT ImageNet 0-shot transfer results with",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "middle plot shows SigLIP results, With less than",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Top: SigLIP with pre-trained encoders ramps up",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "The effect of Adam and AdaFactor’s β2. As",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "The effect of batch composition. We simulate various batch compositions by masking out negatives, either",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "presents unlocked",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "shows the effect of the various masking strate-",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:method-2"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Sigmoid-training increases robustness to data noise. Titles show the type of corruption applied, and x-axes show",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:method-2"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Image-to-text and text-to-image zero-shot retrieval recall@1 results on all 36 languages of Crossmodal-3600.",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:results-2"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "SigLiT and SigLIP results. Sigmoid loss is mem-",
+        "page": 1,
+        "pages": [
+          1
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Multilingual SigLIP results with various batch",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Table 3",
+        "caption": "we report zero-shot classification results on Im-",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Comparison with other publicly released models. Our SigLIP models outperform all prior models, e.g. Open-",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:method-2"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Bias (b) and temperature (t′) initialization. Re-",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:method-2"
+      },
+      {
+        "id": "Table 5",
+        "caption": "SigLIP zeor-shot accuracy (%) on the ImageNet",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Table 6",
+        "caption": "Default hyperparameters across different batch",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Table 7",
+        "caption": "Mean and standard deviation of five repeated ex-",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Table 8",
+        "caption": "SigLiT zero-shot accuracy (%) on the ImageNet benchmark. Both the sigmoid loss and the softmax loss",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:results-2"
+      },
+      {
+        "id": "Table 9",
+        "caption": "Image-to-text (text retrieval) and text-to-image (image retrieval) zero-shot recall@1 results on all 36 languages",
+        "page": 16,
+        "pages": [
+          16
+        ],
+        "section_id": "sec:results-2"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "6 t = exp(t_prime)",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "text": "7 zimg = l2_normalize(img_emb)",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "text": "8 ztxt = l2_normalize(txt_emb)",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "text": "9 logits = dot(zimg, ztxt.T) * t + b",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "text": "10 labels = 2 * eye(n) - ones(n) # -1 with diagonal 1",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "text": "11 l = -sum(log_sigmoid(labels * logits)) / n",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 2
+    },
+    {
+      "text": "Given a mini-batch B = {(I1, T1), (I2, T2), . . . } of",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "(Ii, Tj̸=i) apart. For practical purposes, it is assumed that",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "j=1 etxi·yj +",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "j=1 etxj·yi",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "where xi =",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "∥f(Ii)∥2 and yi =",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "all other pairs (Ii, Tj̸=i). It is defined as follows:",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "j=1",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "device batch size as b = |B|",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "di=1",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "dj=1",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "i=bdi",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "j=bdj",
+      "section_id": "sec:method",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "ically, by enabling the bottleneck of size K = 96 for Base",
+      "section_id": "sec:results",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "architecture with W = 768, we only see about a half per-",
+      "section_id": "sec:results",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "β2 =0.999",
+      "section_id": "sec:results",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "β2 =0.95",
+      "section_id": "sec:results",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "use (256/16)2 = 256 image patches and 64 text tokens (in-",
+      "section_id": "sec:results",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "We opt for setting β2 = 0.95 for all our experiments.",
+      "section_id": "sec:method-2",
+      "page_start": 8,
+      "page_end": 9
+    },
+    {
+      "text": "and temperature initialization to b = −10 and t′ = log 10",
+      "section_id": "sec:method-2",
+      "page_start": 8,
+      "page_end": 9
+    },
+    {
+      "text": "(hence t = 10) as the default for all experiments.",
+      "section_id": "sec:method-2",
+      "page_start": 8,
+      "page_end": 9
+    },
+    {
+      "text": "within a $10, 000 budget; an extra $4, 000 unlocks 81.8%",
+      "section_id": "sec:references",
+      "page_start": 11,
+      "page_end": 14
+    },
+    {
+      "text": "the ScalingViT-Adafactor optimizer [58] with β1 = 0.9 and",
+      "section_id": "sec:references",
+      "page_start": 11,
+      "page_end": 14
+    },
+    {
+      "text": "β2 = 0.95. We use 0.001 learning rate with a linear warmup",
+      "section_id": "sec:references",
+      "page_start": 11,
+      "page_end": 14
+    },
+    {
+      "text": "is reported. BS=batch size, LR=learning rate, WD=weight",
+      "section_id": "sec:references",
+      "page_start": 11,
+      "page_end": 14
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "f106d2ca85d099a7cc767fa62cc65cd7cd42b2ca393bab4e996696b1bafef6c1",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "doi:10.1109/iccv51070.2023.01100",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Sigmoid Loss for Language Image Pre-Training",
+      "translated_title": "",
+      "authors": [
+        "Xiaohua Zhai",
+        "Basil Mustafa",
+        "А. И. Колесников",
+        "Lucas Beyer"
+      ],
+      "year": "2023",
+      "venue": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "doi": "10.1109/iccv51070.2023.01100",
+      "arxiv_id": "2303.15343",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Sigmoid Loss for Language Image Pre-Training",
+      "year": "",
+      "venue": "",
+      "source_url": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2303.15343v4",
+      "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+      "doi": "",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+      "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+      "title": "Sigmoid Loss for Language Image Pre-Training",
+      "metadata_sources": [
+        "local_pdf",
+        "openalex",
+        "crossref",
+        "arxiv"
+      ],
+      "local_pdf_title_source": "first_page_title_used",
+      "local_pdf_artifact_title": true,
+      "paper_id": "doi:10.1109/iccv51070.2023.01100",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "first_page_title_used",
+        "local_pdf_artifact_title",
+        "doi_present",
+        "arxiv_id_present"
+      ],
+      "script": "resolve_paper.py",
+      "authors": [
+        "Xiaohua Zhai",
+        "Basil Mustafa",
+        "А. И. Колесников",
+        "Lucas Beyer"
+      ],
+      "affiliations": [
+        "Google (Switzerland)"
+      ],
+      "year": "2023",
+      "doi": "10.1109/iccv51070.2023.01100",
+      "source": "openalex",
+      "venue": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "published": "2023",
+      "url": "http://arxiv.org/abs/2303.15343v4",
+      "arxiv_id": "2303.15343",
+      "abstract": "We propose a simple pairwise Sigmoid loss for Language-Image Pre-training (SigLIP). Unlike standard contrastive learning with softmax normalization, the sigmoid loss operates solely on image-text pairs and does not require a global view of the pairwise similarities for normalization. The sigmoid loss simultaneously allows further scaling up the batch size, while also performing better at smaller batch sizes. Combined with Locked-image Tuning, with only four TPUv4 chips, we train a SigLiT model that achieves 84.5% ImageNet zero-shot accuracy in two days. The disentanglement of the batch size from the loss further allows us to study the impact of examples vs pairs and negative to positive ratio. Finally, we push the batch size to the extreme, up to one million, and find that the benefits of growing batch size quickly diminish, with a more reasonable batch size of 32k being sufficient. We release our models at https://github.com/google-research/big_vision and hope our research motivates further explorations in improving the quality and efficiency of language-image pre-training.",
+      "pdf_url": "https://arxiv.org/pdf/2303.15343v4"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2303.15343v4",
+        "provider": "arxiv",
+        "binding_reason": "title_author_year"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2303.15343.pdf",
+        "provider": "arxiv",
+        "binding_reason": "accepted_identifier_derived"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "title:c7388bfcd370"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "title:c7388bfcd370"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "title:c7388bfcd370"
+        }
+      },
+      "authors": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Sigmoid Loss for Language Image Pre-Training"
+        }
+      },
+      "affiliations": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Sigmoid Loss for Language Image Pre-Training"
+        }
+      },
+      "year": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Sigmoid Loss for Language Image Pre-Training"
+        }
+      },
+      "doi": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Sigmoid Loss for Language Image Pre-Training"
+        }
+      },
+      "venue": {
+        "provider": "crossref",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Sigmoid Loss for Language Image Pre-Training"
+        }
+      },
+      "arxiv_id": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Sigmoid Loss for Language Image Pre-Training"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Sigmoid Loss for Language Image Pre-Training"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Sigmoid Loss for Language Image Pre-Training"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.1109/iccv51070.2023.01100",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "arxiv_id",
+        "value": "2303.15343",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Sigmoid Loss for Language Image Pre-Training",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2303.15343v4",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "minor_title_variation_only",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Sigmoid Loss for Language Image Pre-Training",
+          "work_value": "Sigmoid Loss for Language Image Pre-Training"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\SigLIP_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\SigLIP_resolve.json",
+      "metadata_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\SigLIP_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Sigmoid Loss for Language Image Pre-Training",
+    "year": "",
+    "venue": "",
+    "source_url": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.15343v4",
+    "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+    "doi": "",
+    "arxiv_id": "",
+    "zotero_key": ""
+  }
+}

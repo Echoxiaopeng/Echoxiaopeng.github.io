@@ -1,0 +1,735 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.1109/iccv51070.2023.01100",
+  "decisions": [
+    {
+      "item_id": "figure:Algorithm 1",
+      "source_id": "Algorithm 1",
+      "kind": "figure",
+      "label": "Algorithm 1",
+      "caption": "Sigmoid loss pseudo-implementation.",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:datasets",
+      "decision": "visual_defect",
+      "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "方法主线",
+      "plan_kind": "method_detail",
+      "source_image_filename": "page_002_fig_algorithm_1.png",
+      "relative_markdown_embed": "![Algorithm 1](images/page_002_fig_algorithm_1.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_002_fig_algorithm_1.png"
+    },
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "Efficient loss implementation demonstrated via a mock setup with 3 devices and a global batch size of 12. There",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:method",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "方法主线",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_003_fig_figure_1_review.png",
+      "relative_markdown_embed": "![Figure 1](images/page_003_fig_figure_1_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_003_fig_figure_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "364b5268675316d17c9ec670bae685b75adb7d6d682b89af894ed46edce957e3",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_003_fig_figure_1_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\page_previews\\page_003.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "source_page": 3,
+        "caption": "Efficient loss implementation demonstrated via a mock setup with 3 devices and a global batch size of 12. There",
+        "bbox_pt": [
+          45.668701171875,
+          67.55747985839844,
+          546.6237182617188,
+          251.40240478515625
+        ],
+        "normalized_bbox": [
+          0.074622,
+          0.0853,
+          0.893176,
+          0.317427
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "364b5268675316d17c9ec670bae685b75adb7d6d682b89af894ed46edce957e3",
+        "preserved_scientific_elements": [
+          "panels a-d device mesh",
+          "I1-I12 T1-T12 similarity blocks",
+          "positive diagonal and negative off-diagonal marks",
+          "text swap across devices",
+          "cross-device sum arrows"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "三设备 chunked sigmoid 损失示意清晰：本地块、文本轮换、跨设备求和，无正文污染。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "The effect of pre-training batch size. Left: SigLiT results, trained for 18B seen examples. Sigmoid loss outper-",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:method",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_004_fig_figure_2_review.png",
+      "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_004_fig_figure_2_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "9b24bc52e2260281f25b3b947f7dbd082ac4de9a828ce2d88d8d611d90de731e",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_004_fig_figure_2_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\page_previews\\page_004.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "source_page": 4,
+        "caption": "The effect of pre-training batch size. Left: SigLiT results, trained for 18B seen examples. Sigmoid loss outper-",
+        "bbox_pt": [
+          51.73929214477539,
+          68.6758804321289,
+          540.2484741210938,
+          230.3076171875
+        ],
+        "normalized_bbox": [
+          0.084541,
+          0.086712,
+          0.882759,
+          0.290792
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "9b24bc52e2260281f25b3b947f7dbd082ac4de9a828ce2d88d8d611d90de731e",
+        "preserved_scientific_elements": [
+          "SigLiT ImageNet 0-shot vs batch size",
+          "SigLIP ImageNet 0-shot vs batch size",
+          "mSigLIP XM T-to-I 36-lang avg",
+          "sigmoid vs softmax legends"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "SigLiT/SigLIP/mSigLIP 三条 batch-size 曲线完整可读，图例与坐标清晰。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "SigLiT ImageNet 0-shot transfer results with",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:results",
+      "decision": "placeholder",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Top: SigLIP with pre-trained encoders ramps up",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:results",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "The effect of Adam and AdaFactor’s β2. As",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:results",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "source_id": "Figure 6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "The effect of batch composition. We simulate various batch compositions by masking out negatives, either",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:results",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 7",
+      "source_id": "Figure 7",
+      "kind": "figure",
+      "label": "Figure 7",
+      "caption": "Sigmoid-training increases robustness to data noise. Titles show the type of corruption applied, and x-axes show",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:method-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 8",
+      "source_id": "Figure 8",
+      "kind": "figure",
+      "label": "Figure 8",
+      "caption": "Image-to-text and text-to-image zero-shot retrieval recall@1 results on all 36 languages of Crossmodal-3600.",
+      "pages": [
+        15
+      ],
+      "section_id": "sec:results-2",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_015_fig_figure_8_review.png",
+      "relative_markdown_embed": "![Figure 8](images/page_015_fig_figure_8_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_figure_8_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "e9795cec60401be32e43e021433f409a167cce0f8d8ccbe5935092f53af9e3c6",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_figure_8_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\page_previews\\page_015.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "source_page": 15,
+        "caption": "Image-to-text and text-to-image zero-shot retrieval recall@1 results on all 36 languages of Crossmodal-3600.",
+        "bbox_pt": [
+          49.202239990234375,
+          300.1924743652344,
+          546.020751953125,
+          567.8544921875
+        ],
+        "normalized_bbox": [
+          0.080396,
+          0.379031,
+          0.892191,
+          0.716988
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "e9795cec60401be32e43e021433f409a167cce0f8d8ccbe5935092f53af9e3c6",
+        "preserved_scientific_elements": [
+          "36 language codes plus avg",
+          "batch-size color legend including *32k",
+          "image-to-text and text-to-image panels"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "XM3600 36 语种 I2T/T2I recall@1 柱状图完整，含 *32k 缩放配置。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "SigLiT and SigLIP results. Sigmoid loss is mem-",
+      "pages": [
+        1
+      ],
+      "section_id": "sec:preamble",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_001_fig_table_1_review.png",
+      "relative_markdown_embed": "![Table 1](images/page_001_fig_table_1_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "906d373e08fa0669c541927d41ef55a2aa5b744ea4231eecf02b3a7ec5ed4bab",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\page_previews\\page_001.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "source_page": 1,
+        "caption": "SigLiT and SigLIP results. Sigmoid loss is mem-",
+        "bbox_pt": [
+          302.86199951171875,
+          368.8524475097656,
+          551.1134643554688,
+          477.4205017089844
+        ],
+        "normalized_bbox": [
+          0.494873,
+          0.465723,
+          0.900512,
+          0.602804
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "906d373e08fa0669c541927d41ef55a2aa5b744ea4231eecf02b3a7ec5ed4bab",
+        "preserved_scientific_elements": [
+          "SigLiT and SigLIP rows",
+          "image text BS TPUv4 days INet-0 columns",
+          "frozen and unlocked icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "首页 SigLiT/SigLIP 资源与 INet-0 总览表完整，含冻结/解锁标记。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Multilingual SigLIP results with various batch",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:results",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_005_fig_table_2_review.png",
+      "relative_markdown_embed": "![Table 2](images/page_005_fig_table_2_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_005_fig_table_2_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "51c99ea131929d3c9972f014e3ef97414e8932c25831fb2a10c1707c8c4f9888",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_005_fig_table_2_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\page_previews\\page_005.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "source_page": 5,
+        "caption": "Multilingual SigLIP results with various batch",
+        "bbox_pt": [
+          302.86199951171875,
+          72.24147033691406,
+          542.3651123046875,
+          198.12612915039062
+        ],
+        "normalized_bbox": [
+          0.494873,
+          0.091214,
+          0.886218,
+          0.250159
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "51c99ea131929d3c9972f014e3ef97414e8932c25831fb2a10c1707c8c4f9888",
+        "preserved_scientific_elements": [
+          "batch size columns 16k-240k",
+          "INet-0 and XM avg/de/en/hi/ru/zh rows"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "多语 mSigLIP 不同 batch size 的 INet-0 与 XM 检索表清晰。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Comparison with other publicly released models. Our SigLIP models outperform all prior models, e.g. Open-",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:method-2",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_007_fig_table_3.png",
+      "relative_markdown_embed": "![Table 3](images/page_007_fig_table_3.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_007_fig_table_3.png"
+    },
+    {
+      "item_id": "table:Table 4",
+      "source_id": "Table 4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "Bias (b) and temperature (t′) initialization. Re-",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:method-2",
+      "decision": "insert",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "方法主线",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_009_fig_table_4_review.png",
+      "relative_markdown_embed": "![Table 4](images/page_009_fig_table_4_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_009_fig_table_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "0d0173145290db9e90e6795a50111e58eefd7ea9cf12ad702e4ae95064133d46",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_009_fig_table_4_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\page_previews\\page_009.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "source_page": 9,
+        "caption": "Bias (b) and temperature (t′) initialization. Re-",
+        "bbox_pt": [
+          59.962989807128906,
+          626.1123657226562,
+          284.81207275390625,
+          718.1890258789062
+        ],
+        "normalized_bbox": [
+          0.097979,
+          0.790546,
+          0.465379,
+          0.906804
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "0d0173145290db9e90e6795a50111e58eefd7ea9cf12ad702e4ae95064133d46",
+        "preserved_scientific_elements": [
+          "b and t-prime init settings",
+          "INet-0 Pet-0 C100-0 scores",
+          "bold best row b=-10 t'=log10"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "bias b 与 temperature t' 初始化消融表干净可读。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 5",
+      "source_id": "Table 5",
+      "kind": "table",
+      "label": "Table 5",
+      "caption": "SigLIP zeor-shot accuracy (%) on the ImageNet",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:references",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_014_fig_table_5_review.png",
+      "relative_markdown_embed": "![Table 5](images/page_014_fig_table_5_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "48ff4de9639e0f3e02b81992c1f71fe1a5d3dbf779099549cd724d8b83bbee0b",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\page_previews\\page_014.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "source_page": 14,
+        "caption": "SigLIP zeor-shot accuracy (%) on the ImageNet",
+        "bbox_pt": [
+          50.1829833984375,
+          417.72247314453125,
+          286.291259765625,
+          569.0410766601562
+        ],
+        "normalized_bbox": [
+          0.081998,
+          0.527427,
+          0.467796,
+          0.718486
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "48ff4de9639e0f3e02b81992c1f71fe1a5d3dbf779099549cd724d8b83bbee0b",
+        "preserved_scientific_elements": [
+          "3B and 9B seen-example blocks",
+          "sigmoid vs softmax columns",
+          "batch size rows 512 to 307k"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "附录 SigLIP 在 3B/9B seen examples 下 sigmoid vs softmax 分 batch 对照表清晰。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 6",
+      "source_id": "Table 6",
+      "kind": "table",
+      "label": "Table 6",
+      "caption": "Default hyperparameters across different batch",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:references",
+      "decision": "insert",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_014_fig_table_6_review.png",
+      "relative_markdown_embed": "![Table 6](images/page_014_fig_table_6_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "3a294d227204408f26ecd1d5f251523c0d5f5276ed1195d7f2e5a4daa038f5c2",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\page_previews\\page_014.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "source_page": 14,
+        "caption": "Default hyperparameters across different batch",
+        "bbox_pt": [
+          302.86199951171875,
+          72.24147033691406,
+          551.115234375,
+          137.31307983398438
+        ],
+        "normalized_bbox": [
+          0.494873,
+          0.091214,
+          0.900515,
+          0.173375
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "3a294d227204408f26ecd1d5f251523c0d5f5276ed1195d7f2e5a4daa038f5c2",
+        "preserved_scientific_elements": [
+          "BS 8k 16k 32k rows",
+          "Default Best Best LR Best WD columns"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "不同 batch 默认/最优 LR 与 WD 超参表短小清晰。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 7",
+      "source_id": "Table 7",
+      "kind": "table",
+      "label": "Table 7",
+      "caption": "Mean and standard deviation of five repeated ex-",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:references",
+      "decision": "placeholder",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result"
+    },
+    {
+      "item_id": "table:Table 8",
+      "source_id": "Table 8",
+      "kind": "table",
+      "label": "Table 8",
+      "caption": "SigLiT zero-shot accuracy (%) on the ImageNet benchmark. Both the sigmoid loss and the softmax loss",
+      "pages": [
+        15
+      ],
+      "section_id": "sec:results-2",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_015_fig_table_8_review.png",
+      "relative_markdown_embed": "![Table 8](images/page_015_fig_table_8_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_table_8_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "90aba67d99d5d243925e36223a9d55adde2df6e6dc63b06bd75ae5051702b1b2",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_table_8_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\page_previews\\page_015.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "source_page": 15,
+        "caption": "SigLiT zero-shot accuracy (%) on the ImageNet benchmark. Both the sigmoid loss and the softmax loss",
+        "bbox_pt": [
+          91.44000244140625,
+          70.39851379394531,
+          503.7865295410156,
+          245.62820434570312
+        ],
+        "normalized_bbox": [
+          0.149412,
+          0.088887,
+          0.823181,
+          0.310137
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "90aba67d99d5d243925e36223a9d55adde2df6e6dc63b06bd75ae5051702b1b2",
+        "preserved_scientific_elements": [
+          "450M 900M 3B 18B blocks",
+          "sigmoid softmax subcolumns",
+          "batch rows up to 1024k"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "SigLiT 跨 seen-examples 与 batch size 的 sigmoid/softmax 对照表完整。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 9",
+      "source_id": "Table 9",
+      "kind": "table",
+      "label": "Table 9",
+      "caption": "Image-to-text (text retrieval) and text-to-image (image retrieval) zero-shot recall@1 results on all 36 languages",
+      "pages": [
+        16
+      ],
+      "section_id": "sec:results-2",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_016_fig_table_9_review.png",
+      "relative_markdown_embed": "![Table 9](images/page_016_fig_table_9_review.png)",
+      "source_image_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_016_fig_table_9_review.png",
+      "materialization_status": "skipped",
+      "source_image_sha256": "0e31a5f1a1c5e6614bb6b5401d5b511a61373816713058ff19783faa4e7bd2ea",
+      "review_evidence": {
+        "candidate_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_016_fig_table_9_review.png",
+        "page_preview_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\page_previews\\page_016.png",
+        "source_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\4J74VVYR\\Zhai 等 - 2023 - Sigmoid Loss for Language Image Pre-Training.pdf",
+        "source_page": 16,
+        "caption": "Image-to-text (text retrieval) and text-to-image (image retrieval) zero-shot recall@1 results on all 36 languages",
+        "bbox_pt": [
+          82.10700225830078,
+          123.3155517578125,
+          513.1175842285156,
+          614.4720458984375
+        ],
+        "normalized_bbox": [
+          0.134162,
+          0.155701,
+          0.838427,
+          0.775849
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "0e31a5f1a1c5e6614bb6b5401d5b511a61373816713058ff19783faa4e7bd2ea",
+        "preserved_scientific_elements": [
+          "36-language bilingual retrieval grid"
+        ],
+        "omitted_scientific_elements": [
+          "legible per-cell numeric reading at note embed size"
+        ],
+        "notes": "36 语种双任务全表字号过密，嵌入笔记后关键数字难以可靠识读；正文用 Table 2 与 Figure 8 及关键均值叙述。",
+        "failure_reason": "unreadable_source",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 18,
+    "by_decision": {
+      "insert": 9,
+      "low_priority": 4,
+      "placeholder": 2,
+      "review_pending": 0,
+      "skip": 0,
+      "visual_defect": 3
+    }
+  }
+}

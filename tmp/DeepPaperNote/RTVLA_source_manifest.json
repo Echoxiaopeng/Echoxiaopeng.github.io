@@ -1,0 +1,1052 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "arxiv:2609.18207",
+  "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\RTVLA_raw_sections.jsonl",
+  "full_text_md_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\RTVLA_full_text.md",
+  "pdf": {
+    "path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+    "total_pages": 17,
+    "text_pages_extracted": 17,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 17,
+    "text_max_pages": null,
+    "text_pages_extracted": 17,
+    "text_pages_scanned": 17,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": true,
+    "appendix_start_page": 12,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 2460,
+      "text_hash_sha256": "81792b6a6b5a2b00bb21295ce70fe1f52152266b14f602aec2a12483f69f4981"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "I. INTRODUCTION",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 4505,
+      "text_hash_sha256": "6beb0e323b0f3ea6f5d080519360ad4ab589f57645c99f6b348c660e6f36899c"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "II. RELATED WORK",
+      "page_start": 2,
+      "page_end": 3,
+      "char_count": 4087,
+      "text_hash_sha256": "c580502a6888d5a2a416870aed42ea47f4e6e0fd05853471c60f57abef648308"
+    },
+    {
+      "section_id": "sec:background",
+      "kind": "introduction",
+      "title": "III. BACKGROUND",
+      "page_start": 3,
+      "page_end": 6,
+      "char_count": 16625,
+      "text_hash_sha256": "d977fbfdfdeb3cd2cdba56759444f51237804da5e8de67e86f6f177723f6f3fc"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "V. EXPERIMENTS",
+      "page_start": 6,
+      "page_end": 9,
+      "char_count": 11060,
+      "text_hash_sha256": "4cb616d04e2bf3c519398b587d4034b1f3b74ca3b67d4e8f7bc355b88da2c54a"
+    },
+    {
+      "section_id": "sec:discussion",
+      "kind": "conclusion",
+      "title": "VI. DISCUSSION",
+      "page_start": 9,
+      "page_end": 9,
+      "char_count": 758,
+      "text_hash_sha256": "b52e7ab520f5242cbcbafe2ffce59f547fe79f98825288a787a46eb4b4ff28f0"
+    },
+    {
+      "section_id": "sec:acknowledgments",
+      "kind": "acknowledgments",
+      "title": "VII. ACKNOWLEDGMENTS",
+      "page_start": 9,
+      "page_end": 9,
+      "char_count": 135,
+      "text_hash_sha256": "34366b9a1b715b99cc8f5b390aadec4e129042d663b8b6bae24326ca59fd6c84"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "REFERENCES",
+      "page_start": 9,
+      "page_end": 11,
+      "char_count": 12705,
+      "text_hash_sha256": "19f4e6d0652f6faa6047691ad3dd72fc3bf2efffef36eb0cfa8a75fcbc7fcc06"
+    },
+    {
+      "section_id": "sec:appendix",
+      "kind": "appendix",
+      "title": "APPENDIX",
+      "page_start": 12,
+      "page_end": 17,
+      "char_count": 22753,
+      "text_hash_sha256": "2f5d981e42a8ac521ebf8a388abe92b9e25a09d3551128d0b14dad95f0bda7bc"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2115,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 6422,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction",
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 6189,
+      "section_ids": [
+        "sec:related-work",
+        "sec:background"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 4527,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 5294,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 4245,
+      "section_ids": [
+        "sec:background",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 6288,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 3111,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 5326,
+      "section_ids": [
+        "sec:experiments",
+        "sec:discussion",
+        "sec:acknowledgments",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 5225,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3897,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 5926,
+      "section_ids": [
+        "sec:appendix"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 1907,
+      "section_ids": [
+        "sec:appendix"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 6219,
+      "section_ids": [
+        "sec:appendix"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 1681,
+      "section_ids": [
+        "sec:appendix"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 5708,
+      "section_ids": [
+        "sec:appendix"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 1366,
+      "section_ids": [
+        "sec:appendix"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Fig 1",
+        "caption": "Overview of Real-Time EXPO-FT. Real-Time EXPO-FT addresses the latency of large VLA models by combining",
+        "page": 1,
+        "pages": [
+          1
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Left: Real-time policy inference of Real-Time EXPO-FT. Real-Time EXPO-FT decouples slow VLA action",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Training success across all 10 Kinetix [26] simulation tasks. The vertical dashed lines indicate the evaluation",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Four real-world manipulation tasks in our evaluation suite: Dynamic Picking, Ball Balancing, Object Passing,",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Training success across four real-world dynamic tasks. We train each policy with at most 10 minutes of online",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Success rates under varying delays and environment",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Comparison of noise-level filtering. We compare Real-Time EXPO-FT with and without noise-level filtering, where",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:appendix"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "10 Kinetix simulation tasks [26] evaluated in our experiments.",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:appendix"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "each strip illustrates the temporal progression of",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:appendix"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Full execution strips for the evaluated tasks. Each strip shows the temporal progression of a complete task execution,",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:appendix"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Initial-state randomization spaces for the real-world tasks. The orange boxes indicate the regions within which object",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:appendix"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [
+    {
+      "text": "process (MDP) M = (S, A, r, T, γ, ρ). In the MDP, S is the",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "t, the agent selects action at ∈A according to policy",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "π(· | st−d, st) and receives scalar reward r(st, at) ∈R. The",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "t=0 γtr(st, at)",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": ", where γ ∈[0, 1] is the discount factor.",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "C ≤H at each timestep. We assume the delay d is less than",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "L(πedit) = −E(st,at)∼D, ˆat∼πedit",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "with the base action a to yield the edited action ˜a = a + ˆa,",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "˜a∗=",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "a ∈SN",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "i=1{ai, ˜ai}",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "L(ϕ) = E(st,at,st+1)∼D",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "r ∈[0, 1] indicating successful task completion. The task",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "incurs a delay of approximately d = ⌊t × f⌋+ 1 control",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "we assume 1 ≤d ≤C, where C denotes the execution",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "t:t+H = πVLA(st, aprev",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "t+d:t+d+C =",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "a∈SN",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "i=1{ai",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "t = τAt + (1 −τ)ϵ,",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "LBC(πVLA) = E(st,At)∼D",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "L(πedit) = −E(st,at:t+C)∼D",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "L(Qϕ) = E(st,at:t+C,st+C)∼D",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "Ours (d=4)",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "EXPO-FT w/ RTC (d=4)",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "EXPO-FT w/o RTC (d=4)",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "DSRL w/ RTC (d=4)",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "DSRL w/o RTC (d=4)",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "RLPD (d=0)",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "BC (d=0)",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "RTC (d=4)",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "ϵ∗= arg max",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "i∈[N] Qdn",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "a =",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "t+C:t+2C = arg max",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "a′∈{a, a+ˆa}",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "ψ ) = E",
+      "section_id": "sec:background",
+      "page_start": 3,
+      "page_end": 6
+    },
+    {
+      "text": "N = 32 is often required. However, setting a large N such",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "four layers, an action-chunk length of H = 8, and five",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "noise space over the frozen per-level base policy, with M =",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "inference delay; delay d = 4 with real-time chunking, where",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "4] and the window [4 : 8] is executed; and delay d = 4",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "r = 1 on the step at which it declares success and terminates",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "the episode. A timeout terminates the episode with r = 0",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "Delay = 0",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "Delay = 4",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "padded action dimension is 32, the action horizon is H = 16,",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "at flow time τ = 1, and the flow-matching loss is applied only",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "to both the boot regime (d = 0) and the delayed inpainting",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "using Polyak averaging with τQ = 5 × 10−3. For Kick and",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "D = C × 7. For C = 8, this gives D = 56. The policy is",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "policy draws N = 32 stochastic action chunks using 10 Euler",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "−D/2, D = C × 7",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "online training: d = 0 for transitions in the first chunk of",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "implementation [20], with β1 = 0.9, β2 = 0.95, ϵ = 10−8,",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "τπ = 10−3 but is not used by the current Bellman backup,",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "is initialized at α0 = 0.01 and optimized with Adam at",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "3 × 10−4 using a target entropy of −D/2, where D = C × 7",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "condition, we set d = 0 and add 100 ms of real sleep to every",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "We use d = 3 for dynamic picking and d = 5 for the other",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "a learning rate of 3 × 10−4, γ = 0.99 (0.997 for Kick),",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "entropy −7/2 = −3.5, and no entropy term in the Bellman",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "action dimension, squashed as M tanh(u) with M = 1.0 and",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "temperature use 3 × 10−4. We use γ = 0.99 (0.997 for",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "Kick), τQ = 5 × 10−3, minibatch size 64, UTD ratio 20,",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "DSRL executes C = 8 steps per replan. Under nonzero",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "delay-unaware: it is trained and evaluated with d = 0 while",
+      "section_id": "sec:appendix",
+      "page_start": 12,
+      "page_end": 17
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": true,
+    "start_page": 12,
+    "sections": [
+      {
+        "title": "A. Noise-level Filtering Studies",
+        "page": 12
+      },
+      {
+        "title": "N = 32 is often required. However, setting a large N such",
+        "page": 12
+      },
+      {
+        "title": "B. Full Simulation Experiment Results",
+        "page": 12
+      },
+      {
+        "title": "C. Detailed Simulation Task Settings",
+        "page": 12
+      },
+      {
+        "title": "d ∼Unif{0, . . . , 4}, where the prefix length is resampled",
+        "page": 12
+      },
+      {
+        "title": "D. Detailed Real-World Task Settings",
+        "page": 12
+      },
+      {
+        "title": "r = 1 on the step at which it declares success and terminates",
+        "page": 12
+      },
+      {
+        "title": "E. Detailed Training Settings",
+        "page": 14
+      },
+      {
+        "title": "D = C × 7. For C = 8, this gives D = 56. The policy is",
+        "page": 14
+      },
+      {
+        "title": "F. Baseline Implementations",
+        "page": 16
+      },
+      {
+        "title": "a learning rate of 3 × 10−4, γ = 0.99 (0.997 for Kick),",
+        "page": 16
+      }
+    ],
+    "figure_captions": [
+      {
+        "id": "Fig 7",
+        "caption": "Comparison of noise-level filtering. We compare Real-Time EXPO-FT with and without noise-level filtering, where",
+        "page_hint": "p.13"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "10 Kinetix simulation tasks [26] evaluated in our experiments.",
+        "page_hint": "p.13"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "each strip illustrates the temporal progression of",
+        "page_hint": "p.14"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Full execution strips for the evaluated tasks. Each strip shows the temporal progression of a complete task execution,",
+        "page_hint": "p.15"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Initial-state randomization spaces for the real-world tasks. The orange boxes indicate the regions within which object",
+        "page_hint": "p.15"
+      }
+    ],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "27c8c839bc7eba641e69a9bd8ec7dabaf07f1f63fd83997377581b995fc47fe9",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:2609.18207",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+      "translated_title": "",
+      "authors": [
+        "Perry Dong",
+        "Kuo-Han Hung",
+        "Dorsa Sadigh",
+        "Chelsea Finn"
+      ],
+      "year": "2026",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "2609.18207",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+      "year": "",
+      "venue": "",
+      "source_url": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2609.18207v1",
+      "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+      "doi": "",
+      "arxiv_id": "2609.18207",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+      "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+      "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+      "metadata_sources": [
+        "local_pdf",
+        "arxiv"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "local_pdf_artifact_title": true,
+      "arxiv_id": "2609.18207",
+      "paper_id": "arxiv:2609.18207",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used",
+        "local_pdf_artifact_title"
+      ],
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2609.18207v1",
+      "abstract": "Reinforcement learning fine-tuning on top of large, pretrained Vision-Language-Action (VLA) models offers promise for highly reliable robot deployment. However, because of their scale, modern VLA models suffer from high inference latency, so the observation used to select an action is often stale by execution time, creating a distribution shift that can substantially degrade reliability and performance. Prior work has explored asynchronous policy execution to reduce the effect of latency, but these methods are mostly built on imitation learning and offer no mechanism for moving beyond the training distribution toward higher reliability. We close this gap by enabling RL fine-tuning that meets the real-time control requirements of dynamic real-world manipulation. Our approach builds on EXPO-FT, a framework for sample-efficient, reliable VLA fine-tuning with reinforcement learning, and decouples slow, expressive action generation from fast, reactive action edits: a large pretrained VLA proposes action chunks using its strong behavior prior, while a lightweight edit policy performs fast, reactive decision-making by editing actions in response to changes in state, conditioned on the latest observation. We instantiate this as Real-Time EXPO-FT, an RL framework for finetuning real-time VLA policies. On the Kinetix benchmark, Real-Time EXPO-FT enables a delayed policy to achieve the best performance among delayed and non-delayed methods in 10 out of 10 environments. On four dynamic real-world tasks, robot object passing, ball balancing, table soccer kicking, and dynamic object picking, with online robot data capped at 10 minutes, Real-Time EXPO-FT improves average policy performance from 42% to 97%, all without human intervention, demonstrating rapid, sample-efficient adaptation to challenging real-world dynamics. Website: https://pd-perry.github.io/real-time-expo-ft",
+      "authors": [
+        "Perry Dong",
+        "Kuo-Han Hung",
+        "Dorsa Sadigh",
+        "Chelsea Finn"
+      ],
+      "published": "2026-09-16T06:38:36Z",
+      "year": "2026",
+      "pdf_url": "https://arxiv.org/pdf/2609.18207v1"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2609.18207.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2609.18207v1",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.18207"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.18207"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.18207"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.18207"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.18207"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.18207"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.18207"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.18207"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "2609.18207",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2609.18207v1",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2609.18207"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+          "work_value": "Reinforcement Learning for Real-Time Vision-Language-Action Policies"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\RTVLA_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\RTVLA_resolve.json",
+      "metadata_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\RTVLA_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+    "year": "",
+    "venue": "",
+    "source_url": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.18207v1",
+    "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\QQ3NV4JT\\Dong 等 - 2026 - Reinforcement Learning for Real-Time Vision-Language-Action Policies.pdf",
+    "doi": "",
+    "arxiv_id": "2609.18207",
+    "zotero_key": ""
+  }
+}

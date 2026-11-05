@@ -1,0 +1,77 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "doi:10.1109/iccv51070.2023.01100",
+  "title": "Sigmoid Loss for Language Image Pre-Training",
+  "note_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\Sigmoid_Loss_for_Language_Image_Pre_Training.md",
+  "subdir": "机器学习",
+  "images_dir": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images",
+  "materialized_figures": [
+    {
+      "source_id": "Figure 1",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_003_fig_figure_1_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_003_fig_figure_1_review.png",
+      "relative_markdown_path": "images/page_003_fig_figure_1_review.png",
+      "reviewed_asset_sha256": "364b5268675316d17c9ec670bae685b75adb7d6d682b89af894ed46edce957e3"
+    },
+    {
+      "source_id": "Figure 2",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_004_fig_figure_2_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_004_fig_figure_2_review.png",
+      "relative_markdown_path": "images/page_004_fig_figure_2_review.png",
+      "reviewed_asset_sha256": "9b24bc52e2260281f25b3b947f7dbd082ac4de9a828ce2d88d8d611d90de731e"
+    },
+    {
+      "source_id": "Figure 8",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_figure_8_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_figure_8_review.png",
+      "relative_markdown_path": "images/page_015_fig_figure_8_review.png",
+      "reviewed_asset_sha256": "e9795cec60401be32e43e021433f409a167cce0f8d8ccbe5935092f53af9e3c6"
+    },
+    {
+      "source_id": "Table 1",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_001_fig_table_1_review.png",
+      "relative_markdown_path": "images/page_001_fig_table_1_review.png",
+      "reviewed_asset_sha256": "906d373e08fa0669c541927d41ef55a2aa5b744ea4231eecf02b3a7ec5ed4bab"
+    },
+    {
+      "source_id": "Table 2",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_005_fig_table_2_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_005_fig_table_2_review.png",
+      "relative_markdown_path": "images/page_005_fig_table_2_review.png",
+      "reviewed_asset_sha256": "51c99ea131929d3c9972f014e3ef97414e8932c25831fb2a10c1707c8c4f9888"
+    },
+    {
+      "source_id": "Table 4",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_009_fig_table_4_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_009_fig_table_4_review.png",
+      "relative_markdown_path": "images/page_009_fig_table_4_review.png",
+      "reviewed_asset_sha256": "0d0173145290db9e90e6795a50111e58eefd7ea9cf12ad702e4ae95064133d46"
+    },
+    {
+      "source_id": "Table 5",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_5_review.png",
+      "relative_markdown_path": "images/page_014_fig_table_5_review.png",
+      "reviewed_asset_sha256": "48ff4de9639e0f3e02b81992c1f71fe1a5d3dbf779099549cd724d8b83bbee0b"
+    },
+    {
+      "source_id": "Table 6",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_014_fig_table_6_review.png",
+      "relative_markdown_path": "images/page_014_fig_table_6_review.png",
+      "reviewed_asset_sha256": "3a294d227204408f26ecd1d5f251523c0d5f5276ed1195d7f2e5a4daa038f5c2"
+    },
+    {
+      "source_id": "Table 8",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_table_8_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器学习\\Sigmoid_Loss_for_Language_Image_Pre_Training\\images\\page_015_fig_table_8_review.png",
+      "relative_markdown_path": "images/page_015_fig_table_8_review.png",
+      "reviewed_asset_sha256": "90aba67d99d5d243925e36223a9d55adde2df6e6dc63b06bd75ae5051702b1b2"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "C:\\Users\\kian123\\Desktop\\Obsidian_note",
+  "vault": "C:\\Users\\kian123\\Desktop\\Obsidian_note"
+}

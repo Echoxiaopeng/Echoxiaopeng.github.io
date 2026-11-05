@@ -67,11 +67,13 @@
           <p>
             曾于雅可比机器人（2025.07 – 2025.10）担任 VLA 算法实习生，跟踪前沿学术成果与开源进展，基于
             pi05 等具身架构开展微调与真机联调，并搭建遥操作采集链路、独立采集清洗多模态轨迹，整理为 LeRobot 数据集。现于晨昏线科技（2026.02 –
-            2026.08）任具身算法实习生，复现 WAM 方向代表性工作并输出算法对比报告，参与工业场景策略训练、论文撰写与真机实验。
+            2026.10）任具身算法实习生，复现 WAM 方向代表性工作并输出算法对比报告，参与工业场景策略训练、论文撰写与真机实验。
           </p>
           <p>
-            近期项目涵盖印花机双臂上料、元器件分拣 LingBot-VA 异步推理加速、MuJoCo +
-            Pika 仿真遥操，以及充电枪柔顺装配 DRL 等。已发表期刊论文 2 篇、会议论文 2 篇，已授权专利 2 项（实审 1 项），获中国研究生电子设计竞赛华南分赛区团队二等奖。
+            近期项目涵盖 ARX X5 双臂 Flatten &amp; Fold（Pi 0.5 + RTC + DAgger）、印花机双臂上料、元器件分拣
+            LingBot-VA 异步推理加速、MuJoCo + Pika 仿真遥操、充电枪柔顺装配 DRL，以及 CARE-MEM
+            因果循环记忆（在投 ICRA）等。已发表期刊论文 2 篇、会议论文 2 篇，在投会议 1 篇，已授权专利 2
+            项（实审 1 项），获中国研究生电子设计竞赛华南分赛区团队二等奖。
           </p>
         </article>
       </div>
@@ -82,10 +84,12 @@
       <ul class="toc">
         <li><a href="#overview">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li class="toc-sub"><a href="#project-1">印花机上料</a></li>
-        <li class="toc-sub"><a href="#project-2">元器件分拣</a></li>
-        <li class="toc-sub"><a href="#project-3">DRL 充电枪装配</a></li>
-        <li class="toc-sub"><a href="#project-4">MuJoCo 仿真遥操</a></li>
+        <li class="toc-sub"><a href="#project-1">双臂叠衣服</a></li>
+        <li class="toc-sub"><a href="#project-2">印花机上料</a></li>
+        <li class="toc-sub"><a href="#project-3">元器件分拣</a></li>
+        <li class="toc-sub"><a href="#project-6">ShellGame· ICRA</a></li>
+        <li class="toc-sub"><a href="#project-5">MuJoCo 仿真遥操</a></li>
+        <li class="toc-sub"><a href="#project-4">DRL 充电枪装配</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -96,10 +100,76 @@
       <div class="container">
         <h2>Projects</h2>
         <p class="section-lead">
-          聚焦真机 VLA 落地、推理加速、仿真遥操与机器人强化学习装配。
+          聚焦真机长程 VLA 部署、记忆增强策略、实时控制优化、推理加速与机器人强化学习装配。
         </p>
 
         <article class="project" id="project-1">
+          <h3>ARX X5 双臂 Flatten &amp; Pi0.5 + RTC + DAgger</h3>
+          <p>
+            基于 OpenPi <strong>0.5</strong>，在 <strong>ARX X5 双臂</strong>上部署长程
+            Flatten &amp; Fold 叠衣服策略。感知侧为 2 路鱼眼腕部相机 + 中间
+            RealSense；推理侧采用<strong>本地推理服务 + 实机客户端</strong>架构，完成端到端真机闭环。
+          </p>
+          <ul class="project-bullets">
+            <li>
+              <strong>RTC 实时分块：</strong>接入 RTC（Real-Time Chunking），降低 action-chunk
+              策略在实机上的执行延迟与换 chunk 不连续，提升在线控制实时性。
+            </li>
+            <li>
+              <strong>轨迹平滑：</strong>实现 / 调优 temporal chunk-wise smoothing 及
+              ensembling，抑制关节抖动与顿挫，提升机械臂运动丝滑度与跟踪稳定性。
+            </li>
+            <li>
+              <strong>DAgger 人机协同：</strong>搭建[策略 rollout → 人工介入纠偏 →
+              数据回流]采集链路，将 recovery 数据与已有数据 mixture
+              加权后继续微调，迭代改善折叠成功率与失败恢复能力。
+            </li>
+          </ul>
+          <div class="media-grid">
+            <figure class="media-item">
+              <div class="publication-video">
+                <video
+                  controls
+                  muted
+                  playsinline
+                  disablePictureInPicture
+                  controlsList="nodownload noplaybackrate"
+                  preload="metadata"
+                  title="Arx x5 Flatten & Fold · 顺滑版"
+                >
+                  <source src="video/叠衣服视频-顺滑版.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <figcaption class="media-caption">
+                Flatten &amp; Fold 真机演示（chunk smoothing 后 · 顺滑）
+              </figcaption>
+            </figure>
+            <figure class="media-item">
+              <div class="publication-video">
+                <video
+                  controls
+                  muted
+                  playsinline
+                  disablePictureInPicture
+                  controlsList="nodownload noplaybackrate"
+                  preload="metadata"
+                  title="Arx x5 Flatten & Fold · 抖动版"
+                >
+                  <source src="video/叠衣服视频-抖动.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <figcaption class="media-caption">
+                Flatten &amp; Fold 真机演示（优化前 · 关节抖动）
+              </figcaption>
+            </figure>
+          </div>
+          <p class="meta">
+            <strong>Stack:</strong> OpenPi 0.5 · ARX X5 · RTC · chunk smoothing ·
+            DAgger · RealSense · 本地 GPU 推理
+          </p>
+        </article>
+
+        <article class="project" id="project-2">
           <h3>双臂印花机上料</h3>
           <p>
             主实验任务为工业<strong>印花机上料</strong>：夹起衣角→
@@ -160,7 +230,7 @@
           </p>
         </article>
 
-        <article class="project" id="project-2">
+        <article class="project" id="project-3">
           <h3>单臂元器件分拣</h3>
           <p>
             面向电子元器件分拣场景，基于
@@ -218,7 +288,113 @@
           </p>
         </article>
 
-        <article class="project" id="project-3">
+        <article class="project" id="project-6">
+          <h3>CARE-MEM · 让 VLA 记住看不见的任务状态</h3>
+          <p>
+            很多操作当前画面看不出来该怎么做——比如杯子换来换去之后，球在哪个杯子下面。只看当前帧的
+            Pi0.5 接近瞎猜。我们提出 <strong>CARE-MEM</strong>：给策略加一块<strong>固定大小的循环记忆</strong>，训练时教它逐步记住任务状态，上线后只靠相机画面更新这块记忆，不再依赖标注或大模型。
+          </p>
+          <ul class="project-bullets">
+            <li>
+              <strong>怎么训：</strong>训练时用事件标注算出每一步任务状态该是什么（球在哪、数到几等），再蒸馏进视觉记忆网络；部署时这些标注和 teacher
+              全部去掉，策略只读记忆 + 当前观测。
+            </li>
+            <li>
+              <strong>记忆本身：</strong>一块固定的 <strong>128×64</strong> 状态（约
+              32&nbsp;KB），边看边更新、不随任务变长而膨胀；默认偏向保留旧信息，画面有新变化时再写入。
+            </li>
+            <li>
+              <strong>效果：</strong>ShellGame 成功率 <strong>75.3%</strong>（当前帧 π₀.₅ 仅
+              <strong>34.7%</strong>）；5 个记忆相关任务平均 <strong>85.2%</strong>，高于最强基线
+              <strong>54.5%</strong>。额外推理开销约 <strong>1.4&nbsp;ms</strong>。
+            </li>
+            <li>
+              <strong>证明策略真在用记忆：</strong>策略权重不动，只把记忆换成「球在另一个杯子」的版本，机械臂第一次就会伸向那个杯子（150/150）；换成「目标相同」的记忆则不会改方向（0/150）。
+            </li>
+          </ul>
+          <div class="media-grid">
+            <figure class="media-item">
+              <div class="publication-video">
+                <video
+                  controls
+                  muted
+                  playsinline
+                  disablePictureInPicture
+                  controlsList="nodownload noplaybackrate"
+                  preload="metadata"
+                  title="CARE-MEM ShellGame 演示"
+                >
+                  <source src="video/shellgame.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <figcaption class="media-caption">
+                ShellGame 闭环演示：换杯后靠记忆找到目标杯
+              </figcaption>
+            </figure>
+            <figure class="media-item">
+              <div class="publication-video">
+                <img
+                  src="CARE_MEM_fig2.png"
+                  alt="CARE-MEM：训练时蒸馏，部署时只保留记忆网络"
+                />
+              </div>
+              <figcaption class="media-caption">
+                训练靠标注蒸馏记忆；部署只保留记忆网络 + 动作策略
+              </figcaption>
+            </figure>
+          </div>
+          <p class="meta">
+            <strong>Stack:</strong> CARE-MEM · Pi0.5 · SigLIP · ShellGame · RoboMME ·
+            Qwen3-VL · flow matching
+          </p>
+          <p class="meta">
+            <strong>成果：</strong>论文在投 ICRA
+          </p>
+        </article>
+
+        <article class="project" id="project-5">
+          <h3>MuJoCo 仿真遥操 </h3>
+          <p>
+            基于 <strong>MuJoCo</strong> 搭建仿真环境，对接松灵
+            <strong>Pika</strong> 遥操作主手，实现仿真侧遥操闭环，用于示教采集与操作链路验证。
+          </p>
+          <ul class="project-bullets">
+            <li>
+              <strong>仿真环境：</strong>在 MuJoCo 中搭建机械臂 / 场景模型，完成物理仿真与可视化渲染。
+            </li>
+            <li>
+              <strong>遥操对接：</strong>接入 Pika 主手，完成主从映射与控制下发，在仿真中实时驱动末端运动。
+            </li>
+            <li>
+              <strong>用途：</strong>支撑示教轨迹采集、遥操手感调试及真机部署前的链路验证。
+            </li>
+          </ul>
+          <div class="media-grid single">
+            <figure class="media-item">
+              <div class="publication-video">
+                <video
+                  controls
+                  muted
+                  playsinline
+                  disablePictureInPicture
+                  controlsList="nodownload noplaybackrate"
+                  preload="metadata"
+                  title="MuJoCo Pika 仿真遥操"
+                >
+                  <source src="video/pika.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <figcaption class="media-caption">
+                MuJoCo + 松灵 Pika 仿真遥操演示
+              </figcaption>
+            </figure>
+          </div>
+          <p class="meta">
+            <strong>Stack:</strong> MuJoCo · 松灵 Pika · 仿真遥操 · Python
+          </p>
+        </article>
+
+        <article class="project" id="project-4">
           <h3>深度强化学习充电枪装配</h3>
           <p>
             针对电动汽车充电枪装配中传统强化学习样本效率低、策略震荡及硬件利用率不足的问题，提出融合
@@ -264,48 +440,6 @@
             <strong>成果：</strong>相关论文已投稿期刊
           </p>
         </article>
-
-        <article class="project" id="project-4">
-          <h3>MuJoCo 仿真遥操 </h3>
-          <p>
-            基于 <strong>MuJoCo</strong> 搭建仿真环境，对接松灵
-            <strong>Pika</strong> 遥操作主手，实现仿真侧遥操闭环，用于示教采集与操作链路验证。
-          </p>
-          <ul class="project-bullets">
-            <li>
-              <strong>仿真环境：</strong>在 MuJoCo 中搭建机械臂 / 场景模型，完成物理仿真与可视化渲染。
-            </li>
-            <li>
-              <strong>遥操对接：</strong>接入 Pika 主手，完成主从映射与控制下发，在仿真中实时驱动末端运动。
-            </li>
-            <li>
-              <strong>用途：</strong>支撑示教轨迹采集、遥操手感调试及真机部署前的链路验证。
-            </li>
-          </ul>
-          <div class="media-grid single">
-            <figure class="media-item">
-              <div class="publication-video">
-                <video
-                  controls
-                  muted
-                  playsinline
-                  disablePictureInPicture
-                  controlsList="nodownload noplaybackrate"
-                  preload="metadata"
-                  title="MuJoCo Pika 仿真遥操"
-                >
-                  <source src="video/pika.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <figcaption class="media-caption">
-                MuJoCo + 松灵 Pika 仿真遥操演示
-              </figcaption>
-            </figure>
-          </div>
-          <p class="meta">
-            <strong>Stack:</strong> MuJoCo · 松灵 Pika · 仿真遥操 · Python
-          </p>
-        </article>
       </div>
     </section>
 
@@ -313,6 +447,10 @@
       <div class="container narrow">
         <h2>Publications &amp; Patents</h2>
         <ul class="pub-list">
+          <li>
+            CaRe-Mem: Distilling Causal State Trajectories into Compact Recurrent Memory for Long-Horizon Robot Control
+            <span class="pub-tag">ICRA · 在投</span>
+          </li>
           <li>
             基于事后经验回放和策略延迟更新的深度强化学习充电枪装配策略研究
             <span class="pub-tag">期刊</span>

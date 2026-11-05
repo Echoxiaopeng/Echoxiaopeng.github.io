@@ -1,0 +1,84 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "arxiv:2609.18207",
+  "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+  "note_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies.md",
+  "subdir": "机器人",
+  "images_dir": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images",
+  "materialized_figures": [
+    {
+      "source_id": "Fig 1",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1_review_repair1.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1_review_repair1.png",
+      "relative_markdown_path": "images/page_001_fig_fig_1_review_repair1.png",
+      "reviewed_asset_sha256": "2420ac1d8461a3a930dd94192ba3e052aad51682a9b43b58de67f354b437a334"
+    },
+    {
+      "source_id": "Fig 2",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_figure_2_repair1.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_figure_2_repair1.png",
+      "relative_markdown_path": "images/page_004_fig_figure_2_repair1.png",
+      "reviewed_asset_sha256": "92e8f3736adf8ee14bcab89da7e0a2c51de427598fc242a0f20b44abd71fdfd3"
+    },
+    {
+      "source_id": "Fig 3",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_006_fig_fig_3_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_006_fig_fig_3_review.png",
+      "relative_markdown_path": "images/page_006_fig_fig_3_review.png",
+      "reviewed_asset_sha256": "2c7a2627a627fb8629005b1b6cd8ceab8c027b2e88d99445c179b937e339dcca"
+    },
+    {
+      "source_id": "Fig 4",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4_review.png",
+      "relative_markdown_path": "images/page_008_fig_fig_4_review.png",
+      "reviewed_asset_sha256": "134a55fd91b70ce0f92c641de2cdcaeddb9ed9ceffa398567440b39f0bfa23dd"
+    },
+    {
+      "source_id": "Fig 5",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5_review.png",
+      "relative_markdown_path": "images/page_008_fig_fig_5_review.png",
+      "reviewed_asset_sha256": "5cae2024b0f0a11b4efd53d87253345f7826bc87b45bb702ad508255e5cdb438"
+    },
+    {
+      "source_id": "Fig 6",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6_review_repair1.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6_review_repair1.png",
+      "relative_markdown_path": "images/page_008_fig_fig_6_review_repair1.png",
+      "reviewed_asset_sha256": "bc3c92a0757e8f4e4181a8a14bb9569fe99e0621cad06c8ddab299cc0104f591"
+    },
+    {
+      "source_id": "Fig 7",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_7_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_7_review.png",
+      "relative_markdown_path": "images/page_013_fig_fig_7_review.png",
+      "reviewed_asset_sha256": "2bd9a7b32573059ba707ed6a3b608e58506d34e163125b77083dfeb5fdb444d6"
+    },
+    {
+      "source_id": "Fig 8",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_8_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_8_review.png",
+      "relative_markdown_path": "images/page_013_fig_fig_8_review.png",
+      "reviewed_asset_sha256": "90bb22cd6fd3d93e5ff22df81ad5031199d8204184f4eb9f326adf7bb24fdd38"
+    },
+    {
+      "source_id": "Fig 9",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_9_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_9_review.png",
+      "relative_markdown_path": "images/page_015_fig_fig_9_review.png",
+      "reviewed_asset_sha256": "c3f1555f6b2ff195789af3c08eda36f006c0888141873d4c95f483642624a82e"
+    },
+    {
+      "source_id": "Fig 10",
+      "source_image": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_10_review.png",
+      "dest_image_path": "C:\\Users\\kian123\\Desktop\\Obsidian_note\\Research\\Papers\\机器人\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_10_review.png",
+      "relative_markdown_path": "images/page_015_fig_fig_10_review.png",
+      "reviewed_asset_sha256": "e36af267deda53609f35441a14a87bfa7ff4fcee5e62b19934f7e91ced21c8c1"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "C:\\Users\\kian123\\Desktop\\Obsidian_note",
+  "vault": "C:\\Users\\kian123\\Desktop\\Obsidian_note"
+}

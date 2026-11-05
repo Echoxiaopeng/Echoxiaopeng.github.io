@@ -1,0 +1,2243 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "arxiv:2609.18207",
+  "figure_plan": {
+    "paper_id": "arxiv:2609.18207",
+    "figures": [
+      {
+        "id": "Fig 1",
+        "caption": "Overview of Real-Time EXPO-FT. Real-Time EXPO-FT addresses the latency of large VLA models by combining",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_001_fig_fig_1.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1.png",
+          "width": 722,
+          "height": 489,
+          "size_bytes": 253923,
+          "label": "Fig. 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.410052,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.875249,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 321,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "real-time",
+              "expo-ft",
+              "addresses",
+              "latency",
+              "large"
+            ],
+            "snippet": "rsa Sadigh Chelsea Finn Stanford University https://pd-perry.github.io/real-time-expo-ft/ Fig. 1: Overview of Real-Time EXPO-FT. Real-Time EXPO-FT addresses the latency of large VLA mode",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_img_01.png",
+                "width": 1764,
+                "height": 1208,
+                "size_bytes": 1187730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1.png",
+                "width": 722,
+                "height": 489,
+                "size_bytes": 253923,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.410052,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.875249,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 321,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 15,
+            "score": 5,
+            "matched_terms": [
+              "fig. 1"
+            ],
+            "snippet": "l progression of a complete task execution, from initialization to successful completion. Fig. 10: Initial-state randomization spaces for the real-world tasks. The orange boxes indicate",
+            "images": [
+              {
+                "filename": "page_015_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_img_01.png",
+                "width": 2366,
+                "height": 544,
+                "size_bytes": 2126301
+              },
+              {
+                "filename": "page_015_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_img_02.png",
+                "width": 2516,
+                "height": 1028,
+                "size_bytes": 4505054
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_015_fig_fig_9.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_9.png",
+                "width": 682,
+                "height": 285,
+                "size_bytes": 389994,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.225968,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947563,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_015_fig_fig_10.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_10.png",
+                "width": 682,
+                "height": 165,
+                "size_bytes": 193421,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.130861,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.920807,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 168,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "real-time",
+              "expo-ft",
+              "latency",
+              "large"
+            ],
+            "snippet": "a2 t+d:t+d+C Q(st+d, a1) Q(st+d, aN) Q(st+d, ˜a1) Q(st+d, ˜aN) Q(st+d, ˜a2) Fig. 2: Left: Real-time policy inference of Real-Time EXPO-FT. Real-Time EXPO-FT decouples slow VLA action genera",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_figure_2.png",
+                "width": 816,
+                "height": 484,
+                "size_bytes": 89691,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.459099,
+                  "visual_rect_count": 69,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 734,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 17,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_fig_2.png",
+                "width": 816,
+                "height": 350,
+                "size_bytes": 50261,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.332163,
+                  "visual_rect_count": 69,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 597,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Comparison of noise-level filtering. We compare Real-Time EXPO-FT with and without noise-level filtering, where",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_013_fig_fig_7.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_7.png",
+          "width": 682,
+          "height": 193,
+          "size_bytes": 34931,
+          "label": "Fig. 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.153378,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.93014,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 281,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 13,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "comparison",
+              "noise-level",
+              "filtering",
+              "compare",
+              "real-time"
+            ],
+            "snippet": "Fig. 7: Comparison of noise-level filtering. We compare Real-Time EXPO-FT with and without noise",
+            "images": [
+              {
+                "filename": "page_013_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_img_01.png",
+                "width": 2700,
+                "height": 735,
+                "size_bytes": 156661
+              },
+              {
+                "filename": "page_013_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_img_02.png",
+                "width": 126,
+                "height": 108,
+                "size_bytes": 2060
+              },
+              {
+                "filename": "page_013_img_03.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_img_03.png",
+                "width": 126,
+                "height": 108,
+                "size_bytes": 1554
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_013_fig_fig_7.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_7.png",
+                "width": 682,
+                "height": 193,
+                "size_bytes": 34931,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.153378,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.93014,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_013_fig_fig_8.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_8.png",
+                "width": 682,
+                "height": 276,
+                "size_bytes": 25065,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.219412,
+                  "visual_rect_count": 10,
+                  "visual_body_ratio": 0.769288,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 70,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "noise-level",
+              "filtering",
+              "real-time"
+            ],
+            "snippet": "on, and a learned Q-function selects the highest-value action chunk for execution. Right: Noise-level filtering during Bellman backup. During Bellman backup, we filter samples in the noise sp",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_figure_2.png",
+                "width": 816,
+                "height": 484,
+                "size_bytes": 89691,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.459099,
+                  "visual_rect_count": 69,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 734,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 17,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_fig_2.png",
+                "width": 816,
+                "height": 350,
+                "size_bytes": 50261,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.332163,
+                  "visual_rect_count": 69,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 597,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "compare",
+              "real-time"
+            ],
+            "snippet": "fter applying Real-Time EXPO-FT. Bottom right: Training success rates on real-world tasks compared with baselines. Abstract— Reinforcement learning fine-tuning on top of large, pretrained",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_img_01.png",
+                "width": 1764,
+                "height": 1208,
+                "size_bytes": 1187730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1.png",
+                "width": 722,
+                "height": 489,
+                "size_bytes": 253923,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.410052,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.875249,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 321,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Initial-state randomization spaces for the real-world tasks. The orange boxes indicate the regions within which object",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_015_fig_fig_10.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_10.png",
+          "width": 682,
+          "height": 165,
+          "size_bytes": 193421,
+          "label": "Fig. 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.130861,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.920807,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 168,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 15,
+            "score": 8,
+            "matched_terms": [
+              "fig. 10",
+              "initial-state",
+              "randomization",
+              "spaces",
+              "real-world",
+              "tasks"
+            ],
+            "snippet": "l progression of a complete task execution, from initialization to successful completion. Fig. 10: Initial-state randomization spaces for the real-world tasks. The orange boxes indicate t",
+            "images": [
+              {
+                "filename": "page_015_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_img_01.png",
+                "width": 2366,
+                "height": 544,
+                "size_bytes": 2126301
+              },
+              {
+                "filename": "page_015_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_img_02.png",
+                "width": 2516,
+                "height": 1028,
+                "size_bytes": 4505054
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_015_fig_fig_9.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_9.png",
+                "width": 682,
+                "height": 285,
+                "size_bytes": 389994,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.225968,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947563,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_015_fig_fig_10.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_10.png",
+                "width": 682,
+                "height": 165,
+                "size_bytes": 193421,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.130861,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.920807,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 168,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "randomization",
+              "real-world",
+              "tasks"
+            ],
+            "snippet": "Average 12.5/30 18/30 4.5/30 18.3/30 20/30 18.8/30 25/30 29/30 reset procedures, and task randomization are provided in Section VII-D. Experiment Results. We now present our experimental result",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_img_01.png",
+                "width": 2169,
+                "height": 488,
+                "size_bytes": 1949473
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_4.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4.png",
+                "width": 682,
+                "height": 161,
+                "size_bytes": 219976,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128225,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.919502,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 214,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5.png",
+                "width": 682,
+                "height": 193,
+                "size_bytes": 40002,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.153378,
+                  "visual_rect_count": 27,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 200,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6.png",
+                "width": 682,
+                "height": 151,
+                "size_bytes": 37781,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119818,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.832852,
+                  "paragraph_text_chars": 720,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "real-world",
+              "tasks"
+            ],
+            "snippet": "ates before and after applying Real-Time EXPO-FT. Bottom right: Training success rates on real-world tasks compared with baselines. Abstract— Reinforcement learning fine-tuning on top of lar",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_img_01.png",
+                "width": 1764,
+                "height": 1208,
+                "size_bytes": 1187730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1.png",
+                "width": 722,
+                "height": 489,
+                "size_bytes": 253923,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.410052,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.875249,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 321,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Left: Real-time policy inference of Real-Time EXPO-FT. Real-Time EXPO-FT decouples slow VLA action",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_figure_2.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_figure_2.png",
+          "width": 816,
+          "height": 484,
+          "size_bytes": 89691,
+          "label": "Figure 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.459099,
+            "visual_rect_count": 69,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 734,
+            "table_body_rows": 0,
+            "caption_text_chars": 17,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Fig. 2"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "left",
+              "real-time",
+              "policy",
+              "inference",
+              "expo-ft"
+            ],
+            "snippet": "aN t+d:t+d+C ˜a2 t+d:t+d+C Q(st+d, a1) Q(st+d, aN) Q(st+d, ˜a1) Q(st+d, ˜aN) Q(st+d, ˜a2) Fig. 2: Left: Real-time policy inference of Real-Time EXPO-FT. Real-Time EXPO-FT decouples slow",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_figure_2.png",
+                "width": 816,
+                "height": 484,
+                "size_bytes": 89691,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.459099,
+                  "visual_rect_count": 69,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 734,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 17,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_fig_2.png",
+                "width": 816,
+                "height": 350,
+                "size_bytes": 50261,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.332163,
+                  "visual_rect_count": 69,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 597,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "left",
+              "real-time",
+              "policy",
+              "inference",
+              "expo-ft"
+            ],
+            "snippet": "f large VLA models by combining slow action generation with fast reactive control. Bottom left: Task success rates before and after applying Real-Time EXPO-FT. Bottom right: Training s",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_img_01.png",
+                "width": 1764,
+                "height": 1208,
+                "size_bytes": 1187730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1.png",
+                "width": 722,
+                "height": 489,
+                "size_bytes": 253923,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.410052,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.875249,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 321,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "real-time",
+              "policy",
+              "inference",
+              "expo-ft"
+            ],
+            "snippet": "esign while remaining effective across a diverse set of tasks. V. EXPERIMENTS We evaluate Real-Time EXPO-FT on ten environments in the Kinetix environment [26] and four dynamic real-world t",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_3.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_006_fig_fig_3.png",
+                "width": 682,
+                "height": 261,
+                "size_bytes": 111053,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.206882,
+                  "visual_rect_count": 122,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 243,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Training success across all 10 Kinetix [26] simulation tasks. The vertical dashed lines indicate the evaluation",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_fig_3.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_006_fig_fig_3.png",
+          "width": 682,
+          "height": 261,
+          "size_bytes": 111053,
+          "label": "Fig. 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.206882,
+            "visual_rect_count": 122,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 243,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "training",
+              "success",
+              "across",
+              "kinetix",
+              "simulation"
+            ],
+            "snippet": "EXPO-FT w/o RTC (d=4) DSRL w/ RTC (d=4) DSRL w/o RTC (d=4) RLPD (d=0) BC (d=0) RTC (d=4) Fig. 3: Training success across all 10 Kinetix [26] simulation tasks. The vertical dashed lines",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_3.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_006_fig_fig_3.png",
+                "width": 682,
+                "height": 261,
+                "size_bytes": 111053,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.206882,
+                  "visual_rect_count": 122,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 243,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "training",
+              "success",
+              "kinetix"
+            ],
+            "snippet": "ottom left: Task success rates before and after applying Real-Time EXPO-FT. Bottom right: Training success rates on real-world tasks compared with baselines. Abstract— Reinforcement learni",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_img_01.png",
+                "width": 1764,
+                "height": 1208,
+                "size_bytes": 1187730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1.png",
+                "width": 722,
+                "height": 489,
+                "size_bytes": 253923,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.410052,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.875249,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 321,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "training",
+              "success",
+              "across",
+              "simulation"
+            ],
+            "snippet": "cies for dynamic environment changes. 2 4 6 8 10 Robot Data (min) 0.0 0.2 0.4 0.6 0.8 1.0 Training Success Rate Dynamic Picking 2 4 6 8 10 Robot Data (min) Ball Balancing 0.8 1.6 2.4 3.2 4",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_img_01.png",
+                "width": 2169,
+                "height": 488,
+                "size_bytes": 1949473
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_4.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4.png",
+                "width": 682,
+                "height": 161,
+                "size_bytes": 219976,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128225,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.919502,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 214,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5.png",
+                "width": 682,
+                "height": 193,
+                "size_bytes": 40002,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.153378,
+                  "visual_rect_count": 27,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 200,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6.png",
+                "width": 682,
+                "height": 151,
+                "size_bytes": 37781,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119818,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.832852,
+                  "paragraph_text_chars": 720,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Four real-world manipulation tasks in our evaluation suite: Dynamic Picking, Ball Balancing, Object Passing,",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_fig_4.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4.png",
+          "width": 682,
+          "height": 161,
+          "size_bytes": 219976,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.128225,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.919502,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 214,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "four",
+              "real-world",
+              "manipulation",
+              "tasks",
+              "evaluation"
+            ],
+            "snippet": "Fig. 4: Four real-world manipulation tasks in our evaluation suite: Dynamic Picking, Ball Balanc",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_img_01.png",
+                "width": 2169,
+                "height": 488,
+                "size_bytes": 1949473
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_4.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4.png",
+                "width": 682,
+                "height": 161,
+                "size_bytes": 219976,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128225,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.919502,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 214,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5.png",
+                "width": 682,
+                "height": 193,
+                "size_bytes": 40002,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.153378,
+                  "visual_rect_count": 27,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 200,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6.png",
+                "width": 682,
+                "height": 151,
+                "size_bytes": 37781,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119818,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.832852,
+                  "paragraph_text_chars": 720,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "four",
+              "real-world",
+              "manipulation",
+              "tasks"
+            ],
+            "snippet": "e best performance among delayed and non-delayed methods in 10 out of 10 environments. On four arXiv:2609.18207v1 [cs.RO] 16 Sep 2026",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_img_01.png",
+                "width": 1764,
+                "height": 1208,
+                "size_bytes": 1187730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1.png",
+                "width": 722,
+                "height": 489,
+                "size_bytes": 253923,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.410052,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.875249,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 321,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "four",
+              "real-world",
+              "manipulation",
+              "tasks",
+              "evaluation"
+            ],
+            "snippet": "NTS We evaluate Real-Time EXPO-FT on ten environments in the Kinetix environment [26] and four dynamic real-world tasks, comparing against strong prior methods. A. Baselines RLPD [9].",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_3.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_006_fig_fig_3.png",
+                "width": 682,
+                "height": 261,
+                "size_bytes": 111053,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.206882,
+                  "visual_rect_count": 122,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 243,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Training success across four real-world dynamic tasks. We train each policy with at most 10 minutes of online",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_fig_5.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5.png",
+          "width": 682,
+          "height": 193,
+          "size_bytes": 40002,
+          "label": "Fig. 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.153378,
+            "visual_rect_count": 27,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 200,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "training",
+              "success",
+              "across",
+              "four",
+              "real-world"
+            ],
+            "snippet": "ta (min) Soccer Kicking Ours EXPO-FT w/ RTC EXPO-FT w/o RTC DSRL w/ RTC DSRL w/o RTC RLPD Fig. 5: Training success across four real-world dynamic tasks. We train each policy with at most",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_img_01.png",
+                "width": 2169,
+                "height": 488,
+                "size_bytes": 1949473
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_4.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4.png",
+                "width": 682,
+                "height": 161,
+                "size_bytes": 219976,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128225,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.919502,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 214,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5.png",
+                "width": 682,
+                "height": 193,
+                "size_bytes": 40002,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.153378,
+                  "visual_rect_count": 27,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 200,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6.png",
+                "width": 682,
+                "height": 151,
+                "size_bytes": 37781,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119818,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.832852,
+                  "paragraph_text_chars": 720,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "training",
+              "success",
+              "four",
+              "real-world"
+            ],
+            "snippet": "ottom left: Task success rates before and after applying Real-Time EXPO-FT. Bottom right: Training success rates on real-world tasks compared with baselines. Abstract— Reinforcement learni",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_img_01.png",
+                "width": 1764,
+                "height": 1208,
+                "size_bytes": 1187730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1.png",
+                "width": 722,
+                "height": 489,
+                "size_bytes": 253923,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.410052,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.875249,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 321,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "training",
+              "success",
+              "across",
+              "four",
+              "real-world"
+            ],
+            "snippet": "0.0 0.2 0.4 0.6 0.8 1.0 Training Success Rate Car Launch Cartpole Thrust Catapult Catcher V3 H17 Unicycle 0 20k 40k 60k 80",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_3.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_006_fig_fig_3.png",
+                "width": 682,
+                "height": 261,
+                "size_bytes": 111053,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.206882,
+                  "visual_rect_count": 122,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 243,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Success rates under varying delays and environment",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_fig_6.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6.png",
+          "width": 682,
+          "height": 151,
+          "size_bytes": 37781,
+          "label": "Fig. 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.119818,
+            "visual_rect_count": 6,
+            "visual_body_ratio": 0.832852,
+            "paragraph_text_chars": 720,
+            "table_body_rows": 0,
+            "caption_text_chars": 221,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "success",
+              "rates",
+              "under",
+              "varying",
+              "delays"
+            ],
+            "snippet": "100 Evaluation Success Rate (%) Object Passing (Real) Ours EXPO-FT w/ RTC EXPO-FT w/o RTC Fig. 6: Success rates under varying delays and environment speeds. We evaluate Real-Time EXPO-FT",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_img_01.png",
+                "width": 2169,
+                "height": 488,
+                "size_bytes": 1949473
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_4.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4.png",
+                "width": 682,
+                "height": 161,
+                "size_bytes": 219976,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128225,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.919502,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 214,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5.png",
+                "width": 682,
+                "height": 193,
+                "size_bytes": 40002,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.153378,
+                  "visual_rect_count": 27,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 200,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6.png",
+                "width": 682,
+                "height": 151,
+                "size_bytes": 37781,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119818,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.832852,
+                  "paragraph_text_chars": 720,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "success",
+              "rates",
+              "under"
+            ],
+            "snippet": "e execution, we empirically observe that existing πVLA models cannot achieve satisfactory success rates out of the box. Therefore, following the standard online RL finetuning practices, w",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_figure_2.png",
+                "width": 816,
+                "height": 484,
+                "size_bytes": 89691,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.459099,
+                  "visual_rect_count": 69,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 734,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 17,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_004_fig_fig_2.png",
+                "width": 816,
+                "height": 350,
+                "size_bytes": 50261,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.332163,
+                  "visual_rect_count": 69,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 597,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "success",
+              "rates"
+            ],
+            "snippet": "models by combining slow action generation with fast reactive control. Bottom left: Task success rates before and after applying Real-Time EXPO-FT. Bottom right: Training success rates o",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_img_01.png",
+                "width": 1764,
+                "height": 1208,
+                "size_bytes": 1187730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_001_fig_fig_1.png",
+                "width": 722,
+                "height": 489,
+                "size_bytes": 253923,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.410052,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.875249,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 321,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "10 Kinetix simulation tasks [26] evaluated in our experiments.",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_013_fig_fig_8.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_8.png",
+          "width": 682,
+          "height": 276,
+          "size_bytes": 25065,
+          "label": "Fig. 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.219412,
+            "visual_rect_count": 10,
+            "visual_body_ratio": 0.769288,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 70,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 13,
+            "score": 8,
+            "matched_terms": [
+              "fig. 8",
+              "kinetix",
+              "simulation",
+              "tasks",
+              "evaluated",
+              "experiments"
+            ],
+            "snippet": "Lunar Lander MJC Half Cheetah H17 Unicycle Chain Lander Catcher v3 Trampoline Car Launch Fig. 8: 10 Kinetix simulation tasks [26] evaluated in our experiments. TABLE II: Full simulation",
+            "images": [
+              {
+                "filename": "page_013_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_img_01.png",
+                "width": 2700,
+                "height": 735,
+                "size_bytes": 156661
+              },
+              {
+                "filename": "page_013_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_img_02.png",
+                "width": 126,
+                "height": 108,
+                "size_bytes": 2060
+              },
+              {
+                "filename": "page_013_img_03.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_img_03.png",
+                "width": 126,
+                "height": 108,
+                "size_bytes": 1554
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_013_fig_fig_7.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_7.png",
+                "width": 682,
+                "height": 193,
+                "size_bytes": 34931,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.153378,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.93014,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_013_fig_fig_8.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_8.png",
+                "width": 682,
+                "height": 276,
+                "size_bytes": 25065,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.219412,
+                  "visual_rect_count": 10,
+                  "visual_body_ratio": 0.769288,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 70,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "kinetix",
+              "simulation",
+              "tasks",
+              "experiments"
+            ],
+            "snippet": ") DSRL w/o RTC (d=4) RLPD (d=0) BC (d=0) RTC (d=4) Fig. 3: Training success across all 10 Kinetix [26] simulation tasks. The vertical dashed lines indicate the evaluation performance of t",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_3.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_006_fig_fig_3.png",
+                "width": 682,
+                "height": 261,
+                "size_bytes": 111053,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.206882,
+                  "visual_rect_count": 122,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 243,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "simulation",
+              "tasks",
+              "evaluated",
+              "experiments"
+            ],
+            "snippet": "rying passing speeds. additional experiments varying inference delays in the H17 Unicycle simulation task and object-passing speeds in the real-world Object Passing task. For varying delays,",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_img_01.png",
+                "width": 2169,
+                "height": 488,
+                "size_bytes": 1949473
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_4.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4.png",
+                "width": 682,
+                "height": 161,
+                "size_bytes": 219976,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128225,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.919502,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 214,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5.png",
+                "width": 682,
+                "height": 193,
+                "size_bytes": 40002,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.153378,
+                  "visual_rect_count": 27,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 200,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6.png",
+                "width": 682,
+                "height": 151,
+                "size_bytes": 37781,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119818,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.832852,
+                  "paragraph_text_chars": 720,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Full execution strips for the evaluated tasks. Each strip shows the temporal progression of a complete task execution,",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_015_fig_fig_9.png",
+          "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_9.png",
+          "width": 682,
+          "height": 285,
+          "size_bytes": 389994,
+          "label": "Fig. 9",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.225968,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.947563,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 172,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 15,
+            "score": 8,
+            "matched_terms": [
+              "fig. 9",
+              "full",
+              "execution",
+              "strips",
+              "evaluated",
+              "tasks"
+            ],
+            "snippet": "Fig. 9: Full execution strips for the evaluated tasks. Each strip shows the temporal progression",
+            "images": [
+              {
+                "filename": "page_015_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_img_01.png",
+                "width": 2366,
+                "height": 544,
+                "size_bytes": 2126301
+              },
+              {
+                "filename": "page_015_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_img_02.png",
+                "width": 2516,
+                "height": 1028,
+                "size_bytes": 4505054
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_015_fig_fig_9.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_9.png",
+                "width": 682,
+                "height": 285,
+                "size_bytes": 389994,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.225968,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947563,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_015_fig_fig_10.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_015_fig_fig_10.png",
+                "width": 682,
+                "height": 165,
+                "size_bytes": 193421,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.130861,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.920807,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 168,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "execution",
+              "evaluated",
+              "tasks"
+            ],
+            "snippet": "ess of Real-Time EXPO- FT in highly dynamic, real-time settings, we conduct two 0 1 2 3 4 Execution Delay d 70 80 90 100 Evaluation Success Rate (%) H17 Unicycle (Sim) Ours RTC 0.5x 0.75x 1",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_img_01.png",
+                "width": 2169,
+                "height": 488,
+                "size_bytes": 1949473
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_4.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_4.png",
+                "width": 682,
+                "height": 161,
+                "size_bytes": 219976,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128225,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.919502,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 214,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_5.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_5.png",
+                "width": 682,
+                "height": 193,
+                "size_bytes": 40002,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.153378,
+                  "visual_rect_count": 27,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 200,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_008_fig_fig_6.png",
+                "width": 682,
+                "height": 151,
+                "size_bytes": 37781,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119818,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.832852,
+                  "paragraph_text_chars": 720,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 13,
+            "score": 3,
+            "matched_terms": [
+              "full",
+              "evaluated",
+              "tasks"
+            ],
+            "snippet": "r Launch Fig. 8: 10 Kinetix simulation tasks [26] evaluated in our experiments. TABLE II: Full simulation results on the Kinetix benchmark: success rate (%). RL results average four ra",
+            "images": [
+              {
+                "filename": "page_013_img_01.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_img_01.png",
+                "width": 2700,
+                "height": 735,
+                "size_bytes": 156661
+              },
+              {
+                "filename": "page_013_img_02.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_img_02.png",
+                "width": 126,
+                "height": 108,
+                "size_bytes": 2060
+              },
+              {
+                "filename": "page_013_img_03.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_img_03.png",
+                "width": 126,
+                "height": 108,
+                "size_bytes": 1554
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_013_fig_fig_7.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_7.png",
+                "width": 682,
+                "height": 193,
+                "size_bytes": 34931,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.153378,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.93014,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_013_fig_fig_8.png",
+                "path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\assets\\Reinforcement_Learning_for_Real_Time_Vision_Language_Action_Policies\\images\\page_013_fig_fig_8.png",
+                "width": 682,
+                "height": 276,
+                "size_bytes": 25065,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.219412,
+                  "visual_rect_count": 10,
+                  "visual_body_ratio": 0.769288,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 70,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

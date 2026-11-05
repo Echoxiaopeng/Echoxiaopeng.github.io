@@ -1,0 +1,1590 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.48550/arxiv.2609.07398",
+  "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\OpenWAM_raw_sections.jsonl",
+  "full_text_md_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\OpenWAM_full_text.md",
+  "pdf": {
+    "path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+    "total_pages": 43,
+    "text_pages_extracted": 43,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 43,
+    "text_max_pages": null,
+    "text_pages_extracted": 43,
+    "text_pages_scanned": 43,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": true,
+    "appendix_start_page": 33,
+    "references_start_page": 2
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 701,
+      "text_hash_sha256": "8bacf7b1a22d1c8b411aa90f3165ceb354f62c60cda45b666ced8eb6a542d7e9"
+    },
+    {
+      "section_id": "sec:evaluation",
+      "kind": "experiment",
+      "title": "Evaluation",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 392,
+      "text_hash_sha256": "29cf131304c82bd3e97fceaabd311ce5994e406b90740bab5117f9d166840e66"
+    },
+    {
+      "section_id": "sec:model-2",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 171,
+      "text_hash_sha256": "8e32964251621dfd736be6b021a5db4367a77f8c1bfffd790a7ed433e1963544"
+    },
+    {
+      "section_id": "sec:model-3",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1856,
+      "text_hash_sha256": "cfebddbeb89828232960422b35faed3d4ed4738703dc464d754633ee0313d7c1"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 1953,
+      "text_hash_sha256": "ae70a57b2972c0c93ced83a606a035bad90cfb1299cf085e86251353b977eade"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "Related Work",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 2872,
+      "text_hash_sha256": "65a8d906fbfc4fefef712a96a68ea2adbaa23266870e072220ae00f36f92c82b"
+    },
+    {
+      "section_id": "sec:appendix",
+      "kind": "appendix",
+      "title": "Appendix",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 117,
+      "text_hash_sha256": "390c70d94e534756701bd2febd90332610d879789be828b43aedeb1ec9439523"
+    },
+    {
+      "section_id": "sec:introduction-2",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 3,
+      "page_end": 4,
+      "char_count": 6401,
+      "text_hash_sha256": "ab8a629fac2e75abf497481ea406e97995c8f62f62b4286925a9c236a353b84d"
+    },
+    {
+      "section_id": "sec:related-work-2",
+      "kind": "introduction",
+      "title": "Related Work",
+      "page_start": 4,
+      "page_end": 5,
+      "char_count": 6275,
+      "text_hash_sha256": "76dde7074b696b5f0f018963b130741cebadaa5556bdc1329ec5c05dc5eabca1"
+    },
+    {
+      "section_id": "sec:framework",
+      "kind": "method",
+      "title": "Framework",
+      "page_start": 5,
+      "page_end": 10,
+      "char_count": 19143,
+      "text_hash_sha256": "fe791f81ca000c0c54daeadd37b1aa1134ddac2fdd1c7120fd892f2cc28b3310"
+    },
+    {
+      "section_id": "sec:model-4",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 10,
+      "page_end": 16,
+      "char_count": 25002,
+      "text_hash_sha256": "c9d10d4aa034eea6940aa08aadcd0352fe36fde5dcc4b7bbfca4fe9b8b65f8ba"
+    },
+    {
+      "section_id": "sec:findings",
+      "kind": "experiment",
+      "title": "Findings",
+      "page_start": 16,
+      "page_end": 22,
+      "char_count": 18674,
+      "text_hash_sha256": "f59d9f59cf92f06b2c96e7d00c8816529e5ed1fc6f304023f37fcbe3b503182e"
+    },
+    {
+      "section_id": "sec:background",
+      "kind": "introduction",
+      "title": "Background",
+      "page_start": 22,
+      "page_end": 25,
+      "char_count": 11602,
+      "text_hash_sha256": "d0edca1de15f47a3a540b6b1f0db6d5a8a61d632f557733713c851770b70ce98"
+    },
+    {
+      "section_id": "sec:evaluation-2",
+      "kind": "experiment",
+      "title": "Evaluation",
+      "page_start": 25,
+      "page_end": 26,
+      "char_count": 5516,
+      "text_hash_sha256": "1cc2462aba2808299fce33383386b7b67a53c2a3bc8345f8cfb16bf87b57270c"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 26,
+      "page_end": 26,
+      "char_count": 270,
+      "text_hash_sha256": "1fb4e364b8af4759636881bd7ed03ee50e995c628e0bf985255e2e751f7946b9"
+    },
+    {
+      "section_id": "sec:method-2",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 26,
+      "page_end": 26,
+      "char_count": 886,
+      "text_hash_sha256": "768af7dd26d589840c54ccd9cbcc40b1a5b30fc1b55da53835fc165140b7c4b7"
+    },
+    {
+      "section_id": "sec:conclusions-2",
+      "kind": "conclusion",
+      "title": "Conclusions",
+      "page_start": 26,
+      "page_end": 27,
+      "char_count": 1580,
+      "text_hash_sha256": "2c71b1f65a16743875a1a65fb9f555c72fcb3a938b10b4f342f8a548e4641088"
+    },
+    {
+      "section_id": "sec:acknowledgements",
+      "kind": "acknowledgments",
+      "title": "Acknowledgements",
+      "page_start": 27,
+      "page_end": 27,
+      "char_count": 175,
+      "text_hash_sha256": "3c8246b534ea0ecc4a58cd4eba6a383dfba0a8d583f4a6970797c85a429bbbd4"
+    },
+    {
+      "section_id": "sec:references-2",
+      "kind": "references",
+      "title": "References",
+      "page_start": 27,
+      "page_end": 32,
+      "char_count": 24022,
+      "text_hash_sha256": "9a7f9f57b619b0b373316f8a16246e3fc856933e02264fad2729cfc2527c165b"
+    },
+    {
+      "section_id": "sec:appendix-2",
+      "kind": "appendix",
+      "title": "Appendix",
+      "page_start": 33,
+      "page_end": 38,
+      "char_count": 10720,
+      "text_hash_sha256": "09d02e2cf52f745d67e4000d41264d8251f70d311c1a8f594c39856a208b2f32"
+    },
+    {
+      "section_id": "sec:background-2",
+      "kind": "introduction",
+      "title": "Background",
+      "page_start": 38,
+      "page_end": 43,
+      "char_count": 10456,
+      "text_hash_sha256": "47c2ec6209e86526c33496d6cbc521d4479c93b78678fdaa30bdb2806aa6b7ce"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 5172,
+      "section_ids": [
+        "sec:preamble",
+        "sec:evaluation",
+        "sec:model-2",
+        "sec:model-3",
+        "sec:abstract"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 3181,
+      "section_ids": [
+        "sec:abstract",
+        "sec:related-work",
+        "sec:appendix"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 4688,
+      "section_ids": [
+        "sec:introduction-2"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 4936,
+      "section_ids": [
+        "sec:introduction-2",
+        "sec:related-work-2"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4198,
+      "section_ids": [
+        "sec:related-work-2",
+        "sec:framework"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 4660,
+      "section_ids": [
+        "sec:framework"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 4502,
+      "section_ids": [
+        "sec:framework"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 3860,
+      "section_ids": [
+        "sec:framework"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 4686,
+      "section_ids": [
+        "sec:framework"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 4081,
+      "section_ids": [
+        "sec:framework",
+        "sec:model-4"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3888,
+      "section_ids": [
+        "sec:model-4"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 3442,
+      "section_ids": [
+        "sec:model-4"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 3821,
+      "section_ids": [
+        "sec:model-4"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 3778,
+      "section_ids": [
+        "sec:model-4"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 3808,
+      "section_ids": [
+        "sec:model-4"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 3166,
+      "section_ids": [
+        "sec:model-4",
+        "sec:findings"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 2402,
+      "section_ids": [
+        "sec:findings"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 4695,
+      "section_ids": [
+        "sec:findings"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 4437,
+      "section_ids": [
+        "sec:findings"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 3806,
+      "section_ids": [
+        "sec:findings"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 2922,
+      "section_ids": [
+        "sec:findings"
+      ]
+    },
+    {
+      "page": 22,
+      "char_count": 3747,
+      "section_ids": [
+        "sec:findings",
+        "sec:background"
+      ]
+    },
+    {
+      "page": 23,
+      "char_count": 4606,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 24,
+      "char_count": 3393,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 25,
+      "char_count": 3024,
+      "section_ids": [
+        "sec:background",
+        "sec:evaluation-2"
+      ]
+    },
+    {
+      "page": 26,
+      "char_count": 4675,
+      "section_ids": [
+        "sec:evaluation-2",
+        "sec:method",
+        "sec:method-2",
+        "sec:conclusions-2"
+      ]
+    },
+    {
+      "page": 27,
+      "char_count": 4277,
+      "section_ids": [
+        "sec:conclusions-2",
+        "sec:acknowledgements",
+        "sec:references-2"
+      ]
+    },
+    {
+      "page": 28,
+      "char_count": 4603,
+      "section_ids": [
+        "sec:references-2"
+      ]
+    },
+    {
+      "page": 29,
+      "char_count": 4298,
+      "section_ids": [
+        "sec:references-2"
+      ]
+    },
+    {
+      "page": 30,
+      "char_count": 4360,
+      "section_ids": [
+        "sec:references-2"
+      ]
+    },
+    {
+      "page": 31,
+      "char_count": 4650,
+      "section_ids": [
+        "sec:references-2"
+      ]
+    },
+    {
+      "page": 32,
+      "char_count": 2720,
+      "section_ids": [
+        "sec:references-2"
+      ]
+    },
+    {
+      "page": 33,
+      "char_count": 3580,
+      "section_ids": [
+        "sec:appendix-2"
+      ]
+    },
+    {
+      "page": 34,
+      "char_count": 2281,
+      "section_ids": [
+        "sec:appendix-2"
+      ]
+    },
+    {
+      "page": 35,
+      "char_count": 1848,
+      "section_ids": [
+        "sec:appendix-2"
+      ]
+    },
+    {
+      "page": 36,
+      "char_count": 1237,
+      "section_ids": [
+        "sec:appendix-2"
+      ]
+    },
+    {
+      "page": 37,
+      "char_count": 1582,
+      "section_ids": [
+        "sec:appendix-2"
+      ]
+    },
+    {
+      "page": 38,
+      "char_count": 2188,
+      "section_ids": [
+        "sec:appendix-2",
+        "sec:background-2"
+      ]
+    },
+    {
+      "page": 39,
+      "char_count": 2531,
+      "section_ids": [
+        "sec:background-2"
+      ]
+    },
+    {
+      "page": 40,
+      "char_count": 1817,
+      "section_ids": [
+        "sec:background-2"
+      ]
+    },
+    {
+      "page": 41,
+      "char_count": 2393,
+      "section_ids": [
+        "sec:background-2"
+      ]
+    },
+    {
+      "page": 42,
+      "char_count": 1383,
+      "section_ids": [
+        "sec:background-2"
+      ]
+    },
+    {
+      "page": 43,
+      "char_count": 619,
+      "section_ids": [
+        "sec:background-2"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Overview of OpenWAM. OpenWAM-Infra (left) factorizes world–action modeling into composable",
+        "page": 1,
+        "pages": [
+          1
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "OpenWAM Model Infra. Top: the three classes of interchangeable modules: the visual encoder E (left); the",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:related-work-2"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Inference modes and denoising schedules of the deployment runtime. (a) Illustration of the synchronous and",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:framework"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Serving latency across architectures. Inference latency with",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:framework"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Evaluation protocol of OpenWAM-Infra. Benchmarks connect to the policy server as thin clients over WebSocket.",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:framework"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "WAM Performance with Different Video",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:model-4"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Visual representation priors. We consider building WAMs with both reconstructive and representation encoders,",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:model-4"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Attention Masking Strategies. We control cross-modality information",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:model-4"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "Inference-time Information Flow via Denoising Schedule. Each curve",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:model-4"
+      },
+      {
+        "id": "Figure 10",
+        "caption": "Embodied Pretraining Primarily Improves OOD Generalization. Success",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:model-4"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "Pretraining Changes the Preferred Information Flow. Central markers give the absolute success rate of Action",
+        "page": 16,
+        "pages": [
+          16
+        ],
+        "section_id": "sec:model-4"
+      },
+      {
+        "id": "Figure 12",
+        "caption": "Overview of OpenWAM-α. (a) The dual-system architecture: a video-generation DiT and an ActionDiT",
+        "page": 17,
+        "pages": [
+          17
+        ],
+        "section_id": "sec:findings"
+      },
+      {
+        "id": "Figure 13",
+        "caption": "summarizes the scores of OpenWAM-α alongside representative VLA and WAM baselines on each",
+        "page": 20,
+        "pages": [
+          20
+        ],
+        "section_id": "sec:findings"
+      },
+      {
+        "id": "Figure 14",
+        "caption": "complements this view by pitting OpenWAM-α against the strongest VLAs and WAMs on every",
+        "page": 20,
+        "pages": [
+          20
+        ],
+        "section_id": "sec:findings"
+      },
+      {
+        "id": "Figure 13",
+        "caption": "Score comparison of OpenWAM-α against representative VLA and WAM baselines across the simulation benchmarks.",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:findings"
+      },
+      {
+        "id": "Figure 14",
+        "caption": "OpenWAM-α against the best of each family, per",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:findings"
+      },
+      {
+        "id": "Figure 15",
+        "caption": "Single-arm pretraining data of ABot-M0.5,",
+        "page": 22,
+        "pages": [
+          22
+        ],
+        "section_id": "sec:findings"
+      },
+      {
+        "id": "Figure 16",
+        "caption": "ID and OOD comparisons between the two paradigms. (a) Fast-WAM versus StarVLA, two models without",
+        "page": 24,
+        "pages": [
+          24
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 17",
+        "caption": "Real-robotexperimentalsetupsacrossthreeembodiments. Top: the six single-arm tasks on the Franka-Research-3",
+        "page": 25,
+        "pages": [
+          25
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 18",
+        "caption": "Single-arm real-robot setup on the Franka-Research-3 platform. The workspace contains the drawer, stacking",
+        "page": 35,
+        "pages": [
+          35
+        ],
+        "section_id": "sec:appendix-2"
+      },
+      {
+        "id": "Figure 19",
+        "caption": "Single-arm task execution sequences on the Franka-Research-3 platform. Each row shows one task, with six",
+        "page": 36,
+        "pages": [
+          36
+        ],
+        "section_id": "sec:appendix-2"
+      },
+      {
+        "id": "Figure 20",
+        "caption": "Real-world experimental setup. The figure shows the physical dexterous-hand platform, the workspace, the",
+        "page": 37,
+        "pages": [
+          37
+        ],
+        "section_id": "sec:appendix-2"
+      },
+      {
+        "id": "Figure 21",
+        "caption": "Task execution sequences and evaluation conditions. Each row illustrates the main manipulation stages of",
+        "page": 38,
+        "pages": [
+          38
+        ],
+        "section_id": "sec:appendix-2"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Architecture Ablation. Averaged success rates (%) on RoboTwin2.0-",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:model-4"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Action learning requires access to",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:model-4"
+      },
+      {
+        "id": "Table 3",
+        "caption": "The recipe accumulated by OpenWAM-Study. Each evidence-backed choice becomes the default for OpenWAM-α.",
+        "page": 16,
+        "pages": [
+          16
+        ],
+        "section_id": "sec:model-4"
+      },
+      {
+        "id": "Table 4",
+        "caption": "The OpenWAM-α pretraining data. #Emb. counts each source’s distinct embodiments. Task Coverage marks",
+        "page": 19,
+        "pages": [
+          19
+        ],
+        "section_id": "sec:findings"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Evaluation Results on LIBERO-Plus. Bold denotes best values, underline second best.",
+        "page": 22,
+        "pages": [
+          22
+        ],
+        "section_id": "sec:findings"
+      },
+      {
+        "id": "Table 6",
+        "caption": "Table 7, and Table 8 report the detailed scores of the single-arm, RoboDojo bimanual, and dexterous-",
+        "page": 25,
+        "pages": [
+          25
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Table 7",
+        "caption": "Evaluation Results on the Bimanual RoboDojo Real-World Track. Each cell reports Score / SR (%). Bold denotes",
+        "page": 26,
+        "pages": [
+          26
+        ],
+        "section_id": "sec:evaluation-2"
+      },
+      {
+        "id": "Table 8",
+        "caption": "Evaluation Results on Dexterous-Hand Real-Robot Tasks. Each cell reports Score / SR (%); the OOD column",
+        "page": 26,
+        "pages": [
+          26
+        ],
+        "section_id": "sec:evaluation-2"
+      },
+      {
+        "id": "Table 9",
+        "caption": "Pretraining configuration for OpenWAM-α.",
+        "page": 34,
+        "pages": [
+          34
+        ],
+        "section_id": "sec:appendix-2"
+      },
+      {
+        "id": "Table 10",
+        "caption": "Dataset-specific SFT configuration for OpenWAM-α. Settings not listed are identical to pretraining (Table 9); “–”",
+        "page": 34,
+        "pages": [
+          34
+        ],
+        "section_id": "sec:appendix-2"
+      },
+      {
+        "id": "Table 11",
+        "caption": "Task instructions used in the single-arm real-robot evaluation.",
+        "page": 35,
+        "pages": [
+          35
+        ],
+        "section_id": "sec:appendix-2"
+      },
+      {
+        "id": "Table 12",
+        "caption": "Task instructions used in the real-world evaluation.",
+        "page": 37,
+        "pages": [
+          37
+        ],
+        "section_id": "sec:appendix-2"
+      },
+      {
+        "id": "Table 13",
+        "caption": "Evaluation Results on LIBERO. Bold denotes best values, underline second best.",
+        "page": 39,
+        "pages": [
+          39
+        ],
+        "section_id": "sec:background-2"
+      },
+      {
+        "id": "Table 14",
+        "caption": "Evaluation Results on VLABench. Bold denotes best values, underline second best.",
+        "page": 40,
+        "pages": [
+          40
+        ],
+        "section_id": "sec:background-2"
+      },
+      {
+        "id": "Table 15",
+        "caption": "Evaluation Results on RoboTwin2.0-Clean2Random. Bold denotes best values, underline second best.",
+        "page": 40,
+        "pages": [
+          40
+        ],
+        "section_id": "sec:background-2"
+      },
+      {
+        "id": "Table 16",
+        "caption": "Evaluation Results on RoboTwin2.0-Full. Bold denotes best values, underline second best.",
+        "page": 41,
+        "pages": [
+          41
+        ],
+        "section_id": "sec:background-2"
+      },
+      {
+        "id": "Table 17",
+        "caption": "Evaluation Results on RoboDojo. Bold denotes best values, underline second best.",
+        "page": 41,
+        "pages": [
+          41
+        ],
+        "section_id": "sec:background-2"
+      },
+      {
+        "id": "Table 18",
+        "caption": "Evaluation Results on EBench. Bold denotes best values, underline second best.",
+        "page": 42,
+        "pages": [
+          42
+        ],
+        "section_id": "sec:background-2"
+      },
+      {
+        "id": "Table 19",
+        "caption": "Evaluation Results on RoboCasa365. Bold denotes best values, underline second best.",
+        "page": 42,
+        "pages": [
+          42
+        ],
+        "section_id": "sec:background-2"
+      },
+      {
+        "id": "Table 20",
+        "caption": "Evaluation Results on RoboCasa-GR1. Bold denotes best values, underline second best.",
+        "page": 43,
+        "pages": [
+          43
+        ],
+        "section_id": "sec:background-2"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "(Section 5). Pretrained on 518M frames (≈6,400 hours) of egocentric human and robot data through a unified",
+      "section_id": "sec:introduction-2",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "M = (MV ←V",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "Throughout the paper, t = 0 denotes pure noise and t = 1 clean data. Each stream is noised to its own timestep,",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "tv for video and ta for actions, yielding the interpolants ztv = tv z + (1 −tv) ϵv and ata = ta a + (1 −ta) ϵa",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "with Gaussian noise ϵv, ϵa; one joint forward pass of the architecture (ˆvz, ˆva) = vθ(ztv, ata, tv, ta, c) predicts",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "L = λv Etv,ϵv[w(tv) ∥ˆvz −(z −ϵv)∥",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "n ≤H the inference horizon, and d < n the lead threshold in steps, defaulting to n/2. Once only d buffered",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "Denoising Schedules. A denoising schedule is a path τ = {(ti",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "i=0 through the joint noise plane, with t = 0",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "pure noise and t = 1 clean data as in Section 3.2; Figure 3(b) draws the three schedules that OpenWAM-Infra",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "= zti",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "= ati",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "fα(s) =",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "ho(s) = max{s −o",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "where s = i/N denotes global progress, the variance shift curve fα lifts the leading stream above the diagonal",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "for α > 1 so that it reaches clean data earlier, and the linear offset ho holds the lagging stream at pure noise",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "video-lead and action-lead regimes, and (α, o) = (1, 0) recovers the synchronized diagonal exactly: synchronous",
+      "section_id": "sec:framework",
+      "page_start": 5,
+      "page_end": 10
+    },
+    {
+      "text": "OpenWAM-Infra therefore also defines a unified action space u ∈R80 with fixed slot semantics: two mirrored",
+      "section_id": "sec:model-4",
+      "page_start": 10,
+      "page_end": 16
+    },
+    {
+      "text": "u = Scatterπ(Norm(a)),",
+      "section_id": "sec:model-4",
+      "page_start": 10,
+      "page_end": 16
+    },
+    {
+      "text": "a = Norm−1(Gatherπ(u)),",
+      "section_id": "sec:model-4",
+      "page_start": 10,
+      "page_end": 16
+    },
+    {
+      "text": "Video Timestep (0 = Noise)",
+      "section_id": "sec:model-4",
+      "page_start": 10,
+      "page_end": 16
+    },
+    {
+      "text": "Action Timestep (0 = Noise)",
+      "section_id": "sec:model-4",
+      "page_start": 10,
+      "page_end": 16
+    },
+    {
+      "text": "Video Timestep (0 = Noise)",
+      "section_id": "sec:model-4",
+      "page_start": 10,
+      "page_end": 16
+    },
+    {
+      "text": "a) = (si, si), while",
+      "section_id": "sec:model-4",
+      "page_start": 10,
+      "page_end": 16
+    },
+    {
+      "text": "We evaluate α ∈{4, 8, 16, 32} and o ∈{0.2, 0.4, 0.6, 0.8} in both leading directions.",
+      "section_id": "sec:model-4",
+      "page_start": 10,
+      "page_end": 16
+    },
+    {
+      "text": "executing the action stream, coupled through joint self-attention, as the stream backbones S = {W, A};",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "the proprioceptive state q ∈R80 expressed in the unified action space, OpenWAM-α jointly denoises the",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "a = a1∶H ∈RH×80 (Zhao et al., 2023) (Figure 12a).",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "frames in groups of four – into T ′ = 1 + (T −1)/4 latent frames z, so the first latent frame remains a clean",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "into the world stream, with first-frame tokens pinned to the clean endpoint tv = 1, and ta into the action",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "tion (2) (Black et al., 2024), instantiated with λv = λa = 1 and a bell-shaped timestep weight w(⋅) peaked",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "at intermediate noise levels. The per-stream timesteps are drawn independently as tv = 1 −fρ(uv) and",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "ta = 1 −fρ(ua) with uv, ua ∼U[0, 1], where the timestep warp fρ of Equation (3) is applied identically to",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "both streams with ρ = 5 to bias sampling toward high noise (Figure 12c).",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "ti = 1 −fρ(1 −i/N) with ρ = 5 and N = 10 steps, so neither stream leads. Denoising starts from Gaussian",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "human data, real-world robot data, and synthetic robot data. From a raw pool of 1.33B frames (≈14,300 hours),",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "we construct a training set of 518M frames (≈6,400 hours) through curation and per-source subsampling",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "the commanded actions (amplitude ratio ≥3× with per-axis correlation < 0.5), or when video–signal",
+      "section_id": "sec:findings",
+      "page_start": 16,
+      "page_end": 22
+    },
+    {
+      "text": "≈7 days",
+      "section_id": "sec:appendix-2",
+      "page_start": 33,
+      "page_end": 38
+    },
+    {
+      "text": "β1, β2 = 0.9, 0.95",
+      "section_id": "sec:appendix-2",
+      "page_start": 33,
+      "page_end": 38
+    },
+    {
+      "text": "λv = 1.0, λa = 1.0",
+      "section_id": "sec:appendix-2",
+      "page_start": 33,
+      "page_end": 38
+    },
+    {
+      "text": "Sfinal = Nsuccess",
+      "section_id": "sec:background-2",
+      "page_start": 38,
+      "page_end": 43
+    },
+    {
+      "text": "Sprocess = ∑i ni",
+      "section_id": "sec:background-2",
+      "page_start": 38,
+      "page_end": 43
+    },
+    {
+      "text": "∑i mi",
+      "section_id": "sec:background-2",
+      "page_start": 38,
+      "page_end": 43
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": true,
+    "start_page": 33,
+    "sections": [
+      {
+        "title": "a final success only when all shuttlecocks are placed into the shuttlecock tube. The progress score is the",
+        "page": 38
+      }
+    ],
+    "figure_captions": [
+      {
+        "id": "Figure 18",
+        "caption": "Single-arm real-robot setup on the Franka-Research-3 platform. The workspace contains the drawer, stacking",
+        "page_hint": "p.35"
+      },
+      {
+        "id": "Figure 19",
+        "caption": "Single-arm task execution sequences on the Franka-Research-3 platform. Each row shows one task, with six",
+        "page_hint": "p.36"
+      },
+      {
+        "id": "Figure 20",
+        "caption": "Real-world experimental setup. The figure shows the physical dexterous-hand platform, the workspace, the",
+        "page_hint": "p.37"
+      },
+      {
+        "id": "Figure 21",
+        "caption": "Task execution sequences and evaluation conditions. Each row illustrates the main manipulation stages of",
+        "page_hint": "p.38"
+      }
+    ],
+    "table_captions": [
+      {
+        "id": "Table 9",
+        "caption": "Pretraining configuration for OpenWAM-α.",
+        "page_hint": "p.34"
+      },
+      {
+        "id": "Table 10",
+        "caption": "Dataset-specific SFT configuration for OpenWAM-α. Settings not listed are identical to pretraining (Table 9); “–”",
+        "page_hint": "p.34"
+      },
+      {
+        "id": "Table 11",
+        "caption": "Task instructions used in the single-arm real-robot evaluation.",
+        "page_hint": "p.35"
+      },
+      {
+        "id": "Table 12",
+        "caption": "Task instructions used in the real-world evaluation.",
+        "page_hint": "p.37"
+      },
+      {
+        "id": "Table 13",
+        "caption": "Evaluation Results on LIBERO. Bold denotes best values, underline second best.",
+        "page_hint": "p.39"
+      },
+      {
+        "id": "Table 14",
+        "caption": "Evaluation Results on VLABench. Bold denotes best values, underline second best.",
+        "page_hint": "p.40"
+      },
+      {
+        "id": "Table 15",
+        "caption": "Evaluation Results on RoboTwin2.0-Clean2Random. Bold denotes best values, underline second best.",
+        "page_hint": "p.40"
+      },
+      {
+        "id": "Table 16",
+        "caption": "Evaluation Results on RoboTwin2.0-Full. Bold denotes best values, underline second best.",
+        "page_hint": "p.41"
+      },
+      {
+        "id": "Table 17",
+        "caption": "Evaluation Results on RoboDojo. Bold denotes best values, underline second best.",
+        "page_hint": "p.41"
+      },
+      {
+        "id": "Table 18",
+        "caption": "Evaluation Results on EBench. Bold denotes best values, underline second best.",
+        "page_hint": "p.42"
+      },
+      {
+        "id": "Table 19",
+        "caption": "Evaluation Results on RoboCasa365. Bold denotes best values, underline second best.",
+        "page_hint": "p.42"
+      },
+      {
+        "id": "Table 20",
+        "caption": "Evaluation Results on RoboCasa-GR1. Bold denotes best values, underline second best.",
+        "page_hint": "p.43"
+      }
+    ]
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "fc1cbb1a1239eaab4b54ab81b93a32e23b8c642d7edb3fd3e8e0962bec321147",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "doi:10.48550/arxiv.2609.07398",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+      "translated_title": "",
+      "authors": [
+        "Yuran Wang",
+        "Siqiao Huang",
+        "Mingleyang Li",
+        "Chenhao Zhang",
+        "Jiaqi Liang",
+        "Weiyang Jin",
+        "Yue Chen",
+        "Xuemin Chi",
+        "Donghao Zhou",
+        "Qize Yu",
+        "Yu-Kai Wang",
+        "Yuhan Rui",
+        "Shenzhe Yao",
+        "Zhen Yuan",
+        "Zhenhao Shen",
+        "Kefei Zhu",
+        "Zijie Zhu",
+        "Ning Gao",
+        "Xiaowei Chi",
+        "Guanqi He",
+        "Shanghang Zhang",
+        "Hao Dong",
+        "Lin Shao",
+        "Hang Zhao"
+      ],
+      "year": "2026",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2609.07398",
+      "arxiv_id": "2609.07398",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+      "year": "",
+      "venue": "",
+      "source_url": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2609.07398v1",
+      "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+      "doi": "",
+      "arxiv_id": "2609.07398",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+      "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+      "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+      "metadata_sources": [
+        "local_pdf",
+        "arxiv",
+        "openalex"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "local_pdf_artifact_title": true,
+      "arxiv_id": "2609.07398",
+      "paper_id": "doi:10.48550/arxiv.2609.07398",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used",
+        "local_pdf_artifact_title",
+        "doi_present"
+      ],
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2609.07398v1",
+      "abstract": "World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience. Existing systems, however, are monolithic: the generative backbone, visual representation, architecture, information flow, inference procedure, and training data are tightly coupled, obscuring which design choices matter and why. We introduce OpenWAM, an open research stack that turns world-action pretraining into a controlled experimental program. OpenWAM-Infra factorizes the WAM design space into composable modules with unified training, inference, deployment, and evaluation. On this substrate, OpenWAM-Study examines three questions through controlled experiments: what to inherit, how world and action learning interact, and how their synergy scales; and distills three principles: upstream knowledge transfers through a sufficiently capable generative backbone and a compact, information-rich latent space; world-action synergy requires dedicated action capacity, explicit world-to-action information flow, and synchronized joint denoising; and embodied pretraining principally improves out-of-domain generalization, with one-stage co-training over egocentric and robot data integrating world coverage and action grounding. Composing these principles, we build OpenWAM-α, an open WAM pretrained on roughly 6,400 hours of egocentric human and robot data and evaluated across simulation and real-world benchmarks. Across the eight simulation benchmarks and the real-robot experiments, which together span embodiments from single-arm and bimanual manipulation to dexterous hands, OpenWAM-α delivers consistently excellent performance, sustaining its top-tier standing from simulation to the physical world. We release the full stack, including infrastructure, evaluation protocols, pretrained models, and data recipes, to facilitate future research.",
+      "authors": [
+        "Yuran Wang",
+        "Siqiao Huang",
+        "Mingleyang Li",
+        "Chenhao Zhang",
+        "Jiaqi Liang",
+        "Weiyang Jin",
+        "Yue Chen",
+        "Xuemin Chi",
+        "Donghao Zhou",
+        "Qize Yu",
+        "Yu-Kai Wang",
+        "Yuhan Rui",
+        "Shenzhe Yao",
+        "Zhen Yuan",
+        "Zhenhao Shen",
+        "Kefei Zhu",
+        "Zijie Zhu",
+        "Ning Gao",
+        "Xiaowei Chi",
+        "Guanqi He",
+        "Shanghang Zhang",
+        "Hao Dong",
+        "Lin Shao",
+        "Hang Zhao"
+      ],
+      "published": "2026-09-07T12:12:32Z",
+      "year": "2026",
+      "pdf_url": "https://arxiv.org/pdf/2609.07398v1",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2609.07398"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2609.07398.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2609.07398v1",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2609.07398",
+        "provider": "openalex",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.07398"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.07398"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.07398"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2609.07398"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.07398"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.07398"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.07398"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2609.07398"
+        }
+      },
+      "venue": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
+        }
+      },
+      "doi": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.48550/arxiv.2609.07398",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "arxiv_id",
+        "value": "2609.07398",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2609.07398v1",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2609.07398"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+          "work_value": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\OpenWAM_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\OpenWAM_resolve.json",
+      "metadata_artifact_path": "C:\\Users\\kian123\\Desktop\\cursor_workspace\\Echoxiaopeng.github.io\\tmp\\DeepPaperNote\\OpenWAM_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+    "year": "",
+    "venue": "",
+    "source_url": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.07398v1",
+    "local_pdf_path": "C:\\Users\\kian123\\Zotero\\storage\\ZFMTANM6\\Wang 等 - 2026 - OpenWAM An Open, Modular Exploration Towards Systematic World-Action Model Pretraining.pdf",
+    "doi": "",
+    "arxiv_id": "2609.07398",
+    "zotero_key": ""
+  }
+}
